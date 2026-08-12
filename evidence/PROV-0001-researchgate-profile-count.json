@@ -1,0 +1,52 @@
+{
+  "record_id": "PROV-0001",
+  "title": "ResearchGate profile research-item count on 12 August 2026",
+  "version": "1.0",
+  "created_date": "2026-08-12",
+  "updated_date": "2026-08-12",
+  "status": "pass",
+  "claim_level": 1,
+  "source": {
+    "source_id": "RG-LIVE-PROFILE-2026-08-12",
+    "source_type": "first-party profile screenshot",
+    "title_or_identifier": "Sean Diamond ResearchGate profile",
+    "custodian_or_creator": "ResearchGate / Sean Diamond capture",
+    "access_date": "2026-08-12",
+    "site_or_corpus": "ResearchGate publication metadata",
+    "rights_status": "reference capture; not redistributed in this record"
+  },
+  "observation": {
+    "direct_description": "The supplied live profile screenshot visibly displays '75 Research items'.",
+    "exact_feature_location": "Profile metrics row beneath the ResearchGate profile header"
+  },
+  "inherited_designation": "Public web/search indexes observed during the same archive pass returned lower publication counts.",
+  "alternatives": [
+    "The first-party screenshot is stale rather than the search index.",
+    "ResearchGate counts different object classes in different interfaces."
+  ],
+  "controls": [
+    "A preserved March 2026 ResearchGate profile snapshot lists 63 items, demonstrating that the corpus count changes over time rather than remaining fixed."
+  ],
+  "failure_conditions": [
+    "The screenshot is shown not to be the Sean Diamond profile.",
+    "The visible number is shown to refer to a different metric than Research items.",
+    "A more direct first-party record from the same date establishes a different count and explains the discrepancy."
+  ],
+  "reject_condition_results": {
+    "RC-01": "pass",
+    "RC-02": "not_applicable",
+    "RC-03": "not_applicable",
+    "RC-04": "not_applicable",
+    "RC-05": "pass",
+    "RC-06": "not_applicable",
+    "RC-07": "not_applicable",
+    "RC-08": "pass"
+  },
+  "correction_lineage": [
+    "An initial archive note treated a public search-index count as current. The user supplied the live first-party profile screenshot, and the archive corrected the controlling count to 75 rather than silently retaining or averaging the derivative count."
+  ],
+  "linked_records": [
+    "provenance/examples/0001-researchgate-profile-count.md",
+    "publications/researchgate-snapshot-2026-03.md"
+  ]
+}
