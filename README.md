@@ -22,6 +22,8 @@ This repository is being built as the **public audit trail of the work**, not me
 6. **[Publication Registry](publications/README.md)** — ResearchGate chronology and reconciliation.
 7. **[Provenance Standard](provenance/README.md)** — how sources, transformations and corrections are recorded.
 8. **[Contributing / Challenge Protocol](CONTRIBUTING.md)** — how to replicate, disagree or bring counter-evidence.
+9. **[Public Paper Mirror](papers/README.md)** — admission and version rules for full-text research migration.
+10. **[Reproduction Report Template](templates/REPRODUCTION_REPORT.md)** — a standard form for independent tests.
 
 ## Current public corpus
 
@@ -29,7 +31,7 @@ An author-supplied capture of the live ResearchGate profile on **12 August 2026*
 
 The archive also preserves a **63-item March 2026 snapshot** in [`publications/researchgate-snapshot-2026-03.md`](publications/researchgate-snapshot-2026-03.md). The twelve-item increase is preserved as chronology rather than silently overwritten.
 
-A worked provenance example records how lagging public search indexes can return smaller counts than the first-party profile: [`provenance/examples/0001-researchgate-profile-count.md`](provenance/examples/0001-researchgate-profile-count.md).
+A worked provenance example records how lagging public search indexes can return smaller counts than the first-party profile: [`provenance/examples/0001-researchgate-profile-count.md`](provenance/examples/0001-researchgate-profile-count.md). The same event is also stored as the first machine-readable evidence record: [`evidence/PROV-0001-researchgate-profile-count.json`](evidence/PROV-0001-researchgate-profile-count.json).
 
 ## The five-paper public research spine
 
