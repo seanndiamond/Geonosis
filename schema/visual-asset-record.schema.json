@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/seanndiamond/Geonosis/schema/visual-asset-record.schema.json",
+  "title": "Geonosis Visual Archive Asset",
+  "type": "object",
+  "required": ["asset_id", "file_name", "source_type", "source_reference", "review_status"],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "file_name": {"type": "string"},
+    "source_type": {"type": "string"},
+    "source_reference": {"type": "string"},
+    "coordinates": {"type": "string"},
+    "altitude_or_camera_height": {"type": "string"},
+    "date_captured": {"type": "string"},
+    "site_or_artefact": {"type": "string"},
+    "culture_or_region": {"type": "string"},
+    "operator_tags": {"type": "array", "items": {"type": "string"}},
+    "visual_motifs": {"type": "array", "items": {"type": "string"}},
+    "reading_notes": {"type": "string"},
+    "confidence_level": {"type": "string"},
+    "related_assets": {"type": "array", "items": {"type": "string"}},
+    "paper_links": {"type": "array", "items": {"type": "string"}},
+    "video_links": {"type": "array", "items": {"type": "string"}},
+    "app_module_links": {"type": "array", "items": {"type": "string"}},
+    "review_status": {"type": "string"},
+    "falsification_notes": {"type": "string"},
+    "rights_status": {"type": "string"},
+    "transformations": {"type": "array", "items": {"type": "string"}},
+    "checksum": {"type": "string"}
+  },
+  "additionalProperties": true
+}
