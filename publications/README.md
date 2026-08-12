@@ -13,26 +13,31 @@ This directory preserves the public publication chronology of the Geonosis resea
 
 The difference is not treated as an error to hide. It records growth of the corpus.
 
-## Confirmed post-March items already represented in project records
+## Post-March items confirmed in ResearchGate records during this archive pass
 
-The public archive and saved ResearchGate reports confirm a number of later additions, including:
+The following later items are confirmed by first-party ResearchGate pages or saved ResearchGate reports:
 
-- Beyond Phonetics: Méthodê Glyph, Picterpretation, and Geonosis as a Falsifiable Operator-First Method for Visual Knowledge Systems
-- Seeing Meaning Early: Pattern Recognition, Attachment, and Emotional Development in Children Aged 0–4
-- From Glucose to Bone: Atomo-Spiritual Evolution, Field Before Form, and the Body as a Living Archive
-- Göbekli Tepe/Karahantepe, and the Taş Tepeler Complex: From Egg-Field to Womb-Field
-- The Dog Field Guide Translated From the Egyptian Book of the Dead and the Mayan Dresden Codex
-- THE FIELD GUIDE FOR LEARNING AND TEACHING: Learning First, Teaching Second
-- Arguing with the Consensus Machine: Cross-Model Field Testing of Frontier AI in Long-Context Research and Creative Production
-- Giza Pyramid Construction Method and Purpose
-- Civilization Cycles, Cosmic Design, and Sentient Participation: An Empirical Framework Derived from Ancient Archive Analysis and Living Observation
-- Why AI Cannot Read Ancient Scripts: A Derivation Audit of the Dresden Codex, Cuneiform, and the Failure of Whole-Object Reading
-- The Third Pillar: Peter Thiel, Palantir, Antichrist, and Geonosis — The Field-Before-Form Civilisational Alignment Framework as an Operational Model
+- Pareidolia as Pattern Recognition. A Reframed Analysis of Infant Visual Preference Experiments — April 2026
+- Beyond Phonetics: Méthodê Glyph, Picterpretation, and Geonosis as a Falsifiable Operator-First Method for Visual Knowledge Systems — May 2026
+- The Third Pillar: Peter Thiel, Palantir, Antichrist, and Geonosis — May 2026
+- Geonosis Position Paper v1 — June 2026
+- Göbekli Tepe/Karahantepe, and the Taş Tepeler Complex: From Egg-Field to Womb-Field — June 2026
+- The Dog Field Guide Translated From the Egyptian Book of the Dead and the Mayan Dresden Codex — June 2026
+- THE FIELD GUIDE FOR LEARNING AND TEACHING: Learning First, Teaching Second — June 2026
+- Civilization Cycles, Cosmic Design, and Sentient Participation: An Empirical Framework Derived from Ancient Archive Analysis and Living Observation — June 2026
+- Why AI Cannot Read Ancient Scripts: A Derivation Audit of the Dresden Codex, Cuneiform, and the Failure of Whole-Object Reading — confirmed in July 2026 ResearchGate activity records
+- Giza Pyramid Construction Method and Purpose — July 2026
 
-Additional 2026 records will be reconciled against first-party ResearchGate evidence and added without guessing.
+This list is **not yet asserted to be the complete twelve-item reconciliation** between the March count of 63 and the August count of 75. The remaining rows will be added only from first-party or preserved ResearchGate evidence.
+
+## Project papers prepared for publication but not promoted here solely on that basis
+
+The private/project archive also contains later research manuscripts such as `Seeing Meaning Early`, `From Glucose to Bone`, and `Arguing with the Consensus Machine`. Their existence in the project archive or presence of a ResearchGate upload package does not, by itself, prove that the item is currently one of the 75 ResearchGate records.
+
+That distinction is deliberate.
 
 ## Registry rule
 
-A title is not added to the reconciled publication ledger merely because it exists in the private working archive. It must be demonstrably present on ResearchGate or otherwise explicitly designated as a public publication.
+A title is not added to the reconciled ResearchGate ledger merely because it exists in the working archive. It must be demonstrably present on ResearchGate or supported by a preserved first-party ResearchGate record.
 
-This distinction keeps `research item`, `working document`, `book manuscript`, `source dossier`, and `private archive record` from collapsing into one bucket.
+This keeps `ResearchGate research item`, `working document`, `book manuscript`, `source dossier`, and `private archive record` from collapsing into one bucket.
