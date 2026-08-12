@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/seanndiamond/Geonosis/schema/evidence-record.schema.json",
+  "title": "Geonosis Evidence Record",
+  "type": "object",
+  "required": ["record_id", "title", "source", "observation", "claim_level", "status", "failure_conditions"],
+  "properties": {
+    "record_id": {"type": "string"},
+    "title": {"type": "string"},
+    "version": {"type": "string"},
+    "created_date": {"type": "string", "format": "date"},
+    "updated_date": {"type": "string", "format": "date"},
+    "status": {
+      "enum": ["open_observation", "under_test", "provisional_pass", "pass", "fail", "inconclusive", "superseded", "withdrawn"]
+    },
+    "claim_level": {"type": "integer", "minimum": 0, "maximum": 10},
+    "source": {
+      "type": "object",
+      "required": ["source_id", "source_type"],
+      "properties": {
+        "source_id": {"type": "string"},
+        "source_type": {"type": "string"},
+        "title_or_identifier": {"type": "string"},
+        "custodian_or_creator": {"type": "string"},
+        "public_url": {"type": "string"},
+        "access_date": {"type": "string", "format": "date"},
+        "site_or_corpus": {"type": "string"},
+        "coordinates": {"type": "string"},
+        "location_within_source": {"type": "string"},
+        "rights_status": {"type": "string"},
+        "checksum": {"type": "string"}
+      }
+    },
+    "viewing_conditions": {
+      "type": "object",
+      "properties": {
+        "scale": {"type": "string"},
+        "orientation": {"type": "string"},
+        "camera_height_or_altitude": {"type": "string"},
+        "crop": {"type": "string"},
+        "working_radius": {"type": "string"}
+      }
+    },
+    "transformations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["operation"],
+        "properties": {
+          "operation": {"type": "string"},
+          "parameters": {"type": "string"},
+          "tool": {"type": "string"},
+          "reversible": {"type": "boolean"},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "required": ["direct_description"],
+      "properties": {
+        "direct_description": {"type": "string"},
+        "exact_feature_location": {"type": "string"},
+        "measured_features": {"type": "array", "items": {"type": "string"}},
+        "absences": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "inherited_designation": {"type": "string"},
+    "candidate_operator": {"type": "string"},
+    "grammar_hypothesis": {"type": "string"},
+    "alternatives": {"type": "array", "items": {"type": "string"}},
+    "controls": {"type": "array", "items": {"type": "string"}},
+    "prediction": {
+      "type": "object",
+      "properties": {
+        "logged_before_target_inspection": {"type": "boolean"},
+        "timestamp_or_record": {"type": "string"},
+        "prediction_text": {"type": "string"},
+        "result": {"enum": ["not_tested", "pass", "partial", "fail", "inconclusive"]}
+      }
+    },
+    "failure_conditions": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "reject_condition_results": {
+      "type": "object",
+      "additionalProperties": {"enum": ["not_tested", "pass", "triggered", "not_applicable"]}
+    },
+    "independent_reproduction": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "observer": {"type": "string"},
+          "date": {"type": "string", "format": "date"},
+          "blinding": {"type": "string"},
+          "result": {"enum": ["agree", "partial", "disagree", "inconclusive"]},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "external_validation": {"type": "array", "items": {"type": "string"}},
+    "speculative_extension": {"type": "string"},
+    "correction_lineage": {"type": "array", "items": {"type": "string"}},
+    "linked_records": {"type": "array", "items": {"type": "string"}},
+    "linked_publications": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}
