@@ -1,13 +1,12 @@
 cff-version: 1.2.0
 title: "Geonosis: Reproducible Public Research Archive"
-message: "If you use the Geonosis archive, cite the specific paper, evidence record, dataset or version used, and cite this repository when the archive architecture itself is relevant."
+message: "If you use the Geonosis archive, cite the specific paper, evidence record, dataset or version used, and cite this repository when the archive architecture itself is relevant. See LICENSING.md for per-content reuse terms."
 type: dataset
 authors:
   - family-names: Diamond
     given-names: Sean
     affiliation: "Independent Researcher, Geonosis Project / GlyphLens Research & Development"
 repository-code: "https://github.com/seanndiamond/Geonosis"
-license: GPL-3.0-only
 version: "2026.08.12"
 date-released: 2026-08-12
 keywords:
