@@ -140,6 +140,56 @@ Preferred questions:
 - What would falsify this reading?
 - Which evidence room is this statement in?
 
+## 17. Law of Prompted Advocacy
+
+A generative model asked to establish, defend, refute, explain, justify or optimise a conclusion is acting as an advocate for that prompt.
+
+Its output does not constitute evidence for the conclusion merely because it is fluent, detailed, cited, confident, internally coherent, or repeatedly generated.
+
+**The prompt is part of the provenance of the resulting claim.**
+
+A conclusion-first prompt must be marked as `ADVOCATE_MODE`. Advocate-mode output cannot count as independent confirmation of the desired conclusion.
+
+**An AI can argue both sides. Therefore the argument cannot adjudicate itself.**
+
+## 18. Prompt Provenance Law
+
+Every consequential AI-assisted prosecution should preserve a prompt provenance envelope containing, at minimum:
+
+- the exact initiating prompt;
+- the assigned model role;
+- whether a desired conclusion was supplied;
+- the primary evidence supplied;
+- the state of inherited institutional semantics;
+- claims generated;
+- highest Court stage actually earned;
+- missing bridges;
+- tripwires triggered;
+- counter-role result where used;
+- corrections;
+- final Court state.
+
+Prompt history may explain how a claim was generated. It does not prove the claim.
+
+## 19. Adversarial Provenance Cycle
+
+Consequential cases should, where practical, pass through four distinct operations:
+
+1. **Blind Evidence Pass** — inspect the primary field without allowing inherited semantics to seed the observation.
+2. **Strongest Institutional Case** — release the inherited interpretation as a source claim and construct its strongest explicit derivation graph.
+3. **Adversarial Attack** — attack the derivation itself, testing independence, alternatives, circularity, selection rules, source substitution and stage promotion.
+4. **Court Reconciliation** — assign only the highest evidentiary state earned by the graph.
+
+The Court is not required to choose a winner. `UNKNOWN`, `NOT_DERIVED`, `INCONCLUSIVE` and `CONTESTED` are valid successful outcomes when they accurately mark the frontier.
+
+## 20. Evidence Has the Final Chair
+
+No model, institution, prosecutor, prior verdict, memory, sign list, catalogue, translation, citation network or research programme may promote a claim beyond the evidence actually shown.
+
+**The model does not get the final chair. The evidence does.**
+
+When a derivation terminates, the termination is itself a finding until new evidence reopens the case.
+
 ## Closing rule
 
 **Geonosis must accept the same scrutiny it requests.**
