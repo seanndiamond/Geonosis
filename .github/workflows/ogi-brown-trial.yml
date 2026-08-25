@@ -1,0 +1,29 @@
+name: OGI Brown Trial
+
+on:
+  push:
+    branches: ["ogi-v0.2-brown-trial"]
+    paths:
+      - "ogi/**"
+      - ".github/workflows/ogi-brown-trial.yml"
+  pull_request:
+    paths:
+      - "ogi/**"
+
+jobs:
+  court-kernel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        working-directory: ogi
+        run: python -m pip install -e '.[test]'
+      - name: Run Court regression tests
+        working-directory: ogi
+        run: pytest -q
+      - name: Verify frozen Brown benchmark JSON
+        working-directory: ogi
+        run: python -m json.tool benchmarks/brown_1889/specification.json >/dev/null
