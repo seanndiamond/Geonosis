@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/seanndiamond/Geonosis/schema/prompt-provenance-envelope.schema.json",
+  "title": "Court of Provenance Prompt Provenance Envelope",
+  "type": "object",
+  "required": [
+    "envelope_id",
+    "timestamp",
+    "initiating_prompt",
+    "assigned_role",
+    "desired_conclusion_supplied",
+    "evidence_supplied",
+    "output_claims",
+    "court_state"
+  ],
+  "properties": {
+    "envelope_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "initiating_prompt": {"type": "string"},
+    "assigned_role": {
+      "enum": ["BLIND_OBSERVER", "ADVOCATE", "INSTITUTIONAL_ADVOCATE", "PROSECUTOR", "OPPONENT", "AUDITOR", "COURT_RECONCILER", "OTHER"]
+    },
+    "desired_conclusion_supplied": {"type": "boolean"},
+    "desired_conclusion": {"type": ["string", "null"]},
+    "advocate_mode": {"type": "boolean"},
+    "evidence_supplied": {"type": "array", "items": {"type": "string"}},
+    "institutional_semantics": {
+      "type": "object",
+      "properties": {
+        "present": {"type": "boolean"},
+        "state": {"enum": ["QUARANTINED", "RELEASED_AS_SOURCE_CLAIM", "NOT_PRESENT"]}
+      },
+      "required": ["present", "state"]
+    },
+    "output_claims": {"type": "array", "items": {"type": "string"}},
+    "highest_stage_earned": {
+      "enum": ["NONE", "CITED", "LOCATED", "RETRIEVED", "INSPECTED", "MAPPED", "DERIVED", "REPRODUCED", "CHALLENGED", "SURVIVED"]
+    },
+    "missing_bridges": {"type": "array", "items": {"type": "string"}},
+    "tripwires_triggered": {"type": "array", "items": {"type": "string"}},
+    "counter_role_result": {"type": ["string", "null"]},
+    "corrections": {"type": "array", "items": {"type": "string"}},
+    "court_state": {
+      "enum": ["SOURCE_CLAIM", "NOT_DERIVED", "INCONCLUSIVE", "CONTESTED", "DERIVED", "SURVIVED", "FAILED", "UNKNOWN"]
+    }
+  },
+  "additionalProperties": true
+}
