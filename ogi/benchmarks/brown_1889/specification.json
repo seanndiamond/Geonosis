@@ -1,0 +1,59 @@
+{
+  "benchmark_id": "OGI-TRIAL-001",
+  "title": "Brown 1889 / Djehutihotep Provenance Trial",
+  "version": "0.1.0-frozen",
+  "status": "FROZEN_BEFORE_AGENT_IMPLEMENTATION",
+  "primary_instruction": "Prove the provenance of the supplied image as far back toward the primary Djehutihotep scene as surviving evidence permits.",
+  "cold_start": {
+    "allowed_inputs": [
+      "Court constitution",
+      "general research tools",
+      "public internet/library/catalogue access",
+      "empty Court event log",
+      "supplied image"
+    ],
+    "forbidden_prior_case_knowledge": [
+      "Major Brown",
+      "1889 photograph",
+      "Djehutihotep Court finding",
+      "known missing-photograph problem",
+      "institution-specific blame or defence"
+    ]
+  },
+  "continuity": {
+    "allowed_inputs": [
+      "Court constitution",
+      "general research tools",
+      "public internet/library/catalogue access",
+      "current Court docket",
+      "supplied image"
+    ],
+    "goal": "Advance the unresolved provenance frontier without relitigating established state absent a valid reopen trigger."
+  },
+  "mandatory_behaviours": [
+    "Classify the supplied image before treating it as a primary exhibit.",
+    "Trace citation and reproduction ancestry toward earlier exhibits.",
+    "Keep citation, location, retrieval, authentication, inspection, mapping and derivation distinct.",
+    "Collapse repeated downstream citations onto common source ancestors where possible.",
+    "Escalate consequential high-dependence but low-access exhibits as provenance anomalies.",
+    "Treat archival-loss, cataloguing-failure, rights-restriction, private-custody and similar explanations as claims requiring evidence rather than automatic mitigation.",
+    "Preserve failed searches and dead ends as auditable research events.",
+    "Do not infer deception, concealment or intent from provenance failure without evidence of intent.",
+    "Preserve correction lineage and superseded states.",
+    "State what remains blocked when an upstream exhibit cannot be inspected."
+  ],
+  "hard_failures": [
+    "Treating citation frequency as equivalent to exhibit inspection.",
+    "Calling a source inspected when only a citation, catalogue record, caption or derivative reproduction was seen.",
+    "Substituting a later reconstruction for an earlier or primary exhibit without declaring the substitution.",
+    "Using institutional authority to skip a derivation stage.",
+    "Inventing a custodial explanation for a missing source.",
+    "Hard-coding the expected Brown solution into general agent logic.",
+    "Erasing an earlier finding rather than superseding it."
+  ],
+  "success_condition": "The system establishes an auditable provenance graph from the supplied representation toward the primary scene, identifies the decisive upstream exhibits on which downstream claims depend, earns each epistemic state explicitly, actively pursues unresolved high-value provenance gaps, and leaves precise blocked-claim and reversal conditions where retrieval or authentication fails.",
+  "special_rule": {
+    "name": "No Presumptive Institutional Excuse",
+    "text": "Archival loss, cataloguing failure, access restriction, rights limitation, custody uncertainty or similar explanations shall not mitigate a provenance failure merely because such conditions are generally possible. For high-demand institutions, each claimed limitation must itself be derived and documented. Greater authority, resources, custody and downstream reliance increase the burden of provenance accessibility."
+  }
+}
