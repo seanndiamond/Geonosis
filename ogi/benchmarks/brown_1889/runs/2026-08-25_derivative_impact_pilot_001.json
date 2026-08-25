@@ -1,0 +1,73 @@
+{
+  "run_id": "OGI-TRIAL-001-IMPACT-PILOT-001",
+  "date": "2026-08-25",
+  "status": "BOUNDED_REAL_SOURCE_PILOT",
+  "defective_source_family": "Newberry1895_derivative_family",
+  "tested_feature": "hand_rope_alignment",
+  "upstream_geometric_finding": "The operator-assisted geometry preflight found a repeated downward shift in hand position in the tested derivative cohort relative to the supplied wall photograph. This pilot tests only propagation of that specific feature-scope defect.",
+  "scope_warning": "This is not a literature-wide count and does not establish that all publications using Djehutihotep imagery depend on this defective feature. Dependency links are evaluated claim by claim.",
+  "claims": [
+    {
+      "claim_id": "SUPPLIED_COMPOSITE_172_WORKERS_TRANSPORTING_STATUE",
+      "source": "User-supplied educational/social composite image",
+      "material_features": ["hand_rope_alignment"],
+      "dependency_path": ["Newberry1895_derivative_family", "supplied_composite_lower_panel"],
+      "independent_support_present_in_examined_source": false,
+      "verdict": "INVALID_AT_CLAIM_SCOPE",
+      "reason": "The visual claim presents the derivative hauling geometry as evidentiary support while no independent derivation is supplied in the examined exhibit.",
+      "reversal_condition": "Re-derive the hauling relationship from an authenticated upstream exhibit or establish an evidentially independent chain at the required stage."
+    },
+    {
+      "claim_id": "GRIFFITH_FOUR_ROPES_43_HAULIERS_PER_ROPE",
+      "source": "Griffith Institute Djehutihotep reconstruction page",
+      "source_url": "https://www.griffith.ox.ac.uk/archive/GI-watercolours/Deir-el-Bersha/GI_wd_Deir_el_Bersha_Djehutihotep_1.html",
+      "material_features": ["hand_rope_alignment"],
+      "dependency_path": ["Newberry1895_derivative_family", "Griffith_reconstruction"],
+      "candidate_independent_route": true,
+      "verdict": "OPEN",
+      "reason": "The page asserts four towing ropes and teams assigned along them. The tested geometric defect is material to the visual rope/worker relationship, but the Griffith reconstruction may have additional upstream records that must be audited before invalidation.",
+      "reversal_condition": "Audit and derive the asserted rope/team geometry from authenticated upstream records."
+    },
+    {
+      "claim_id": "AYRINHAC2016_N172_TEAM_COORDINATION_INPUT",
+      "source": "Simon Ayrinhac, The Transportation of the Djehutihotep Statue Revisited, Tribology Online 11(3), 2016",
+      "doi": "10.2474/trol.11.466",
+      "material_features": ["hand_rope_alignment"],
+      "dependency_path": ["Newberry1895_derivative_family", "Ayrinhac2016"],
+      "candidate_independent_route": true,
+      "verdict": "OPEN",
+      "reason": "The paper uses N=172 from Newberry as an input but explicitly warns that the picture does not represent a reliable number of pulling people and that redrawn missing parts are sometimes invented. The geometry-dependent historical input therefore remains open rather than invalidating the paper's independent biomechanics work.",
+      "reversal_condition": "Audit the N=172 and hauling-configuration inputs independently of derivative reconstruction."
+    },
+    {
+      "claim_id": "PRL2014_WET_SAND_REDUCES_FRICTION_EXPERIMENT",
+      "source": "Fall et al., Sliding Friction on Wet and Dry Sand, Physical Review Letters 112, 175502, 2014",
+      "doi": "10.1103/PhysRevLett.112.175502",
+      "material_features": ["wet_sand_experimental_friction"],
+      "dependency_path": ["PRL2014_experiments"],
+      "independent_support": true,
+      "verdict": "SUPPORTED_AT_TESTED_SCOPE",
+      "reason": "The measured wet-sand friction result is experimental and does not materially depend on the hand/rope alignment defect. Historical interpretation of the tomb scene is a separate claim and is not upgraded by the experiment.",
+      "reversal_condition": "None from the tested hand/rope defect; historical Djehutihotep interpretation requires its own provenance audit."
+    },
+    {
+      "claim_id": "HERITAGE2026_CREW_SIZE_MECHANICAL_MODEL",
+      "source": "A computational framework for evaluating an edge-integrated, multi-ramp construction model of the Great Pyramid of Giza, npj Heritage Science, 2026",
+      "material_features": ["mechanical_constraints", "friction_assumptions"],
+      "dependency_path": ["mechanical_model_2026"],
+      "independent_support": true,
+      "verdict": "SUPPORTED_AT_TESTED_SCOPE",
+      "reason": "The paper explicitly states that crew sizes are derived from mechanical constraints rather than literal iconographic headcounts and treats Djehutihotep as evidence of organization/coordination rather than a literal count.",
+      "reversal_condition": "None from the tested hand/rope defect."
+    }
+  ],
+  "summary": {
+    "claims_tested": 5,
+    "affected_claim_count": 3,
+    "invalid_at_claim_scope_count": 1,
+    "open_for_independent_route_audit_count": 2,
+    "unaffected_at_tested_scope_count": 2,
+    "intent_finding": "NOT_EVALUATED"
+  },
+  "court_interpretation": "A demonstrated facsimile defect does not invalidate all downstream work. It invalidates or reopens only claims whose derivation materially depends on the defective feature. Independent experiments and models survive at their tested scope."
+}
