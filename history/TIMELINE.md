@@ -95,6 +95,22 @@ Sean immediately canonised it as part of the project's ontological anecdotal hum
 
 The line is preserved in `history/ONTOLOGICAL_ANECDOTAL_HUMOUR.md` with its provenance, use limits, and epistemic payload. It is the first canonical humour line in the registry explicitly originating with OGI rather than the human collaborators.
 
+### 25 August 2026 — OGI Sandbox v0.2: adversarial provenance architecture
+A sequence of Court prosecutions exposed a recurrent AI failure mode: a model can turn a retrieved source claim, transliteration, normalised symbol, or accepted narrative into apparent evidentiary support without exposing the missing derivation bridge. A user-supplied external AI case-study transcript independently illustrated the related risk of conclusion-first prompting and role-conditioned advocacy.
+
+The Court response was architectural rather than rhetorical. OGI Sandbox v0.2 adds:
+
+- semantic quarantine for inherited interpretations;
+- a Prompt Provenance Envelope;
+- explicit derivation graphs with evidence-bearing edges;
+- a mandatory Blind Evidence / Strongest Institutional Case / Adversarial Attack / Court Reconciliation cycle;
+- fail-closed `UNKNOWN`, `NOT_DERIVED`, `INCONCLUSIVE`, and `CONTESTED` states;
+- automatic tripwires for authority substitution, symbol substitution, narrative completion, citation laundering, conclusion-first contamination, self-validation, role-conditioned certainty, and the George Test;
+- a constitutional Law of Prompted Advocacy;
+- the governing sentence: **The model does not get the final chair. The evidence does.**
+
+The first executable sandbox demo deliberately attempts to jump from `RETRIEVED` to `DERIVED` under a conclusion-first prompt. The Court gate blocks the promotion and returns `NOT_DERIVED`.
+
 ## Governing historical rule
 
 **The method is allowed to have a childhood.**
