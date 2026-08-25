@@ -1,8 +1,8 @@
 import pytest
 
-from ogi.kernel.state import CourtViolation, project
-from ogi.research.planner import plan_provenance_work
-from ogi.research.provenance import classify_research_result, institutional_limitation_claim
+from kernel.state import CourtViolation, project
+from research.planner import plan_provenance_work
+from research.provenance import classify_research_result, institutional_limitation_claim
 
 
 def test_citation_does_not_become_inspection():
