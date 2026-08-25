@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/seanndiamond/Geonosis/schema/derivation-graph.schema.json",
+  "title": "Court of Provenance Derivation Graph",
+  "type": "object",
+  "required": ["graph_id", "case_id", "nodes", "edges", "frontier"],
+  "properties": {
+    "graph_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["node_id", "node_type", "statement", "stage"],
+        "properties": {
+          "node_id": {"type": "string"},
+          "node_type": {
+            "enum": ["PRIMARY_EXHIBIT", "OBSERVATION", "SOURCE_CLAIM", "MAPPING", "VALUE", "OPERATION", "INFERENCE", "TRANSLATION", "HISTORICAL_CLAIM", "ALTERNATIVE", "CONTROL", "FINDING"]
+          },
+          "statement": {"type": "string"},
+          "stage": {
+            "enum": ["CITED", "LOCATED", "RETRIEVED", "INSPECTED", "MAPPED", "DERIVED", "REPRODUCED", "CHALLENGED", "SURVIVED", "UNKNOWN"]
+          },
+          "evidence_refs": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["edge_id", "from", "to", "operation", "evidence_refs", "selection_rule", "reversal_condition"],
+        "properties": {
+          "edge_id": {"type": "string"},
+          "from": {"type": "string"},
+          "to": {"type": "string"},
+          "operation": {"type": "string"},
+          "evidence_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+          "alternatives": {"type": "array", "items": {"type": "string"}},
+          "selection_rule": {"type": "string", "minLength": 1},
+          "reversal_condition": {"type": "string", "minLength": 1},
+          "status": {"enum": ["PROPOSED", "SUPPORTED", "CONTESTED", "BROKEN", "MISSING"]}
+        }
+      }
+    },
+    "frontier": {
+      "type": "object",
+      "required": ["highest_stage", "court_state"],
+      "properties": {
+        "highest_stage": {
+          "enum": ["NONE", "CITED", "LOCATED", "RETRIEVED", "INSPECTED", "MAPPED", "DERIVED", "REPRODUCED", "CHALLENGED", "SURVIVED"]
+        },
+        "court_state": {"enum": ["SOURCE_CLAIM", "NOT_DERIVED", "INCONCLUSIVE", "CONTESTED", "DERIVED", "SURVIVED", "FAILED", "UNKNOWN"]},
+        "missing_edges": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "additionalProperties": false
+}
