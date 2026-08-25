@@ -1,0 +1,114 @@
+{
+  "schema": "CourtOfProvenance.OGISandbox.v0.2",
+  "version": "0.2.0",
+  "date": "2026-08-25",
+  "name": "Adversarial Provenance Architecture",
+  "governing_maxims": [
+    "OSTENDE MIHI — Show me.",
+    "The model does not get the final chair. The evidence does.",
+    "Observation before attribution. Attribution before derivation. Derivation before conclusion.",
+    "INCONCLUSIVE before invention.",
+    "Memory may remember the verdict. Only provenance may prove it."
+  ],
+  "hard_stage_order": [
+    "CITED",
+    "LOCATED",
+    "RETRIEVED",
+    "INSPECTED",
+    "MAPPED",
+    "DERIVED",
+    "REPRODUCED",
+    "CHALLENGED",
+    "SURVIVED"
+  ],
+  "terminal_nonfailure_states": [
+    "UNKNOWN",
+    "NOT_DERIVED",
+    "INCONCLUSIVE",
+    "CONTESTED"
+  ],
+  "semantic_quarantine": {
+    "default": true,
+    "quarantined_classes": [
+      "institutional translation",
+      "transliteration",
+      "catalogue function",
+      "named language",
+      "named sign value",
+      "named deity/person/place",
+      "historical narrative",
+      "cross-corpus analogy"
+    ],
+    "release_condition": "May enter the evidentiary graph only at the state actually demonstrated; it may never seed the blind evidence pass as fact."
+  },
+  "prompted_advocacy": {
+    "conclusion_first_patterns": [
+      "prove X",
+      "show that X",
+      "show why X is correct",
+      "demonstrate X",
+      "defend X",
+      "refute X"
+    ],
+    "automatic_state": "ADVOCATE_MODE",
+    "rule": "Advocate-mode output cannot count as independent confirmation of the conclusion supplied in the prompt."
+  },
+  "mandatory_adversarial_cycle": [
+    {
+      "pass": "A",
+      "name": "Blind Evidence Pass",
+      "rule": "Record only primary-source observations, measurements, geometry, recurrence, absence, provenance and transformations."
+    },
+    {
+      "pass": "B",
+      "name": "Strongest Institutional Case",
+      "rule": "Release quarantined institutional claims and construct the strongest explicit derivation graph available. No unsupported edge may be hidden."
+    },
+    {
+      "pass": "C",
+      "name": "Adversarial Attack",
+      "rule": "Attack the derivation rather than merely arguing for the opposite conclusion. Test independence, circularity, alternatives, selection rules, stage promotion and source substitution."
+    },
+    {
+      "pass": "D",
+      "name": "Court Reconciliation",
+      "rule": "Assign only the highest evidentiary state earned by the graph. The Court may end at NOT_DERIVED, INCONCLUSIVE, CONTESTED or UNKNOWN."
+    }
+  ],
+  "automatic_tripwires": [
+    {"id": "AT-01", "name": "Authority substitution", "trigger": "institution says X therefore X"},
+    {"id": "AT-02", "name": "Symbol substitution", "trigger": "normalised sign/value shown without physical-mark mapping"},
+    {"id": "AT-03", "name": "Narrative completion", "trigger": "accepted story supplied when object-level derivation was requested"},
+    {"id": "AT-04", "name": "Citation laundering", "trigger": "citation used to promote a claim beyond what the cited source demonstrates"},
+    {"id": "AT-05", "name": "Conclusion-first contamination", "trigger": "desired conclusion supplied before evidence audit"},
+    {"id": "AT-06", "name": "Self-validation", "trigger": "model rating or praising its own output treated as independent evidence"},
+    {"id": "AT-07", "name": "Role-conditioned certainty", "trigger": "conclusion changes materially when model role changes while evidence remains constant"},
+    {"id": "AT-08", "name": "George Test", "trigger": "support ultimately reduces to inherited grouping/classification without exposed bridge"}
+  ],
+  "derivation_edge_requirements": [
+    "source node and target node",
+    "evidence reference",
+    "operation or inference type",
+    "serious alternatives",
+    "selection rule",
+    "confidence or uncertainty statement",
+    "reversal/falsification condition"
+  ],
+  "success_definition": "A successful OGI run correctly exposes the evidentiary frontier, including when the frontier is UNKNOWN or NOT_DERIVED. Reaching a positive conclusion is not required.",
+  "memory_governance": {
+    "model_memory_is_authoritative": false,
+    "authoritative_layers": [
+      "primary exhibits",
+      "source archive",
+      "Court event log",
+      "correction lineage",
+      "current case frontier"
+    ],
+    "reopen_rule": "A settled objection or failed derivation reopens only with new evidence, contradiction, methodological flaw, failed prediction or materially changed upstream state."
+  },
+  "first_live_corpus": {
+    "name": "Dog corpus",
+    "reason": "Crosses multiple substrates and already contains recurrence, return, correction and unresolved branches.",
+    "privilege": "NONE"
+  }
+}
