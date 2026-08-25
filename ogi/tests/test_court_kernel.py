@@ -1,6 +1,7 @@
 import pytest
 
 from kernel.state import CourtViolation, project
+from research.dependency import INVALID_AT_CLAIM_SCOPE, assess_damage_attribution, assess_material_dependency
 from research.planner import plan_provenance_work
 from research.provenance import classify_research_result, institutional_limitation_claim
 
@@ -70,3 +71,55 @@ def test_reversal_condition_becomes_active_work():
         "reversal_conditions": ["Retrieve and authenticate the decisive upstream exhibit"],
     }])
     assert tasks[0].task_type == "WORK_REVERSAL_CONDITION"
+
+
+def test_failed_material_dependency_invalidates_only_at_claim_scope():
+    verdict = assess_material_dependency(
+        claim_id="paper_claim",
+        dependencies=[{
+            "exhibit_id": "decisive_photo",
+            "material": True,
+            "stage": "LOCATED",
+            "required_stage": "INSPECTED",
+        }],
+        independent_support=False,
+    )
+    assert verdict.status == INVALID_AT_CLAIM_SCOPE
+    assert verdict.failed_dependencies == ("decisive_photo",)
+
+
+def test_independent_evidence_prevents_automatic_whole_claim_invalidation():
+    verdict = assess_material_dependency(
+        claim_id="paper_claim",
+        dependencies=[{
+            "exhibit_id": "missing_photo",
+            "material": True,
+            "stage": "CITED",
+            "required_stage": "INSPECTED",
+        }],
+        independent_support=True,
+    )
+    assert verdict.status == "OPEN"
+
+
+def test_general_vandalism_does_not_prove_specific_feature_loss():
+    result = assess_damage_attribution(
+        observed_damage=True,
+        causal_label="vandalism",
+        causal_evidence_ids=["historical_report"],
+        specific_feature="horizontal rope",
+        feature_loss_evidence_ids=[],
+    )
+    assert result["damage_observation"] == "ESTABLISHED"
+    assert result["causal_attribution"] == "EVIDENCE_PRESENT_REQUIRES_DERIVATION"
+    assert result["specific_feature_loss"] == "UNSUPPORTED_SPECIFIC_ATTRIBUTION"
+
+
+def test_damage_model_must_account_for_surviving_morphology():
+    result = assess_damage_attribution(
+        observed_damage=True,
+        causal_label="vandalism",
+        causal_evidence_ids=["historical_report"],
+        morphology_explained=False,
+    )
+    assert result["damage_model_status"] == "INCOMPLETE_MODEL"
