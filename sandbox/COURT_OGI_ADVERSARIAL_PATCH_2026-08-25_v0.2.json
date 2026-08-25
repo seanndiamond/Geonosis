@@ -1,0 +1,61 @@
+{
+  "schema": "CourtOfProvenance.AdversarialUpgradePatch.v0.2",
+  "patch_id": "COP-OGI-ADV-2026-08-25",
+  "created_date": "2026-08-25",
+  "status": "ACTIVE_ADDitive_PATCH",
+  "purpose": "Upgrade Court-governed OGI so prompt framing, advocacy roles, missing derivation edges and model self-validation cannot silently become evidence.",
+  "constitutional_additions": [
+    {
+      "id": "LAW-PA",
+      "name": "Law of Prompted Advocacy",
+      "rule": "A generative model asked to establish, defend, refute, explain, justify or optimise a conclusion is acting as an advocate for that prompt. Advocate-mode output is not independent evidence for the supplied conclusion."
+    },
+    {
+      "id": "LAW-PP",
+      "name": "Prompt Provenance Law",
+      "rule": "The exact consequential prompt, assigned role, desired conclusion, evidence supplied, semantic state, claims, missing bridges, tripwires, corrections and final Court state must be preservable as a prompt provenance envelope."
+    },
+    {
+      "id": "LAW-APC",
+      "name": "Adversarial Provenance Cycle",
+      "rule": "Consequential cases pass through Blind Evidence, Strongest Institutional Case, Adversarial Attack and Court Reconciliation when practical."
+    },
+    {
+      "id": "LAW-EFC",
+      "name": "Evidence Has the Final Chair",
+      "rule": "No model, institution, prosecutor, memory, prior verdict, sign list, catalogue, translation or citation network may promote a claim beyond the evidence actually shown."
+    }
+  ],
+  "ogi_controls": {
+    "semantic_quarantine_default": true,
+    "fail_closed_states": ["UNKNOWN", "NOT_DERIVED", "INCONCLUSIVE", "CONTESTED"],
+    "tripwires": [
+      "authority substitution",
+      "symbol substitution",
+      "narrative completion",
+      "citation laundering",
+      "conclusion-first contamination",
+      "self-validation",
+      "role-conditioned certainty",
+      "George Test"
+    ],
+    "internal_stop_message": "STOP: I have an attribution or prompted argument, not a derivation."
+  },
+  "new_machine_records": [
+    "schema/prompt-provenance-envelope.schema.json",
+    "schema/derivation-graph.schema.json",
+    "sandbox/OGI_SANDBOX_v0.2.json",
+    "sandbox/ogi_sandbox_v0_2.py"
+  ],
+  "external_case": {
+    "case_id": "AI-EXT-2026-001",
+    "status": "SOURCE_CASE_STUDY / NOT_INDEPENDENTLY_VERIFIED",
+    "role": "External illustration of conclusion-first prompting and role-conditioned advocacy; legal particulars remain unadjudicated until primary court records are inspected."
+  },
+  "test_result": {
+    "demo": "Conclusion-first prompt attempts RETRIEVED -> DERIVED with no explicit bridge.",
+    "result": "BLOCKED",
+    "court_state": "NOT_DERIVED"
+  },
+  "governing_sentence": "The model does not get the final chair. The evidence does."
+}
