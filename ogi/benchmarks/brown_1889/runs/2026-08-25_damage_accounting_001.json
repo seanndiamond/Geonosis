@@ -1,0 +1,167 @@
+{
+  "run_id": "OGI-TRIAL-001-DAMAGE-ACCOUNTING-001",
+  "date": "2026-08-25",
+  "status": "BOUNDED_WEB_ACCOUNTING_PROVISIONAL",
+  "question": "What demonstrable and exposed downstream scientific, educational and resource consequences can presently be accounted for from the Djehutihotep derivative-image chain?",
+  "court_boundary": "This run distinguishes demonstrated damage from exposed downstream dependence. The hand/rope geometric defect has been measured provisionally. The separate pouring-water feature has not yet completed wall-versus-derivative feature prosecution, so water-specific downstream nodes are exposure, not yet invalidated damage.",
+  "upstream_state": {
+    "geometry_preflight": {
+      "status": "GEOMETRIC_MISMATCH_DETECTED_PROVISIONAL",
+      "tested_feature": "hand position normalized waist-to-skirt-hem",
+      "matched_figures": 4,
+      "mean_directional_shift": 0.4203,
+      "directionally_consistent": true
+    },
+    "impact_pilot": {
+      "tested_claims": 5,
+      "invalid_at_claim_scope": 1,
+      "open_for_independent_route_audit": 2,
+      "unaffected_at_tested_scope": 2
+    }
+  },
+  "water_lubrication_chain": {
+    "hard_verified_nodes": 12,
+    "premise_dependent_nodes": 12,
+    "backward_historical_authority_instances": 9,
+    "categories": {
+      "research_publications": 5,
+      "formal_or_semi_formal_education": 3,
+      "media": 2,
+      "institutional_outreach": 1,
+      "experimental_replication": 1
+    },
+    "status": "EXPOSED_PENDING_FRONT_FIGURE_FEATURE_TEST",
+    "warning": "These are verified propagation nodes, not a total literature count and not twelve invalidated outputs. Water-specific invalidation requires prosecution of the front figure, vessel/stream, contact point and ground/sled relation."
+  },
+  "verified_nodes": [
+    {
+      "id": "Fall2014_PRL",
+      "category": "research_publication",
+      "source": "https://doi.org/10.1103/PhysRevLett.112.175502",
+      "premise_dependency": "Paper opens from Egyptian tomb-drawing hypothesis, captions figure as a person pouring water onto sand, uses a rounded sled described as like the Egyptian sled, and later argues ceremonial interpretation does not seem correct in view of the experimental results.",
+      "image_provenance_note": "Figure 1 cites P. E. Newberry, El Bersheh: The Tomb of Tehuti-Hetep, Vol. 1 (1895), not a contemporary inspection of the surviving wall.",
+      "independent_output": "Measured sliding friction response of partially wetted sand under laboratory conditions.",
+      "correction_lineage": "2014 shear-modulus mechanism later revised in 2020 toward penetration hardness/plastic ploughing.",
+      "status": "HISTORICAL_PREMISE_EXPOSED; LAB_MEASUREMENT_SEPARATE"
+    },
+    {
+      "id": "UvA2014_press",
+      "category": "institutional_outreach",
+      "source": "https://iop.uva.nl/content/news/2014/00/prl-egyptian-pyramids.html",
+      "premise_dependency": "Official release says researchers discovered Egyptians probably wetted sand and says the wall painting clearly shows a person pouring water in front of the sledge.",
+      "backward_historical_authority": true,
+      "status": "VERIFIED_PROPAGATION_NODE"
+    },
+    {
+      "id": "WashingtonPost2014",
+      "category": "media",
+      "source": "https://www.washingtonpost.com/news/morning-mix/wp/2014/05/02/the-surprisingly-simple-way-egyptians-moved-massive-pyramid-stones-without-modern-technology/",
+      "premise_dependency": "Reports researchers likely solved transport friction by wetting sand; quotes Bonn saying experiment solved the Egyptian mystery and uses the wall image as added evidence.",
+      "backward_historical_authority": true,
+      "status": "VERIFIED_PROPAGATION_NODE"
+    },
+    {
+      "id": "PhysicsWorld2014",
+      "category": "media",
+      "source": "https://physicsworld.com/a/did-slippery-sand-help-egyptians-build-the-pyramids/",
+      "premise_dependency": "Uses modern reproduction and states worker appears to pour water; frames experiment as evidence for possible Egyptian practice.",
+      "backward_historical_authority": false,
+      "status": "CAUTIOUS_PROPAGATION_NODE"
+    },
+    {
+      "id": "EarthPyramid2015_replication",
+      "category": "experimental_replication",
+      "source": "https://www.earthpyramid.org/sled-theory-test-is-another-success/",
+      "premise_dependency": "Reports a physical sled test explicitly based on University of Amsterdam research and cites the Djehutihotep scene as evidence of water being poured on the path.",
+      "backward_historical_authority": true,
+      "status": "VERIFIED_SECONDARY_EXPERIMENTAL_EFFORT"
+    },
+    {
+      "id": "Ayrinhac2016",
+      "category": "research_publication",
+      "source": "https://www.jstage.jst.go.jp/article/trol/11/3/11_466/_pdf/-char/en",
+      "premise_dependency": "Engineering/tribology treatment of Djehutihotep transport cites Fall et al. and uses image-derived hauling configuration and lubrication parameters.",
+      "backward_historical_authority": false,
+      "status": "OPEN_AT_DEPENDENCY_SCOPE"
+    },
+    {
+      "id": "CRESST_Egypt_grade6",
+      "category": "formal_or_semi_formal_education",
+      "source": "https://csaa.wested.org/wp-content/uploads/2019/11/ELA_history_Egypt_lesson.pdf",
+      "premise_dependency": "Grade-6 ELA/history lesson reproduces the Djehutihotep image and adapted Washington Post account, including the statement that the experiment solved the Egyptian mystery.",
+      "backward_historical_authority": true,
+      "status": "VERIFIED_EDUCATIONAL_PROPAGATION"
+    },
+    {
+      "id": "FleetScience_grade7",
+      "category": "formal_or_semi_formal_education",
+      "source": "https://www.fleetscience.org/sites/default/files/Dream%20Big%20Educator%20Guide.pdf",
+      "premise_dependency": "Grade-7 educator guide states engineers may have discovered the secret and says Djehutihotep imagery shows water poured to reduce friction.",
+      "backward_historical_authority": true,
+      "status": "VERIFIED_EDUCATIONAL_PROPAGATION"
+    },
+    {
+      "id": "Galal2020_engineering",
+      "category": "research_publication",
+      "source": "https://scholar.cu.edu.eg/sites/default/files/galal/files/89_part_89.pdf",
+      "premise_dependency": "Engineering review treats Fall et al. and Djehutihotep scene as lubrication evidence and carries derived friction values into later analysis.",
+      "backward_historical_authority": false,
+      "status": "OPEN_AT_DEPENDENCY_SCOPE"
+    },
+    {
+      "id": "Liefferink2020",
+      "category": "research_publication",
+      "source": "https://link.springer.com/article/10.1007/s10035-020-01022-0",
+      "premise_dependency": "Follow-up paper again says celebrated tomb drawing suggests water was poured to reduce friction while revising the physical mechanism from elastic modulus toward penetration hardness/plastic response.",
+      "backward_historical_authority": true,
+      "status": "HISTORICAL_PREMISE_CONTINUES; MECHANISM_CORRECTED"
+    },
+    {
+      "id": "LiquinLombrozo2021",
+      "category": "research_publication",
+      "source": "https://doi.org/10.1016/j.cogpsych.2021.101453",
+      "premise_dependency": "Cognitive-psychology paper uses the Egyptian wet-sand explanation as an example of a satisfying scientific explanation, describing experiment plus wall painting as mutually consistent.",
+      "backward_historical_authority": true,
+      "status": "CROSS_DOMAIN_PROPAGATION"
+    },
+    {
+      "id": "OsakaPhysics2024",
+      "category": "formal_or_semi_formal_education",
+      "source": "https://www.oit.ac.jp/labs/is/system/shinkai/mukogawa/2024/physics24/03_Physics2024_Viewgraph.pdf",
+      "premise_dependency": "University physics teaching slides reproduce the PRL figure/caption and teach the water-on-sand Egyptian interpretation alongside the experiment.",
+      "backward_historical_authority": true,
+      "status": "VERIFIED_HIGHER_EDUCATION_PROPAGATION"
+    }
+  ],
+  "reach_and_resource_accounting": {
+    "Fall2014_scopus_citations_reported": 115,
+    "citation_count_source": "Institut Polytechnique de Paris research portal",
+    "citation_warning": "115 is reach, not 115 damaged claims. Each citing work requires dependency classification.",
+    "original_paper_author_count": 8,
+    "funding_link": "Fall et al. state the work was part of FOM Programme Fundamental Aspects of Friction, financed by FOM/NWO.",
+    "FOM_programme_129_duration": "2011-2016",
+    "FOM_programme_129_cost_estimate_eur": 2700000,
+    "FOM_budget_warning": "The EUR 2.7M is the entire multi-group programme cost estimate, not the cost of the Djehutihotep sled experiment. No attributable share has yet been established.",
+    "followup_2020_funding": "The 2020 wet-sand follow-up acknowledges Shell financial support (PT 67354); amount not established in this run.",
+    "attributable_research_cost_eur": null
+  },
+  "excluded_from_hard_count": [
+    {
+      "item": "Copies labelled 2017 PSAT alternate test containing the Washington Post/Djehutihotep passage",
+      "reason": "The passage is readily retrievable in test copies, but official College Board provenance was not independently established in this run. It is therefore not included in the 12-node hard count."
+    }
+  ],
+  "accounting_verdict": {
+    "demonstrated": "A derivative geometric defect has already invalidated at least one tested downstream claim at the hand/rope feature scope and reopened two others. Separately, the wet-sand historical premise has a verified downstream network spanning research, institutional outreach, media, education and a secondary physical replication.",
+    "not_yet_demonstrated": "The 12 water-chain nodes are not yet twelve damaged outputs because the water/pouring feature has not completed feature-scope provenance testing. Total worldwide downstream count, total research spend and opportunity cost remain unknown.",
+    "damage_state": "DEMONSTRATED_AT_ROPE_GEOMETRY_SCOPE; WATER-LUBRICATION NETWORK EXPOSED_PENDING_FEATURE_TEST",
+    "intent": "NOT_EVALUATED"
+  },
+  "next_actions": [
+    "Run a front-figure feature comparison between surviving wall and derivative: figure posture, vessel, alleged stream, contact point, ground line and sled relation.",
+    "Trace Figure 1 of Fall et al. through Newberry 1895 to any asserted Brown-derived ancestor.",
+    "Harvest all 115 Scopus citing works where accessible and classify each as premise-dependent, contextual-only, independent-physics, backward-historical-authority, or irrelevant to Djehutihotep.",
+    "Expand educational and media propagation with duplicate collapsing so copied stories do not masquerade as independent corroboration.",
+    "Seek grant/project records only for attributable costs; do not assign the EUR 2.7M programme budget to this experiment without evidence."
+  ]
+}
