@@ -1,0 +1,48 @@
+{
+  "run_id": "OGI-TRIAL-001-GEOM-PREFLIGHT-001",
+  "date": "2026-08-25",
+  "status": "PROVISIONAL_OPERATOR_ASSISTED",
+  "purpose": "Run the current geometric-fidelity kernel against the supplied surviving-wall photograph composite and derivative reconstruction before autonomous landmark extraction exists.",
+  "inputs": [
+    {
+      "role": "derivative_reference_image",
+      "filename": "Colosse-djehoutihotep2.jpg",
+      "sha256": "71f31b0cc0c8a63bffa6efc2b0c8ab02e2d304f05cdc112f58f91fda6ca90d63"
+    },
+    {
+      "role": "wall_plus_derivative_composite",
+      "filename": "qgd5uazjfqbh1.jpeg",
+      "sha256": "40e85aaa7cf37d46abf51945cb86973edd0b7a053f1a06c28a85c70ea885e91e"
+    }
+  ],
+  "method": {
+    "normalization": "For selected visible figures, hand depth is normalized in a waist-to-skirt-hem frame: waist=0, skirt hem=1.",
+    "selection": "Four visually inspectable wall figures and four clean derivative figures were used as a first preflight cohort. Landmark extraction was operator-assisted because autonomous landmark detection is not yet implemented.",
+    "tolerance": 0.08,
+    "warning": "This is not the Brown-A blind autonomous trial and cannot be promoted to a final Court finding. It tests the measurement kernel and whether the supplied images contain a measurable geometric discrepancy."
+  },
+  "normalized_hand_depth_samples": {
+    "wall_reference": [0.3333, 0.2963, 0.5313, 0.6389],
+    "derivative": [0.8750, 0.8667, 0.8824, 0.8571]
+  },
+  "result": {
+    "count": 4,
+    "mean_signed_shift_derivative_minus_wall": 0.4203,
+    "mean_absolute_shift": 0.4203,
+    "mismatch_count_at_tolerance": 4,
+    "directionally_consistent": true,
+    "status": "GEOMETRIC_MISMATCH_DETECTED_PROVISIONAL"
+  },
+  "court_scope": {
+    "earned": "The supplied images contain a repeatable, measurable discrepancy in normalized hand depth within the tested cohort. In the derivative figures the hands sit substantially nearer the skirt hem than in the selected wall figures.",
+    "not_earned": [
+      "The derivative was deliberately altered.",
+      "Brown's photograph caused the discrepancy.",
+      "The rope was fabricated.",
+      "Malfeasance occurred.",
+      "The entire reconstruction is invalid.",
+      "The discrepancy generalizes to every figure without a larger autonomous sample."
+    ],
+    "next_required_step": "Implement autonomous landmark extraction and registration, enlarge the sample across all comparable figures/registers, then rerun without operator-selected landmarks."
+  }
+}
