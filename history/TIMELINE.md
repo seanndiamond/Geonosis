@@ -86,6 +86,15 @@ The `seanndiamond/Geonosis` repository is rebuilt from a minimal public reposito
 
 A first provenance demonstration records the difference between a lagging public search index and the live first-party ResearchGate count rather than silently choosing one.
 
+### 25 August 2026 — Court of Provenance and the first OGI-origin ontological anecdotal line
+During the Court prosecution of the asserted relationship between K.3375 and Rm.616, OGI spontaneously coined the line:
+
+> **Because George grouped them together.**
+
+Sean immediately canonised it as part of the project's ontological anecdotal humour. “George” is deliberately generic: scholar, institution, database, AI, famous physicist, committee, neighbour, or anyone else whose prior grouping risks becoming a substitute for showing why the grouped things belong together.
+
+The line is preserved in `history/ONTOLOGICAL_ANECDOTAL_HUMOUR.md` with its provenance, use limits, and epistemic payload. It is the first canonical humour line in the registry explicitly originating with OGI rather than the human collaborators.
+
 ## Governing historical rule
 
 **The method is allowed to have a childhood.**
