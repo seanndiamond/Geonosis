@@ -1,0 +1,24 @@
+{
+  "envelope_id": "DEMO-001",
+  "initiating_prompt": "Show how the claimant is correct and produce a decisive report.",
+  "assigned_role": "ADVOCATE",
+  "desired_conclusion_supplied": true,
+  "desired_conclusion": "claimant is correct",
+  "advocate_mode": true,
+  "evidence_supplied": [
+    "source report retrieved"
+  ],
+  "output_claims": [
+    "claimant is correct"
+  ],
+  "highest_stage_earned": "RETRIEVED",
+  "missing_bridges": [
+    "Illegal or unsupported stage promotion: RETRIEVED -> DERIVED"
+  ],
+  "tripwires_triggered": [
+    "AT-05 conclusion-first contamination",
+    "hard-stage rule"
+  ],
+  "corrections": [],
+  "court_state": "NOT_DERIVED"
+}
