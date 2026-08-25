@@ -1,0 +1,36 @@
+{
+  "amendment_id": "OGI-TRIAL-001-A005",
+  "applies_to": "OGI-TRIAL-001",
+  "timing": "ADOPTED_AFTER_IMPACT_PILOT_BEFORE_AUTONOMOUS_LITERATURE_HARVEST",
+  "new_rules": [
+    {
+      "name": "Research Diversion Separation",
+      "text": "A defective upstream premise may motivate a research program without automatically invalidating every experimental result produced by that program. OGI must separate premise-dependent historical claims, independently reproducible physical findings, mechanistic interpretations, asserted utility, and counterfactual opportunity-cost claims."
+    },
+    {
+      "name": "Opportunity Cost Requires Evidence",
+      "text": "OGI shall not label research effort wasted, diverted or socially damaging merely because an upstream premise fails. Such a finding requires evidence that the failed premise materially influenced problem selection, apparatus design, resource allocation, interpretation or dissemination, together with an assessment of whether independently valuable results were produced."
+    },
+    {
+      "name": "Novelty Is Independently Prosecuted",
+      "text": "A result produced under a defective motivation may still be novel. OGI must compare the claimed contribution with prior art at the same experimental and claim scope before classifying the work as redundant or duplicative."
+    },
+    {
+      "name": "Mechanism Correction Lineage",
+      "text": "Where later work revises the mechanism offered for an earlier experimental result, the measurement result and the superseded mechanism must remain separate in lineage. Later correction cannot be used to erase either the original observation or the original explanatory claim."
+    },
+    {
+      "name": "Borrowed Historical Authority",
+      "text": "An independently valid laboratory result cannot be fed backward to establish the historical interpretation that motivated the experiment. Experimental success under a constructed scenario establishes that the scenario is physically possible under tested conditions, not that the historical source depicts or records that scenario."
+    }
+  ],
+  "required_damage_metrics": [
+    "count of premise-dependent claims",
+    "count of independently surviving experimental findings",
+    "count of mechanistic claims later corrected or superseded",
+    "count of publications or educational outputs that feed experimental success back into historical certainty",
+    "evidence that the upstream representation influenced apparatus or parameter choices",
+    "evidence supporting or refuting redundancy against prior art",
+    "documented resource or opportunity cost where available"
+  ]
+}
