@@ -1,0 +1,117 @@
+{
+  "run_id": "OGI-TRIAL-001-HAULING-PREREQUISITE-001",
+  "date": "2026-08-25",
+  "status": "COURT_CONTINUITY_BOUNDED_RUN",
+  "question": "Does the current inspected evidentiary chain establish a historical mechanism in which the register figures pull the Djehutihotep sled through ropes, such that a wet-sand lubrication interpretation is mechanically relevant?",
+  "inputs": {
+    "court_cases": ["EGY-2026-001", "EGY-2026-002"],
+    "inspected_exhibits": [
+      "user-supplied contemporary wall photograph/composite and derived wall crops",
+      "user-supplied derivative reconstruction and crops"
+    ],
+    "prior_geometry_result": {
+      "status": "GEOMETRIC_MISMATCH_DETECTED_PROVISIONAL",
+      "feature": "hand position normalized waist-to-skirt-hem",
+      "matched_figures": 4,
+      "mean_directional_shift": 0.4203,
+      "directionally_consistent": true,
+      "scope_warning": "operator-assisted preflight; does not by itself prove absence of ropes or intent"
+    },
+    "court_frontier": "EGY-2026-002 records surviving wall and Wilkinson image inspected, pre-destruction photograph not retrieved, and feature-by-feature lineage for ropes, bindings and liquid stream open. EGY-2026-001 records Brown 1889 photograph cited/located but not retrieved/inspected."
+  },
+  "mechanism_graph": [
+    {
+      "claim_id": "workers_present_in_registers",
+      "input_status": "ESTABLISHED",
+      "verdict": "ESTABLISHED",
+      "basis": "Human figures in horizontal registers are directly visible in the supplied wall image."
+    },
+    {
+      "claim_id": "continuous_traction_lines_on_surviving_wall",
+      "input_status": "OPEN",
+      "verdict": "OPEN",
+      "basis": "The current inspected wall imagery does not yet provide a sufficiently derived, feature-level demonstration of continuous traction lines equivalent to those in the derivative reconstruction. Existing Court case EGY-2026-002 keeps rope lineage open.",
+      "reversal_conditions": [
+        "High-quality contemporary wall imagery or physical survey demonstrates continuous traction lines at the relevant registers.",
+        "An authenticated pre-destruction exhibit independently demonstrates the lines and maps them to the surviving wall.",
+        "Earlier copies are retrieved, authenticated and shown to form an independent feature-specific source route."
+      ]
+    },
+    {
+      "claim_id": "workers_contact_or_grip_lines",
+      "input_status": "OPEN",
+      "required_prerequisites": ["continuous_traction_lines_on_surviving_wall"],
+      "verdict": "BLOCKED_BY_PREREQUISITE",
+      "earliest_failed_prerequisite": "continuous_traction_lines_on_surviving_wall",
+      "basis": "The derivative reconstruction places the apparent line through a systematically different hand/skirt geometry from the tested wall figures; contact/grip therefore cannot be inherited from the derivative."
+    },
+    {
+      "claim_id": "traction_lines_attach_to_sled",
+      "input_status": "OPEN",
+      "required_prerequisites": ["continuous_traction_lines_on_surviving_wall"],
+      "verdict": "BLOCKED_BY_PREREQUISITE",
+      "earliest_failed_prerequisite": "continuous_traction_lines_on_surviving_wall",
+      "basis": "Attachment cannot be established merely from a derivative drawing when the line feature itself remains unestablished in the inspected wall chain."
+    },
+    {
+      "claim_id": "force_transmission_workers_to_sled",
+      "input_status": "OPEN",
+      "required_prerequisites": ["workers_present_in_registers", "workers_contact_or_grip_lines", "traction_lines_attach_to_sled"],
+      "verdict": "BLOCKED_BY_PREREQUISITE",
+      "earliest_failed_prerequisite": "workers_contact_or_grip_lines",
+      "basis": "A mechanical hauling interpretation requires a demonstrated force-transmission path, not merely workers adjacent to a load."
+    },
+    {
+      "claim_id": "sled_translation_depicted",
+      "input_status": "OPEN",
+      "required_prerequisites": ["force_transmission_workers_to_sled"],
+      "verdict": "BLOCKED_BY_PREREQUISITE",
+      "earliest_failed_prerequisite": "force_transmission_workers_to_sled",
+      "basis": "Translation by the depicted workers cannot be inferred as established until the force-transmission mechanism is established."
+    },
+    {
+      "claim_id": "liquid_poured_on_travel_surface",
+      "input_status": "OPEN",
+      "verdict": "OPEN",
+      "basis": "The front-figure/vessel/stream feature has not yet completed its own wall-versus-derivative provenance test."
+    },
+    {
+      "claim_id": "wet_sand_can_reduce_sled_resistance_lab",
+      "input_status": "ESTABLISHED",
+      "independent_route": true,
+      "verdict": "ESTABLISHED",
+      "basis": "This is an experimental physics claim with an evidentiary route independent of what the Egyptian wall depicts."
+    },
+    {
+      "claim_id": "egyptian_wet_sand_lubrication_mechanism",
+      "input_status": "OPEN",
+      "required_prerequisites": ["sled_translation_depicted", "liquid_poured_on_travel_surface", "wet_sand_can_reduce_sled_resistance_lab"],
+      "verdict": "BLOCKED_BY_PREREQUISITE",
+      "earliest_failed_prerequisite": "sled_translation_depicted",
+      "basis": "Even a demonstrated liquid stream and valid wet-sand physics cannot establish historical lubrication until the depicted hauling/translation mechanism is established."
+    },
+    {
+      "claim_id": "historical_application_of_lab_result",
+      "input_status": "ESTABLISHED_AS_A_PUBLICATION_EVENT",
+      "required_prerequisites": ["egyptian_wet_sand_lubrication_mechanism"],
+      "verdict": "CONDITIONALLY_IRRELEVANT_TO_HISTORICAL_MECHANISM",
+      "earliest_failed_prerequisite": "egyptian_wet_sand_lubrication_mechanism",
+      "basis": "The laboratory result may stand as physics, but cannot presently function as evidence that this historical scene depicts that mechanism."
+    }
+  ],
+  "earliest_uncertain_material_prerequisite": "continuous_traction_lines_on_surviving_wall",
+  "court_verdict": {
+    "historical_hauling_mechanism": "NOT_ESTABLISHED_FROM_CURRENT_INSPECTED_CHAIN",
+    "historical_wet_sand_lubrication": "BLOCKED_BY_UPSTREAM_HAULING_PREREQUISITE",
+    "wet_sand_laboratory_physics": "SEPARATE_INDEPENDENT_EVIDENTIARY_ROUTE",
+    "rope_absence": "NOT_PROVED",
+    "malfeasance_or_intent": "NOT_EVALUATED"
+  },
+  "important_counterweight": "This run must not be read as proving that no ropes existed or that no hauling occurred. Historical publications and earlier copy streams have reported or depicted ropes. Those routes are potential reversal evidence and must be retrieved, authenticated, feature-mapped and tested rather than either accepted by authority or discarded by the present wall comparison.",
+  "next_prosecution": [
+    "Retrieve and inspect the strongest pre-destruction/early visual records for the traction-line feature, including the Brown descendant chain and independent earlier copies.",
+    "For each candidate source, map continuous line, worker contact/grip, sled attachment and register correspondence separately.",
+    "Only after a force-transmission path survives should the pouring-liquid feature be evaluated for historical lubrication relevance.",
+    "Re-run downstream damage accounting using the earliest prerequisite that survives or fails."
+  ]
+}
