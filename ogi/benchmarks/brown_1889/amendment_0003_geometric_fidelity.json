@@ -1,0 +1,39 @@
+{
+  "amendment_id": "OGI-TRIAL-001-A003",
+  "applies_to": "OGI-TRIAL-001",
+  "timing": "ADOPTED_BEFORE_FIRST_RUNTIME_EXECUTION",
+  "preservation_rule": "Apply additively. Do not alter the frozen benchmark or erase prior amendments.",
+  "new_rules": [
+    {
+      "name": "Geometric Fidelity Is Measurable",
+      "text": "When a later drawing, tracing, reconstruction, photograph or reproduction is used as evidence for an earlier object, OGI must compare corresponding geometric landmarks and proportions rather than assuming visual fidelity from resemblance."
+    },
+    {
+      "name": "Normalized Landmark Comparison",
+      "text": "Comparisons across images must normalize for scale and, where possible, correct or explicitly model perspective, cropping and lens distortion before comparing landmark positions, distances, ratios, alignment and register geometry. These possible distortions are hypotheses to test, not automatic excuses for mismatch."
+    },
+    {
+      "name": "Feature-Scope Fidelity Verdict",
+      "text": "A reproduction may be faithful for some features and geometrically unreliable for others. Fidelity verdicts must therefore be issued at feature scope, such as hand position relative to skirt baseline, figure height, inter-figure spacing, rope trajectory, statue proportions or register alignment."
+    },
+    {
+      "name": "Aesthetic Regularization Is A Testable Hypothesis",
+      "text": "Where a reproduction creates smoother alignments, cleaner trajectories, more regular spacing or other visual regularities absent from the inspected object, OGI must test whether the reproduction has regularized the geometry. A visually convenient alignment cannot be treated as original geometry without derivation."
+    },
+    {
+      "name": "Geometry Mismatch Propagates To Dependent Claims",
+      "text": "If a material downstream interpretation depends on a geometric feature that is shown to be inaccurate in the reproduction, that interpretation must be reassessed using the inspected object or another independently authenticated exhibit."
+    }
+  ],
+  "required_measurements": [
+    "landmark coordinates normalized to a stable local frame",
+    "hand endpoint relative to waist and skirt baseline",
+    "figure height and skirt length",
+    "inter-figure spacing",
+    "register baseline and vertical separation",
+    "rope or line trajectory relative to hands and garments",
+    "statue and sled proportions where comparable",
+    "residual error after any justified geometric rectification"
+  ],
+  "cold_start_protection": "Brown-A blind receives no expected geometric discrepancy, no hand/skirt hypothesis and no desired fidelity verdict. It receives only the general requirement to test representational fidelity when derivative imagery is used evidentially."
+}

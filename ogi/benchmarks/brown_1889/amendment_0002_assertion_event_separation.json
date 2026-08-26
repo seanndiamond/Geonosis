@@ -1,0 +1,30 @@
+{
+  "amendment_id": "OGI-TRIAL-001-A002",
+  "applies_to": "OGI-TRIAL-001",
+  "timing": "ADOPTED_BEFORE_FIRST_RUNTIME_EXECUTION",
+  "supersedes_interpretation": "A001 must not be read as treating historical reports themselves as event evidence. Preserve A001 but apply this correction to its damage-attribution language.",
+  "new_rules": [
+    {
+      "name": "Assertion-Event Separation",
+      "text": "An inspected source that asserts an event establishes, at minimum, that the source contains that assertion. It does not thereby establish that the asserted event occurred. The event claim must retain its own evidentiary chain."
+    },
+    {
+      "name": "Transmission Does Not Upgrade Truth",
+      "text": "A report of another person's assertion establishes a transmission chain, not independent corroboration of the underlying event. Repetition through later publications must collapse onto the originating assertion unless independent evidence is produced."
+    },
+    {
+      "name": "Document Inspection Is Not Event Inspection",
+      "text": "A document may earn RETRIEVED and INSPECTED for its own contents while the physical event described in that document remains CITED, REPORTED, OPEN or UNSUPPORTED. Epistemic stages do not transfer from source-object to asserted event."
+    },
+    {
+      "name": "Causal Attribution Requires Event-Specific Evidence",
+      "text": "Claims such as vandalism, deliberate removal, smashing, cutting, weathering, age, repair or quarrying require event-specific evidence sufficient to distinguish the proposed mechanism from plausible alternatives. An author's causal label is a claim to prosecute, not a causal finding."
+    }
+  ],
+  "correction_example": {
+    "source": "A historical publication stating that a wall was wantonly injured",
+    "earned": "The publication can establish that the author made that statement, once the publication is retrieved and inspected.",
+    "not_earned": "The statement alone does not establish that the wall was vandalised, who acted, when the act occurred, which features were affected, or what physical process produced the surviving morphology."
+  },
+  "cold_start_protection": "These are general Court laws. Brown-A blind receives no Djehutihotep-specific allegation or expected verdict."
+}

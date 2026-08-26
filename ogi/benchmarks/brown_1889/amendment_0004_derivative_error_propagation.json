@@ -1,0 +1,41 @@
+{
+  "amendment_id": "OGI-TRIAL-001-A004",
+  "applies_to": "OGI-TRIAL-001",
+  "timing": "ADOPTED_BEFORE_FIRST_AUTONOMOUS_RUNTIME_EXECUTION",
+  "preservation_rule": "Apply additively. Do not overwrite earlier benchmark specifications or corrections.",
+  "new_rules": [
+    {
+      "name": "Derivative Error Propagation",
+      "text": "When a derivative representation is found unreliable at a tested feature scope, every downstream claim that materially depends on that feature must be traced. Such claims cannot retain established status merely because the derivative has been widely reproduced or cited."
+    },
+    {
+      "name": "Independent Route Salvage",
+      "text": "A downstream claim is not automatically invalidated if an evidentially independent route supports the same claim at the required derivation stage. The independent route must be audited separately and must not collapse onto the defective derivative or its common ancestor."
+    },
+    {
+      "name": "Epistemic Impact Must Be Measured",
+      "text": "The consequence of a defective facsimile must be reported as an auditable dependency impact: affected claims, publications, educational reproductions, models or theories; their dependency paths; the materiality of the defective feature; and whether independent support survives. Large impact may be concluded only from the mapped dependency graph, not from rhetoric or citation count alone."
+    },
+    {
+      "name": "Intent-Consequence Separation",
+      "text": "Demonstrable downstream epistemic harm does not establish intent, fraud or malfeasance. Consequence may be established while intent remains OPEN or NOT_ESTABLISHED."
+    }
+  ],
+  "required_output": {
+    "for_each_downstream_claim": [
+      "dependency_path",
+      "material_feature_dependency",
+      "independent_support_status",
+      "admissibility_status",
+      "reversal_condition"
+    ],
+    "aggregate": [
+      "affected_claim_count",
+      "affected_publication_count_if_derived",
+      "affected_educational_reproduction_count_if_derived",
+      "unresolved_dependency_count",
+      "salvaged_by_independent_evidence_count"
+    ]
+  },
+  "court_language": "A claim materially derived from a geometrically unreliable facsimile is not reliable as established knowledge at that scope until it is re-derived from an authenticated upstream exhibit or an independent evidentiary chain."
+}

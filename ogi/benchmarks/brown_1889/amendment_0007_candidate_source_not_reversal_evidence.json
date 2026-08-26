@@ -1,0 +1,26 @@
+{
+  "amendment_id": "OGI-TRIAL-001-A007",
+  "applies_to": "OGI-TRIAL-001",
+  "timing": "ADOPTED_AFTER_HAULING_PREREQUISITE_RUN_001",
+  "correction_lineage": "Corrects the phrase in Hauling Prerequisite Run 001 that described historical publications and earlier copies as 'potential reversal evidence'. Preserve the original run; do not overwrite it.",
+  "new_rules": [
+    {
+      "name": "Candidate Source Is Not Reversal Evidence",
+      "text": "A source that merely asserts, depicts or repeats a disputed feature is a candidate source for prosecution, not reversal evidence. Reversal status is earned only after the source itself is retrieved where possible, authenticated to the required scope, its derivation or observational basis is established, and the disputed feature is mapped through an evidentiary chain capable of bearing the claim."
+    },
+    {
+      "name": "Representational Depiction Does Not Inherit Object Truth",
+      "text": "A drawing, tracing, reconstruction, plate or copy showing a feature establishes that the representation contains that feature. It does not by itself establish that the original object contained the feature. The representational transformation and its source ancestry must be derived."
+    },
+    {
+      "name": "Assertion Collapse",
+      "text": "Multiple publications describing the same disputed feature do not constitute independent support when they derive from the same assertion, image, reconstruction or inaccessible ancestor. OGI must collapse such chains to their earliest demonstrated evidentiary ancestor."
+    },
+    {
+      "name": "Independent Earlier Copy Burden",
+      "text": "An earlier copy that predates a disputed later source may become independent evidence only if its custody, date, observational basis and feature fidelity are established. Chronological priority alone does not make it independent or accurate."
+    }
+  ],
+  "corrected_reversal_condition": "For the traction-line claim, reversal requires an authenticated and sufficiently derived evidentiary route demonstrating continuous traction lines and their relevant relation to workers and sled. Mere historical description or depiction is insufficient.",
+  "cold_start_protection": "These are general Court laws and must not reveal case-specific answers to a blind runtime."
+}

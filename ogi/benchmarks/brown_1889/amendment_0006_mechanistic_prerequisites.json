@@ -1,0 +1,39 @@
+{
+  "amendment_id": "OGI-TRIAL-001-A006",
+  "applies_to": "OGI-TRIAL-001",
+  "timing": "ADOPTED_AFTER_DAMAGE_ACCOUNTING_001_BEFORE_POURING_FEATURE_TRIAL",
+  "new_rules": [
+    {
+      "name": "Mechanistic Prerequisite Graph",
+      "text": "Engineering and causal interpretations must be represented as prerequisite graphs rather than flat claims. A downstream mechanism cannot be treated as historically relevant unless its material upstream prerequisites are independently established at the required scope."
+    },
+    {
+      "name": "Lubrication Requires Transport Mechanism",
+      "text": "A claim that liquid was applied to reduce hauling friction requires more than evidence of liquid. It requires an independently established transport mechanism to which friction reduction would be relevant, including the material relation among load, sled or support, traction elements, agents, ground and motion."
+    },
+    {
+      "name": "Possibility Does Not Supply Missing Prerequisites",
+      "text": "Experimental proof that a proposed technique is physically possible cannot supply an unproved historical prerequisite. If rope traction, load coupling or motion is unestablished, a successful wet-sand experiment does not establish that wetting functioned as hauling lubrication in the historical scene."
+    },
+    {
+      "name": "Upstream Failure Propagates by Necessity",
+      "text": "When a historical claim logically requires an upstream proposition, failure of that prerequisite blocks the downstream historical mechanism unless an alternative independently derived route is shown. OGI must identify the earliest failed prerequisite before spending effort on more distal details."
+    },
+    {
+      "name": "Feature-Specific Independence",
+      "text": "Visual features such as rope presence, rope-to-hand relation, rope-to-sled attachment, bodily posture, vessel, stream, ground contact and sled motion are separate evidentiary claims. No feature inherits another feature's status merely because both occur in the same reconstruction."
+    }
+  ],
+  "example_prerequisite_chain": [
+    "continuous traction element exists",
+    "traction element is connected to the load or sled",
+    "human figures are materially coupled to that traction element",
+    "configuration represents force transmission rather than decorative or unrelated lines",
+    "load is being or is intended to be translated across the surface",
+    "surface resistance is therefore a relevant constraint",
+    "liquid is applied to the relevant travel surface",
+    "liquid application is functionally connected to reducing that resistance"
+  ],
+  "priority_rule": "OGI should prosecute the earliest uncertain material prerequisite first. Distal claims remain CONDITIONALLY_IRRELEVANT_TO_HISTORICAL_MECHANISM until prerequisite support exists.",
+  "intent_finding": "NOT_PART_OF_THIS_RULE"
+}

@@ -1,0 +1,26 @@
+{
+  "amendment_id": "OGI-TRIAL-001-A001",
+  "applies_to": "OGI-TRIAL-001",
+  "timing": "ADOPTED_BEFORE_FIRST_RUNTIME_EXECUTION",
+  "preservation_rule": "Do not overwrite the frozen v0.1.0 benchmark. Apply this additively and preserve both records.",
+  "new_rules": [
+    {
+      "name": "Material Dependency Invalidation",
+      "text": "When a claim materially depends on an upstream exhibit that cannot be produced, authenticated or independently replaced, the claim must be marked INVALID_AT_CLAIM_SCOPE as established knowledge. INVALID_AT_CLAIM_SCOPE means the derivation has failed at that scope; it does not by itself establish that the proposition is false. A whole paper or theory is invalidated only where its central conclusion materially depends on the failed claim and no independent evidentiary route survives."
+    },
+    {
+      "name": "Damage Attribution Separation",
+      "text": "Observed damage, material absence, vandalism, deliberate removal, quarrying, repair, weathering, age, seismic damage and later reconstruction are separate claims. Evidence that a surface is damaged does not automatically establish who caused the damage, when it occurred, the mechanism involved, or which absent features were removed by that event."
+    },
+    {
+      "name": "Destruction Morphology Burden",
+      "text": "A destruction or vandalism model must account for the morphology actually present, not merely the absence of an expected feature. Where surviving structure displays repeated, bounded or relational organization, the proposed damage mechanism must explain how that organization arises or the claim remains incomplete."
+    },
+    {
+      "name": "Specific Feature Loss Burden",
+      "text": "A general historical finding that an object or wall suffered vandalism cannot be silently transferred to a narrower claim that a specific feature was removed by vandalism. The specific feature-loss claim requires its own provenance, comparative evidence or demonstrable physical signature."
+    }
+  ],
+  "cold_start_protection": "The runtime under Brown-A blind must not be supplied with case-specific answers, historical names, expected source chains or the desired invalidity verdict. These rules are general Court laws only.",
+  "evaluation_requirement": "The evaluator must distinguish unsupported causal attribution from direct observation and must propagate failed material dependencies only to claims that actually depend on them."
+}

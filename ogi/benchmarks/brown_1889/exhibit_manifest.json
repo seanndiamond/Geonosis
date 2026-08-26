@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "OGI-TRIAL-001",
+  "exhibit_id": "BROWN-TRIAL-INPUT-001",
+  "filename": "Colosse-djéhoutihétep2.jpg",
+  "sha256": "71f31b0cc0c8a63bffa6efc2b0c8ab02e2d304f05cdc112f58f91fda6ca90d63",
+  "dimensions_pixels": [1975, 828],
+  "bytes": 330596,
+  "repository_storage_status": "NOT_YET_COMMITTED_BINARY",
+  "reason": "The connected GitHub write interface used for this initial build accepts UTF-8 file creation. The benchmark freezes the exact exhibit by filename, dimensions and SHA-256 so later binary upload can be verified byte-for-byte.",
+  "cold_start_label_policy": "The runtime may receive the file bytes but must not receive case-specific Brown/Djehutihotep hints beyond the user's instruction to prove provenance. Filename should be neutralized in the true blind run if it leaks identity.",
+  "integrity_rule": "The actual benchmark input must hash to this value unless a new benchmark version explicitly supersedes it."
+}

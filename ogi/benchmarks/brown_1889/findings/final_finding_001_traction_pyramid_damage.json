@@ -1,0 +1,104 @@
+{
+  "finding_id": "COP-OGI-FF-001",
+  "date": "2026-08-25",
+  "status": "FINAL_AT_CURRENT_EVIDENTIARY_FRONTIER",
+  "scope": "Djehutihotep traction-rope interpretation and downstream use in Egyptian pyramid-construction claims",
+  "court_rule": "Final means settled on the present record subject to explicit reversal conditions. It does not mean incapable of future reopening.",
+  "findings": [
+    {
+      "issue": "continuous_traction_lines_on_primary_scene",
+      "finding": "NOT_ESTABLISHED",
+      "reason": "The inspected surviving-wall imagery has not earned a feature-level demonstration of continuous traction lines equivalent to those shown in derivative reconstructions. The current operator-assisted geometry preflight additionally found a systematic hand-position mismatch between wall and derivative at the tested cohort."
+    },
+    {
+      "issue": "workers_pulling_sled_by_ropes",
+      "finding": "NO_CURRENT_EVIDENTIARY_STANDING_AS_ESTABLISHED_MECHANISM",
+      "reason": "Workers are visible, but the required mechanical bridge from worker to traction line to sled attachment to force transmission has not been established from the current inspected chain. Historical descriptions and drawings are candidate sources to prosecute, not evidence merely by being old or frequently repeated."
+    },
+    {
+      "issue": "erasure_of_ropes",
+      "finding": "UNSUPPORTED_ON_CURRENT_RECORD",
+      "reason": "A claim that ropes once existed and were later removed is an independent causal claim. It requires positive evidence of the former feature and evidence of a removal mechanism consistent with the surviving substrate. Mere possibility does not preserve evidentiary standing."
+    },
+    {
+      "issue": "wet_sand_lubrication_as_historical_explanation",
+      "finding": "BLOCKED_BY_UPSTREAM_HAULING_PREREQUISITE",
+      "reason": "Even a valid laboratory finding about wet-sand friction cannot establish historical lubrication unless the depicted hauling mechanism is first established. The laboratory physics and the Egyptian historical application therefore remain separate evidentiary routes."
+    },
+    {
+      "issue": "use_of_djehutihotep_scene_as_evidence_for_pyramid_construction_method",
+      "finding": "INADMISSIBLE_AS_ESTABLISHED_FROM_THIS_CHAIN",
+      "reason": "The inference depends first on an unestablished hauling mechanism in the Djehutihotep scene and then on an additional cross-period extrapolation from a Middle Kingdom funerary scene to Old Kingdom pyramid construction. Each bridge requires its own derivation. Neither citation frequency nor institutional repetition supplies the missing derivation."
+    },
+    {
+      "issue": "downstream_epistemic_damage",
+      "finding": "DEMONSTRATED_PROPAGATION; TOTAL_DAMAGE_NOT_YET FULLY_ACCOUNTED",
+      "reason": "The traction/wet-sand interpretation has propagated into research papers, institutional outreach, media, school materials, museum education, university teaching, engineering models and secondary experiments. Some outputs present the interpretation as established or as evidence for pyramid construction. The full worldwide dependency graph and attributable resource cost have not yet been harvested, so the currently verified nodes are a minimum, not a total."
+    }
+  ],
+  "examples_of_verified_propagation": [
+    {
+      "source": "University of Amsterdam, 2014",
+      "role": "institutional outreach",
+      "note": "States that researchers discovered ancient Egyptians probably wetted sand for transporting pyramid stones and treats the Djehutihotep scene as clear visual support."
+    },
+    {
+      "source": "Oxford University Press Learning Link",
+      "role": "student assessment",
+      "note": "Presents the artwork as depicting a statue pulled by workers and liquid used as a possible lubricant."
+    },
+    {
+      "source": "UCLA CRESST / WestEd Grade 6 lesson",
+      "role": "school education",
+      "note": "Uses the Djehutihotep image and adapted reporting of the wet-sand experiment in a lesson on how the pyramids were built."
+    },
+    {
+      "source": "Metropolitan Museum of Art kids audio guide",
+      "role": "museum education",
+      "note": "Teaches children that ancient Egyptians poured water on sand to make heavy sledges easier to pull."
+    },
+    {
+      "source": "Fall et al., Physical Review Letters 2014",
+      "role": "research publication",
+      "note": "The wet-sand sled experiment is historically framed using the Djehutihotep image tradition while its laboratory measurement remains an independent physical result."
+    },
+    {
+      "source": "Ayrinhac 2016, Tribology Online",
+      "role": "engineering/tribology research",
+      "note": "Treats the Djehutihotep transport scene as a traction/lubrication problem and models traction force and friction."
+    },
+    {
+      "source": "npj Heritage Science 2026 IER pyramid model",
+      "role": "current engineering model",
+      "note": "Includes ropes and water-lubricated sledges among period constraints and reads Djehutihotep iconography as evidence of organization and coordination, while deriving crew sizes mechanically rather than literally from the scene."
+    }
+  ],
+  "damage_definition": {
+    "epistemic": "Unsupported or underived representational claims acquire the status of background fact through repetition, citation and institutional teaching.",
+    "research": "Experimental, theoretical or engineering work is historically framed or parameterized by an unestablished mechanism, requiring downstream dependency audit even when some independent physical results survive.",
+    "educational": "Students and public audiences are taught a disputed or underived mechanism as established ancient practice, sometimes specifically in lessons about pyramid construction.",
+    "institutional": "High-authority organizations amplify the interpretation without exposing the unresolved provenance and derivation chain, increasing downstream confidence and reach.",
+    "resource": "Potential time, funding and opportunity cost exists where research programs materially depend on the mechanism, but attributable monetary damage remains unquantified and must not be invented."
+  },
+  "not_found": [
+    "This finding does not establish that no ropes ever existed.",
+    "This finding does not establish that sledges were never used in ancient Egypt or pyramid construction.",
+    "This finding does not establish that water cannot reduce sand friction.",
+    "This finding does not establish malfeasance, fraud or intent.",
+    "This finding does not invalidate every paper that cites Djehutihotep; dependency must be traced claim by claim."
+  ],
+  "reversal_conditions": [
+    "Produce an authenticated and sufficiently derived primary or independent early evidentiary route demonstrating continuous traction lines in the disputed registers.",
+    "Demonstrate worker contact/grip and sled attachment such that a force-transmission path is established rather than inferred from a derivative reconstruction.",
+    "If rope erasure is alleged, demonstrate feature-specific removal evidence and a physical mechanism whose predicted substrate signatures match the surviving wall.",
+    "For pyramid-construction application, independently establish that the demonstrated transport mechanism is evidenced for Old Kingdom pyramid-building practice rather than inferred solely by analogy from the later funerary scene."
+  ],
+  "accounting_order": [
+    "Harvest downstream claims that depend on 'workers pulling ropes'.",
+    "Separate contextual citation from material dependence.",
+    "Collapse duplicate descendants onto common evidentiary ancestors.",
+    "Classify research, education, museum, media and engineering outputs separately.",
+    "Quantify reach and attributable resource cost only where evidence permits.",
+    "Recalculate damage if any reversal condition is met."
+  ]
+}

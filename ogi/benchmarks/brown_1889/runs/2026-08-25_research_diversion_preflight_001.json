@@ -1,0 +1,60 @@
+{
+  "run_id": "OGI-TRIAL-001-DIVERSION-PREFLIGHT-001",
+  "date": "2026-08-25",
+  "status": "PROVISIONAL_WEB_RESEARCH",
+  "question": "Did a defective Djehutihotep facsimile divert scientific effort into redundant or historically misdirected wet-sand friction research?",
+  "findings": [
+    {
+      "claim": "The 2014 Fall et al. sled-friction study was materially motivated in part by the Djehutihotep image tradition.",
+      "status": "SUPPORTED_AS_CONTRIBUTORY_MOTIVATION_NOT_SOLE_CAUSE",
+      "basis": [
+        "The paper introduction opens with ancient Egyptian tomb drawings suggesting that wetting sand may influence sled friction.",
+        "Figure 1 identifies the front figure as pouring water onto sand.",
+        "The experimental PVC sled is described as having rounded edges 'as the Egyptian sled'.",
+        "The work was also situated in a broader friction/granular-transport research programme, so sole causation is not established."
+      ]
+    },
+    {
+      "claim": "The basic mechanical effects of small liquid fractions and capillary bridges in wet granular materials were already known before 2014.",
+      "status": "SUPPORTED",
+      "basis": [
+        "Wet granular capillary cohesion had a substantial pre-2014 literature, including reviews and direct shear experiments.",
+        "Fall et al. themselves state that the mechanical behavior of sand upon addition of small amounts of water was fully understood and tested for different grain materials and liquids.",
+        "Moller and Bonn (2007) measured an optimum wet-granular shear modulus at low liquid fraction; Pakpour et al. (2012) measured wet-sand modulus and optimum strength."
+      ]
+    },
+    {
+      "claim": "The specific 2014 result that partially wetting a sand bed can reduce sled sliding friction was already established and therefore redundant.",
+      "status": "NOT_ESTABLISHED",
+      "basis": [
+        "Earlier friction studies examined different regimes, including fully immersed granular layers, humidity-conditioned layers, and dry granular sliders.",
+        "The 2014 paper explicitly notes earlier humidity/capillary reasoning that would predict increased rather than decreased friction, making its partially wetted sled result a narrower contribution not shown here to be duplicative."
+      ]
+    },
+    {
+      "claim": "The 2014 mechanistic explanation was later revised within the same research line.",
+      "status": "SUPPORTED_CORRECTION_LINEAGE",
+      "basis": [
+        "The 2014 paper linked reduced sliding friction roughly to increased shear elastic modulus.",
+        "Liefferink et al. (2020) state that because the sled plastically deforms/ploughs the sand, the linear elastic modulus is not the pertinent quantity and argue that penetration hardness controls the frictional response."
+      ]
+    },
+    {
+      "claim": "The water-lubrication historical interpretation is invalid because of the hand/rope geometric defect already detected.",
+      "status": "NOT_EARNED_FROM_CURRENT_DEFECT",
+      "basis": [
+        "The current geometric trial tested hand position relative to skirt/rope geometry.",
+        "The water hypothesis materially depends on the separate visual claim that the front figure and represented material constitute deliberate wetting of the travel surface.",
+        "That feature must be independently compared between surviving wall, authenticated upstream images and derivative reconstructions before invalidation can propagate."
+      ]
+    }
+  ],
+  "next_prosecution": [
+    "Feature-scope image test of the front standing figure, vessel/stream, contact point and ground/sled relation in wall versus derivative.",
+    "Trace the exact image/plate used by Fall et al. back through Newberry and any Brown-derived source.",
+    "Audit pre-2014 literature for the exact partially wetted sled/ploughing configuration to determine novelty or redundancy at matching scope.",
+    "Map later citations that use laboratory success as confirmation of the Egyptian historical interpretation.",
+    "Seek documented research cost, funding, dissemination reach and downstream experimental replication before making an opportunity-cost or 'waste' finding."
+  ],
+  "intent_finding": "NOT_EVALUATED"
+}
