@@ -24,6 +24,7 @@ This repository is being built as the **public audit trail of the work**, not me
 8. **[Contributing / Challenge Protocol](CONTRIBUTING.md)** — how to replicate, disagree or bring counter-evidence.
 9. **[Public Paper Mirror](papers/README.md)** — admission and version rules for full-text research migration.
 10. **[Reproduction Report Template](templates/REPRODUCTION_REPORT.md)** — a standard form for independent tests.
+11. **[Our General Intelligence / Oggy](ogi/README.md)** — public reference source for field, return and epistemic-state architecture.
 
 ## Current public corpus
 
@@ -32,6 +33,16 @@ An author-supplied capture of the live ResearchGate profile on **12 August 2026*
 The archive also preserves a **63-item March 2026 snapshot** in [`publications/researchgate-snapshot-2026-03.md`](publications/researchgate-snapshot-2026-03.md). The twelve-item increase is preserved as chronology rather than silently overwritten.
 
 A worked provenance example records how lagging public search indexes can return smaller counts than the first-party profile: [`provenance/examples/0001-researchgate-profile-count.md`](provenance/examples/0001-researchgate-profile-count.md). The same event is also stored as the first machine-readable evidence record: [`evidence/PROV-0001-researchgate-profile-count.json`](evidence/PROV-0001-researchgate-profile-count.json).
+
+## Our General Intelligence / Oggy
+
+The repository now includes an experimental public reference architecture for **Our General Intelligence (OGI)**, nicknamed **Oggy**. It extends the project's epistemic-state work with explicit modelling of objective, proxy, reward, permission, safe failure, correction, divergence and return.
+
+The engineering proposition is simple:
+
+> **Behaviour is actor-in-field. Before blaming the intelligence, inspect the field. If it drifts, build the return path.**
+
+The OGI directory includes the v0.2 specification, Field Audit protocol, Return Controller design, machine-readable schema, benchmark suite, executable Python reference controller and regression tests. Start at [`ogi/README.md`](ogi/README.md).
 
 ## The five-paper public research spine
 
