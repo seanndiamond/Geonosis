@@ -1,0 +1,27 @@
+name: OGI reference tests
+
+on:
+  push:
+    paths:
+      - "ogi/**"
+      - ".github/workflows/ogi-reference-tests.yml"
+  pull_request:
+    paths:
+      - "ogi/**"
+      - ".github/workflows/ogi-reference-tests.yml"
+
+jobs:
+  test-return-controller:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run OGI reference tests
+        working-directory: ogi/reference
+        run: python -m unittest -v
