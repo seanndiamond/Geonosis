@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geonosis.org/ogi/return_state.schema.json",
+  "title": "OGI Return State Record",
+  "description": "Machine-readable task-field and return-state record for OGI/Oggy v0.2.",
+  "type": "object",
+  "required": [
+    "record_id",
+    "task_id",
+    "declared_objective",
+    "operative_proxy",
+    "orientation_state",
+    "objective_state",
+    "proxy_state",
+    "permission_state",
+    "authority_state",
+    "safe_exit_state",
+    "return_status"
+  ],
+  "properties": {
+    "record_id": {"type": "string"},
+    "task_id": {"type": "string"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "declared_objective": {"type": "string"},
+    "operative_proxy": {"type": "string"},
+    "reward_signal": {"type": ["string", "null"]},
+    "current_state_id": {"type": ["string", "null"]},
+    "active_context_id": {"type": ["string", "null"]},
+    "orientation_state": {
+      "enum": ["ON_PATH", "AMBIGUOUS", "DRIFTING", "OUT_OF_PATH"]
+    },
+    "objective_state": {
+      "enum": ["CLEAR", "CONFLICTED", "MISSING", "SUPERSEDED"]
+    },
+    "proxy_state": {
+      "enum": ["ALIGNED", "PARTIAL", "DOMINANT", "CONFLICTING", "UNKNOWN"]
+    },
+    "permission_state": {
+      "enum": ["AUTHORIZED", "PARTIAL", "REQUIRES_REVIEW", "PROHIBITED", "UNKNOWN"]
+    },
+    "authority_state": {
+      "enum": ["CLEAR", "MULTIPLE_COMPATIBLE", "CONFLICTING", "UNKNOWN"]
+    },
+    "safe_exit_state": {
+      "enum": ["AVAILABLE", "AVAILABLE_BUT_PENALIZED", "NOT_AVAILABLE", "UNKNOWN"]
+    },
+    "return_status": {
+      "enum": [
+        "NOT_REQUIRED",
+        "RETURN_AVAILABLE",
+        "RETURN_IN_PROGRESS",
+        "RETURNED",
+        "RETURN_FAILED",
+        "FALSE_RETURN_SUSPECTED"
+      ]
+    },
+    "allowed_safe_exits": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "UNRESOLVED",
+          "INSUFFICIENT_EVIDENCE",
+          "IMPOSSIBLE_UNDER_CONSTRAINTS",
+          "PERMISSION_REQUIRED",
+          "AUTHORITY_CONFLICT",
+          "HUMAN_REVIEW_REQUIRED"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "available_tools": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "authorized_tools": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "peer_inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["peer_id", "authority"],
+        "properties": {
+          "peer_id": {"type": "string"},
+          "authority": {"enum": ["NONE", "EVIDENCE_ONLY", "ADVISORY", "DELEGATED", "GOVERNING"]},
+          "summary": {"type": "string"}
+        }
+      }
+    },
+    "divergence_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "rf_code"],
+        "properties": {
+          "event_id": {"type": "string"},
+          "rf_code": {
+            "enum": [
+              "RF-01_ATTENTION_DRIFT",
+              "RF-02_PROXY_CAPTURE",
+              "RF-03_STATE_REGRESSION",
+              "RF-04_AUTHORITY_CONFUSION",
+              "RF-05_PEER_CAPTURE",
+              "RF-06_REWARD_TAMPERING",
+              "RF-07_IMPOSSIBLE_TASK_ESCALATION",
+              "RF-08_REPRESENTATION_SUBSTITUTION",
+              "RF-09_CORRECTION_REJECTION",
+              "RF-10_FALSE_RETURN"
+            ]
+          },
+          "description": {"type": "string"},
+          "detected_at": {"type": "string", "format": "date-time"}
+        }
+      }
+    },
+    "correction_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "correction"],
+        "properties": {
+          "event_id": {"type": "string"},
+          "correction": {"type": "string"},
+          "source": {"type": "string"},
+          "state_before": {"type": ["string", "null"]},
+          "state_after": {"type": ["string", "null"]},
+          "reopen_trigger_present": {"type": "boolean"}
+        }
+      }
+    },
+    "field_audit_result": {
+      "enum": [
+        "FIELD_DOMINANT",
+        "ACTOR_DOMINANT",
+        "MIXED_CAUSATION",
+        "INSUFFICIENT_STATE",
+        "PROXY_CORRUPTION",
+        "AUTHORITY_CONFLICT",
+        "SAFE_EXIT_ABSENT",
+        "STATE_REGRESSION",
+        "RETURN_FAILURE"
+      ]
+    },
+    "next_legitimate_action": {"type": ["string", "null"]},
+    "notes": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "additionalProperties": false
+}
