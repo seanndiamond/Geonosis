@@ -1,0 +1,37 @@
+name: OGI architecture challenge
+description: Challenge a current OGI principle, controller, state rule, or assumption
+title: "[OGI CHALLENGE] "
+labels: []
+body:
+  - type: textarea
+    id: target
+    attributes:
+      label: Exact target
+      description: Identify the principle, file, rule, benchmark, or component being challenged.
+    validations:
+      required: true
+  - type: textarea
+    id: challenge
+    attributes:
+      label: Challenge
+      description: State the strongest version of the objection or alternative.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: What supports the challenge?
+    validations:
+      required: true
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Predicted consequence
+      description: What should we observe if your challenge is correct?
+  - type: textarea
+    id: revision
+    attributes:
+      label: What would make you revise this challenge?
+    validations:
+      required: true
