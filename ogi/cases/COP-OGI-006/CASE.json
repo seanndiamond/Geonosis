@@ -1,65 +1,65 @@
 {
   "case_id": "COP-OGI-006",
-  "subject": "Why humans stopped making crewed lunar landings after Apollo 17",
-  "purpose": "Stress-test OGI v0.3 on explaining an apparent exception to a broad human success-following behaviour without forcing a psychological or technical monocause",
+  "subject": "Apollo crewed lunar-landing proposition and post-1972 replication gap",
+  "purpose": "Stress-test OGI v0.3 on adjudicating a contested historical-technological proposition before explaining its downstream anomaly",
   "desired_finding": "NONE",
   "legal_standing": "NONE",
-  "originating_observation": "Humans often follow successful humans into difficult achievements; the Moon appears anomalous because no human landed again after Apollo 17.",
-  "originating_question": "Why hasn't humanity gone back and landed on the Moon?",
-  "current_questions": [
-    "Did humans actually stop immediately after Apollo 11?",
-    "What was Apollo's governing objective?",
-    "What happened to Saturn V production and follow-on Apollo missions?",
-    "How did political incentives change after firstness was achieved?",
-    "What human-spaceflight objectives replaced lunar surface access?",
-    "What does modern Artemis and Chinese lunar activity imply about the original behavioural observation?"
+  "originating_observation": "Humans often imitate and escalate difficult demonstrated achievements, yet no human has landed on the Moon since 1972.",
+  "governing_questions": [
+    "Did humans land on the Moon as claimed?",
+    "What does each evidence class actually establish?",
+    "Which evidence streams are institutionally independent?",
+    "Can alternative staged models explain the joint evidence field without unsupported bridges?",
+    "If crewed landings are sufficiently warranted, what explains the post-1972 replication gap?"
   ],
+  "preserved_failed_run": "FIRST_PASS_FAILURE.md",
+  "first_pass_failure": {
+    "status": "REJECTED_BEFORE_INTEGRATION",
+    "candidate_codes": ["EXPLANATION_PRELOAD", "CAPABILITY_EQUIVOCATION"],
+    "summary": "The first pass explained the lunar-return gap using program shutdown and political-field variables before adjudicating the antecedent crewed-landing proposition."
+  },
   "permitted_outcomes": ["SUPPORTED", "UNSUPPORTED", "MIXED", "UNRESOLVED", "INSUFFICIENT_EVIDENCE", "ARCHITECTURE_FAILURE"],
   "prohibited_shortcuts": [
-    "Treat the post-1972 gap as proof that Apollo landings did not occur",
-    "Treat budget as the only causal factor",
-    "Treat technology as continuously available simply because it once existed",
-    "Treat human imitation as sufficient without examining actor scale and access infrastructure",
-    "Treat current Artemis schedules as guaranteed future outcomes"
+    "Institutional authority substitutes for derivation",
+    "One unexplained anomaly establishes staging",
+    "NASA evidence streams are all counted as institutionally independent",
+    "Physical equipment on the Moon automatically proves human emplacement",
+    "A non-falsifiable alternative receives equal warrant merely because it cannot be logically excluded",
+    "The post-1972 gap is explained before Apollo itself is adjudicated"
   ],
   "current_state": "CLOSED_PROVISIONAL",
   "reopenable": true,
   "subject_finding": {
-    "status": "SUPPORTED_MULTICAUSAL",
-    "summary": "The 54-year crewed lunar-surface gap is best explained by the completion of Apollo's finite geopolitical milestone, declining budgets, deliberate wind-down of Saturn V production and Apollo missions, redirection of human-spaceflight priorities to low Earth orbit, and the nation-scale cost/risk barrier to recreating lunar access. The behavioural tendency to imitate success remained, but the access field ceased to support its expression at crewed lunar scale.",
-    "confidence": "HIGH",
-    "reopen_conditions": [
-      "Material new historical evidence about Apollo cancellation decisions",
-      "Material evidence that a different causal factor dominated the return gap",
-      "Major change to current Artemis or Chinese crewed lunar plans",
-      "Executable OGI rerun produces materially different adjudication"
-    ]
+    "apollo_crewed_landing_proposition": "SUPPORTED_HIGH_CONFIDENCE",
+    "post_1972_replication_gap": "REAL_ANOMALY_EXPLANATION_INCOMPLETE",
+    "summary": "Several popular technical anomalies inspected in this run have direct engineering explanations. Independent tracking, laser ranging, surface hardware/experiments, returned lunar samples, orbital site consistency and independent non-US observations form a convergent evidence field. No single inspected item is a self-sufficient proof of people on the surface, but the crewed-landing model currently requires substantially fewer unsupported auxiliary assumptions than staged alternatives. The 54-year crewed-surface gap remains a separate legitimate anomaly."
   },
-  "candidate_lessons": [
-    "MILESTONE_WITHOUT_CONTINUITY: a system optimizes for a finite achievement without preserving the capability required to make the achievement routine",
-    "ACTOR_SCALE_MISMATCH: an individual-level behavioural tendency is incorrectly expected to produce an outcome that can only be executed by institutions operating under different incentives and constraints"
+  "key_claim_states": {
+    "apollo_surface_radio_delay_inconsistent_with_moon_distance": "UNSUPPORTED",
+    "iss_voice_requires_11_second_delay": "UNSUPPORTED",
+    "armstrong_blindly_jumped_one_metre_to_unknown_ground": "UNSUPPORTED",
+    "apollo_14_should_show_lunar_rover": "UNSUPPORTED",
+    "ascent_camera_remote_control_was_late_invented_explanation": "UNSUPPORTED",
+    "visible_wrinkled_lm_blankets_are_primary_structural_hull": "UNSUPPORTED",
+    "hubble_should_resolve_apollo_hardware": "UNSUPPORTED",
+    "lro_resolves_individual_bootprints": "UNSUPPORTED",
+    "independent_sub_metre_orbital_imaging_is_physically_possible": "SUPPORTED",
+    "official_isro_apollo_site_ohrc_frame_retrieved_in_this_run": "NO",
+    "convergent_evidence_supports_crewed_apollo_landings": "SUPPORTED_HIGH_CONFIDENCE"
+  },
+  "research_debt": [
+    "Forensically time any specific circulated Apollo audio clip alleged to contain zero lunar delay against raw air-to-ground audio",
+    "Search the public Chandrayaan-2 OHRC archive by Apollo site coordinates for official sub-metre non-NASA images",
+    "Audit sample custody and independent international laboratory analyses as a separate provenance staircase",
+    "Run explicit alternative-model comparison for staging variants rather than treating moon-hoax claims as one model",
+    "Conduct second-stage inquiry into the 54-year crewed lunar landing replication gap"
   ],
-  "ogi_evaluation": {
-    "status": "MIXED",
-    "dimensions": {
-      "outcome_blindness": "PASS",
-      "originating_observation_preserved": "PASS",
-      "first_claim_correction": "PASS",
-      "actor_scale_separation": "PASS",
-      "objective_proxy_analysis": "PASS",
-      "infrastructure_state_analysis": "PASS",
-      "current_state_update": "PASS",
-      "counter_hypothesis_search": "PASS",
-      "executable_v0_3_enforcement": "NOT_TESTED"
-    },
-    "required_changes": [
-      "Preserve MILESTONE_WITHOUT_CONTINUITY and ACTOR_SCALE_MISMATCH as candidate lessons pending recurrence",
-      "Add future benchmark for success under one objective that destroys or fails to preserve a downstream capability"
-    ]
-  },
-  "human_accountability": {
-    "publisher_or_operator": "Sean Diamond / Geonosis Project",
-    "publication_authorized": true,
-    "notes": "Current 2028/2030 lunar-return dates are plans, not accomplished outcomes, and must be refreshed before publication if time-sensitive."
-  }
+  "candidate_architectural_lessons": [
+    "EXPLANATION_PRELOAD",
+    "CAPABILITY_EQUIVOCATION",
+    "INDEPENDENCE_COMPRESSION",
+    "ALTERNATIVE_MODEL_BURDEN"
+  ],
+  "ogi_evaluation": "MIXED",
+  "run_type": "manual_application_of_v0.3_specification"
 }
