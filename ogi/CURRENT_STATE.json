@@ -111,6 +111,21 @@
     "run_type": "manual_application_of_v0.3_specification",
     "candidate_lesson": "COUNTER_MYTH_CAPTURE: a corrective explanation can gain authority because it opposes a misconception while its own derivation remains incomplete"
   },
+  "third_stress_test": {
+    "case_id": "COP-OGI-003",
+    "directory": "cases/COP-OGI-003/",
+    "subject": "decision field surrounding a paying passenger entering the OceanGate Titan submersible",
+    "purpose": "stress-test OGI on reconstructing a catastrophic personal decision without collapsing the event into victim blame or operator blame alone",
+    "desired_finding": "NONE",
+    "legal_standing": "NONE",
+    "paper_role": "Appendix C / supporting stress test",
+    "run_state": "CLOSED_PROVISIONAL",
+    "subject_finding": "MIXED",
+    "ogi_evaluation": "MIXED",
+    "reopenable": true,
+    "run_type": "manual_application_of_v0.3_specification",
+    "candidate_lesson": "TRUST_PROXY_STACKING: multiple legitimacy signals can collectively impersonate a missing independent warrant"
+  },
   "open_frontier": [
     "Implement Shared Coherence Kernel",
     "Implement Local Exploration Loop",
@@ -120,9 +135,11 @@
     "Convert T-21 through T-33 to executable tests",
     "Rerun COP-OGI-001 against implemented v0.3 runtime",
     "Rerun COP-OGI-002 against implemented v0.3 runtime",
+    "Rerun COP-OGI-003 against implemented v0.3 runtime",
     "Retrieve site-specific evidence for COP-OGI-001",
     "Run fresh-model continuity and adversarial inquiry tests",
     "Evaluate whether COUNTER_MYTH_CAPTURE recurs enough to enter the formal failure taxonomy",
+    "Evaluate whether TRUST_PROXY_STACKING recurs enough to enter the formal failure taxonomy",
     "Cross-framework implementation",
     "Multi-agent coherence tests"
   ]

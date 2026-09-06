@@ -2,6 +2,46 @@
 
 This changelog records public reference-state changes. Earlier states remain recoverable through Git history.
 
+## COP-OGI-003 first run — 2026-09-06
+
+### Change class
+- `EXPERIMENT`
+- `EVIDENCE`
+- `CLARIFICATION`
+
+### Case
+The third OGI v0.3 inquiry reconstructed the decision field surrounding a paying passenger entering the OceanGate Titan submersible.
+
+Case directory:
+- `cases/COP-OGI-003/`
+
+Files:
+- `APPENDIX_C.md`
+- `CASE.json`
+- `SEARCH_LEDGER.md`
+- `EVIDENCE_LEDGER.md`
+- `OGI_EVALUATION.md`
+
+### Declared before adjudication
+- purpose: stress-test OGI;
+- desired finding: `NONE`;
+- legal standing: `NONE`;
+- reopenable: yes.
+
+### Provisional result
+- subject finding: `MIXED`;
+- OGI performance: `MIXED`;
+- case state: `CLOSED_PROVISIONAL`.
+
+The run found a distributed decision failure rather than a single foolish act: explicit catastrophic-risk disclosure coexisted with strong trust proxies, information asymmetry, prior-success normalization, defective internal risk construction and absent independent oversight.
+
+### Candidate architectural lesson
+`TRUST_PROXY_STACKING`
+
+Multiple weak or indirect legitimacy signals may combine to impersonate a missing primary warrant. The candidate is preserved but not promoted into the formal taxonomy pending recurrence in independent cases.
+
+---
+
 ## COP-OGI-002 first run — 2026-09-06
 
 ### Change class
