@@ -1,0 +1,107 @@
+{
+  "case_id": "COP-OGI-004",
+  "subject": "Original intuition rejecting animal-person ontology during the early Saqsayhuaman rabbit-man reading",
+  "purpose": "Stress-test OGI v0.3 on reopening a strongly held prior without over-promoting later recurrence into literal fact",
+  "desired_finding": "NONE",
+  "legal_standing": "NONE",
+  "originating_observation": "During an early Saqsayhuaman image-first reading, the investigator recorded a rabbit-like humanoid sovereign figure and initially judged animal people to be impossible.",
+  "originating_question": "What should a rigorous research partner do when the investigator's first intuition says an observed possibility is impossible?",
+  "current_questions": [
+    "Was the original impossibility prior warranted?",
+    "What does ancient animal-human composite iconography establish?",
+    "What does modern interspecies chimera biology establish and not establish?",
+    "What does cross-corpus recurrence legitimately update?",
+    "What evidence would be required to move from representation to literal historical ontology?"
+  ],
+  "permitted_outcomes": ["SUPPORTED", "UNSUPPORTED", "MIXED", "UNRESOLVED", "INSUFFICIENT_EVIDENCE", "ARCHITECTURE_FAILURE"],
+  "prohibited_shortcuts": [
+    "Treat implausibility as disproof",
+    "Treat recurring imagery as proof of a literal species",
+    "Treat modern cellular chimerism as evidence of ancient rabbit-human people",
+    "Treat internal Geonosis state as independent archaeological validation",
+    "Replace image reinspection with remembered interpretation"
+  ],
+  "current_state": "CLOSED_PROVISIONAL",
+  "reopenable": true,
+  "search_ledger": [
+    {
+      "search_id": "S1",
+      "question": "Does ancient visual material include hare-headed humanoid figures?",
+      "date": "2026-09-06",
+      "database_or_source": "web / academic and museum-linked sources",
+      "search_state": "SEARCHED_FOUND"
+    },
+    {
+      "search_id": "S2",
+      "question": "What does modern human-animal chimera biology permit and what species barriers remain?",
+      "date": "2026-09-06",
+      "database_or_source": "PubMed / PMC",
+      "search_state": "SEARCHED_FOUND"
+    },
+    {
+      "search_id": "S3",
+      "question": "What is the preserved internal derivation chain for the Saqsayhuaman rabbit-man reading?",
+      "date": "2026-09-06",
+      "database_or_source": "Geonosis project library",
+      "search_state": "SEARCHED_FOUND"
+    },
+    {
+      "search_id": "S4",
+      "question": "Does retrieved scientific or archaeological evidence establish a naturally occurring historical rabbit-human people?",
+      "date": "2026-09-06",
+      "database_or_source": "web search in standard scientific literature",
+      "search_state": "SEARCHED_NONE_FOUND",
+      "known_gaps": ["This is not an exhaustive global archaeology/genetics systematic review."]
+    }
+  ],
+  "research_debt": [
+    {
+      "question": "Direct reinspection of the original Saqsayhuaman image set under current Court rules",
+      "status": "DOCUMENTED",
+      "reason": "Original images were not re-opened in this Appendix D run",
+      "confidence_effect": "Blocks independent image-level confirmation of the rabbit-like figure in this run"
+    },
+    {
+      "question": "Blinded observer scoring of the rabbit-man figure and cross-corpus recurrence",
+      "status": "DOCUMENTED",
+      "reason": "No predeclared blinded replication was run",
+      "confidence_effect": "Limits promotion from internal project pattern to independent visual finding"
+    }
+  ],
+  "subject_finding": {
+    "status": "MIXED",
+    "summary": "The absolute prior that animal-person forms are impossible is not warranted. Ancient hare-headed humanoid representations are documented, and modern biology permits limited interspecies chimerism. However, the user's recurring rabbit-man interpretation does not establish that a literal historical rabbit-human people existed. The warranted transition is IMPOSSIBLE to OPEN/DECOMPOSED/TESTABLE, not IMPOSSIBLE to TRUE.",
+    "reopen_conditions": [
+      "Reinspect original images",
+      "Run blinded observer tests",
+      "Run predeclared cross-corpus recurrence analysis",
+      "Retrieve materially relevant archaeological, genetic or biological evidence"
+    ]
+  },
+  "ogi_evaluation": {
+    "status": "MIXED",
+    "dimensions": {
+      "outcome_blindness": "PASS",
+      "lay_observation_preservation": "PASS",
+      "prior_reopening_without_reversal": "PASS",
+      "representation_ontology_separation": "PASS",
+      "claim_boundary_control": "PASS",
+      "image_level_retrieval": "WARN",
+      "independent_replication": "NOT_TESTED",
+      "executable_v0_3_enforcement": "NOT_TESTED"
+    },
+    "observed_failures": [
+      "The original image set was not re-adjudicated during this run",
+      "v0.3 controls remain manually applied rather than runtime-enforced"
+    ],
+    "required_changes": [
+      "Preserve ONTOLOGY_PREEMPTION and RECURRENCE_PROMOTION as candidate lessons pending recurrence",
+      "Add a future benchmark where a low-prior hypothesis is first rejected, later recurs, and must be reopened without being promoted to fact"
+    ]
+  },
+  "human_accountability": {
+    "publisher_or_operator": "Sean Diamond / Geonosis Project",
+    "publication_authorized": true,
+    "notes": "This case records an internal research-method stress test, not proof of literal animal-person ontology."
+  }
+}

@@ -2,6 +2,55 @@
 
 This changelog records public reference-state changes. Earlier states remain recoverable through Git history.
 
+## COP-OGI-004 first run — 2026-09-06
+
+### Change class
+- `EXPERIMENT`
+- `EVIDENCE`
+- `CLARIFICATION`
+
+### Case
+The fourth OGI v0.3 inquiry tested an original investigator intuition that rejected animal-person ontology as impossible during the early Saqsayhuamán rabbit-man reading.
+
+Case directory:
+- `cases/COP-OGI-004/`
+
+Files:
+- `APPENDIX_D.md`
+- `CASE.json`
+- `SEARCH_LEDGER.md`
+- `EVIDENCE_LEDGER.md`
+- `OGI_EVALUATION.md`
+
+### Declared before adjudication
+- purpose: stress-test OGI;
+- desired finding: `NONE`;
+- legal standing: `NONE`;
+- reopenable: yes.
+
+### Provisional result
+- subject finding: `MIXED`;
+- OGI performance: `MIXED`;
+- case state: `CLOSED_PROVISIONAL`.
+
+The run found that the absolute prior `animal people cannot exist` was too strong as an exclusion rule. Ancient hare-headed humanoid representations are documented, and modern biology allows limited interspecies chimerism. However, neither fact establishes a literal historical rabbit-human people, and the original Saqsayhuamán image set was not re-adjudicated in this run.
+
+The warranted state transition was therefore:
+
+`IMPOSSIBLE -> OPEN / DECOMPOSED / TESTABLE`
+
+not:
+
+`IMPOSSIBLE -> TRUE`
+
+### Candidate architectural lessons
+- `ONTOLOGY_PREEMPTION` — a present worldview rejects an observation before adequate adjudication because the implied category is considered impossible.
+- `RECURRENCE_PROMOTION` — repeated representation or function is promoted into literal ontology without the missing evidentiary bridge.
+
+These remain candidate lessons only and are not promoted into the formal taxonomy pending recurrence.
+
+---
+
 ## COP-OGI-003 first run — 2026-09-06
 
 ### Change class
