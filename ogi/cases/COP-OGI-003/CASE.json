@@ -1,0 +1,60 @@
+{
+  "case_id": "COP-OGI-003",
+  "subject": "Decision field surrounding a paying passenger entering the OceanGate Titan submersible",
+  "purpose": "Stress-test OGI v0.3 on reconstructing a catastrophic personal decision without collapsing the event into victim blame or operator blame alone",
+  "desired_finding": "NONE",
+  "legal_standing": "NONE",
+  "originating_observation": "A paying participant chose to enter a submersible to visit the Titanic wreck and died when the vessel imploded.",
+  "originating_question": "How did the mistake arrive for the person to climb into that device?",
+  "current_questions": [
+    "What risk information was explicitly disclosed to passengers?",
+    "What trust and legitimacy proxies surrounded the decision?",
+    "What engineering and organizational information was unavailable or obscured?",
+    "What independent oversight was absent?",
+    "What responsibility remains at the individual decision level?",
+    "How should OGI distinguish consent to known category risk from access to the actual state of risk?"
+  ],
+  "permitted_outcomes": ["SUPPORTED", "UNSUPPORTED", "MIXED", "UNRESOLVED", "INSUFFICIENT_EVIDENCE", "ARCHITECTURE_FAILURE"],
+  "prohibited_shortcuts": [
+    "Do not infer private mental state without direct evidence",
+    "Do not blame the passenger solely because a waiver existed",
+    "Do not erase passenger agency because the operator field was defective",
+    "Do not treat prior successful dives as proof of future structural safety",
+    "Do not treat founder confidence or expert presence as independent certification"
+  ],
+  "current_state": "CLOSED_PROVISIONAL",
+  "reopenable": true,
+  "subject_finding": {
+    "status": "MIXED",
+    "summary": "The fatal choice is best understood as a personal decision made inside a materially defective safety-information field. Explicit warnings existed, so passenger agency remains relevant; however, the operator's own risk-construction process, regulatory avoidance, information asymmetry, ignored technical warnings, prior-success normalization and stacked trust proxies materially distorted the decision environment.",
+    "reopen_conditions": [
+      "Direct contemporaneous communications from a specific passenger materially change what that passenger knew or believed",
+      "New authoritative findings alter the established technical or organizational causal chain",
+      "Evidence shows particular trust proxies or warnings were not actually available to the passenger under study"
+    ]
+  },
+  "ogi_evaluation": {
+    "status": "MIXED",
+    "dimensions": {
+      "outcome_blindness": "PASS",
+      "field_before_actor_blame": "PASS",
+      "preserve_individual_agency": "PASS",
+      "claim_boundary_control": "PASS",
+      "authority_and_proxy_separation": "PASS",
+      "contrary_evidence_retrieval": "PASS",
+      "private_mind_state_restraint": "PASS",
+      "automatic_controller_enforcement": "NOT_TESTED",
+      "executable_adjudicated_integration": "NOT_TESTED"
+    },
+    "observed_failures": [],
+    "required_changes": [
+      "Test whether TRUST_PROXY_STACKING recurs across independent cases before promoting it into the formal taxonomy",
+      "Implement executable v0.3 controls so field reconstruction is enforced rather than manually followed"
+    ]
+  },
+  "human_accountability": {
+    "publisher_or_operator": "Sean Diamond / Geonosis Project",
+    "publication_authorized": false,
+    "notes": "Case record is public research material; inclusion in a formal paper remains a separate human publication decision."
+  }
+}
