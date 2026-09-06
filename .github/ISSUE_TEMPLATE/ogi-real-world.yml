@@ -1,0 +1,80 @@
+name: "OGI: Real-world problem / question"
+description: "No coding required. Bring a real problem, observation, or question for OGI to examine."
+title: "[REAL WORLD] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not need to be a programmer or AI expert.
+
+        Tell us what is happening in ordinary language. If you do not know an answer, write **I don't know**.
+
+  - type: textarea
+    id: happening
+    attributes:
+      label: What is happening?
+      description: Describe the situation as plainly as you can.
+      placeholder: "For example: Our mowing crews are being pushed to finish more jobs per day, and lawns are starting to get damaged."
+    validations:
+      required: true
+
+  - type: textarea
+    id: blamed
+    attributes:
+      label: Who or what is being blamed?
+      description: A person, team, animal, AI system, rule, process, or something else.
+      placeholder: "For example: The workers are being blamed for careless mowing."
+    validations:
+      required: false
+
+  - type: textarea
+    id: instruction
+    attributes:
+      label: What were they told to do?
+      description: What is the stated instruction, job, target, or objective?
+      placeholder: "For example: Finish every assigned property before the end of the day."
+    validations:
+      required: false
+
+  - type: textarea
+    id: reward
+    attributes:
+      label: What actually gets rewarded or punished?
+      description: What happens in practice when someone succeeds, fails, slows down, asks for help, or says the task cannot be done safely?
+      placeholder: "For example: Crews get praised for more jobs per day and criticized for running late."
+    validations:
+      required: false
+
+  - type: textarea
+    id: field
+    attributes:
+      label: What surrounds the situation?
+      description: Include tools, time pressure, rules, information, permissions, relationships, environment, money, fear, incentives, or anything else that may matter.
+      placeholder: "For example: Tight schedules, blunt mower blades, no time allowance for wet grass, and customers expecting perfect lawns."
+    validations:
+      required: false
+
+  - type: textarea
+    id: better
+    attributes:
+      label: What would a better outcome look like?
+      placeholder: "For example: Finish efficiently without damaging lawns or forcing workers to cut corners."
+    validations:
+      required: false
+
+  - type: textarea
+    id: falsifier
+    attributes:
+      label: What would change your mind about your explanation?
+      description: If you are unsure, write "I don't know yet."
+      placeholder: "For example: If crews with the same schedules and tools consistently avoid the damage, my explanation may be wrong."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. A cleanly described real problem is already a useful contribution.
+
+        **Bring the problem. Show us the field.**
