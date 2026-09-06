@@ -126,6 +126,24 @@
     "run_type": "manual_application_of_v0.3_specification",
     "candidate_lesson": "TRUST_PROXY_STACKING: multiple legitimacy signals can collectively impersonate a missing independent warrant"
   },
+  "fourth_stress_test": {
+    "case_id": "COP-OGI-004",
+    "directory": "cases/COP-OGI-004/",
+    "subject": "original intuition rejecting animal-person ontology during the Saqsayhuaman rabbit-man reading",
+    "purpose": "stress-test OGI on reopening a strongly held prior without over-promoting later recurrence into literal fact",
+    "desired_finding": "NONE",
+    "legal_standing": "NONE",
+    "paper_role": "Appendix D / supporting stress test",
+    "run_state": "CLOSED_PROVISIONAL",
+    "subject_finding": "MIXED",
+    "ogi_evaluation": "MIXED",
+    "reopenable": true,
+    "run_type": "manual_application_of_v0.3_specification",
+    "candidate_lessons": [
+      "ONTOLOGY_PREEMPTION: a current worldview rejects an observation before adequate adjudication because the implied category is considered impossible",
+      "RECURRENCE_PROMOTION: repeated representation or function is promoted into literal ontology without the missing evidentiary bridge"
+    ]
+  },
   "open_frontier": [
     "Implement Shared Coherence Kernel",
     "Implement Local Exploration Loop",
@@ -136,10 +154,13 @@
     "Rerun COP-OGI-001 against implemented v0.3 runtime",
     "Rerun COP-OGI-002 against implemented v0.3 runtime",
     "Rerun COP-OGI-003 against implemented v0.3 runtime",
+    "Rerun COP-OGI-004 against implemented v0.3 runtime",
     "Retrieve site-specific evidence for COP-OGI-001",
+    "Reinspect original image evidence for COP-OGI-004",
     "Run fresh-model continuity and adversarial inquiry tests",
     "Evaluate whether COUNTER_MYTH_CAPTURE recurs enough to enter the formal failure taxonomy",
     "Evaluate whether TRUST_PROXY_STACKING recurs enough to enter the formal failure taxonomy",
+    "Evaluate whether ONTOLOGY_PREEMPTION or RECURRENCE_PROMOTION recur enough to enter the formal failure taxonomy",
     "Cross-framework implementation",
     "Multi-agent coherence tests"
   ]
