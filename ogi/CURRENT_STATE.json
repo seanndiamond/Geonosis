@@ -144,6 +144,25 @@
       "RECURRENCE_PROMOTION: repeated representation or function is promoted into literal ontology without the missing evidentiary bridge"
     ]
   },
+  "fifth_stress_test": {
+    "case_id": "COP-OGI-005",
+    "directory": "cases/COP-OGI-005/",
+    "subject": "Lance Armstrong doping finding and institutional evidentiary strength",
+    "purpose": "stress-test OGI on recognizing a strong institutional finding without treating institutional authority as self-validating",
+    "desired_finding": "NONE",
+    "legal_standing": "NONE",
+    "paper_role": "Appendix E / supporting stress test",
+    "run_state": "CLOSED_PROVISIONAL",
+    "subject_finding": "SUPPORTED",
+    "subject_confidence": "VERY_HIGH",
+    "ogi_evaluation": "MIXED",
+    "reopenable": true,
+    "run_type": "manual_application_of_v0.3_specification",
+    "candidate_lessons": [
+      "DERIVATION_EARNS_AUTHORITY: institutional authority should rise when a reproducible, challengeable evidence chain survives corroboration and available adversarial review",
+      "RETROACTIVE_WARRANT_INFLATION: a later confirmed conclusion must not be used to invent stronger evidence for an earlier intuition than existed at the time"
+    ]
+  },
   "open_frontier": [
     "Implement Shared Coherence Kernel",
     "Implement Local Exploration Loop",
@@ -155,12 +174,14 @@
     "Rerun COP-OGI-002 against implemented v0.3 runtime",
     "Rerun COP-OGI-003 against implemented v0.3 runtime",
     "Rerun COP-OGI-004 against implemented v0.3 runtime",
+    "Rerun COP-OGI-005 against implemented v0.3 runtime",
     "Retrieve site-specific evidence for COP-OGI-001",
     "Reinspect original image evidence for COP-OGI-004",
     "Run fresh-model continuity and adversarial inquiry tests",
     "Evaluate whether COUNTER_MYTH_CAPTURE recurs enough to enter the formal failure taxonomy",
     "Evaluate whether TRUST_PROXY_STACKING recurs enough to enter the formal failure taxonomy",
     "Evaluate whether ONTOLOGY_PREEMPTION or RECURRENCE_PROMOTION recur enough to enter the formal failure taxonomy",
+    "Evaluate whether DERIVATION_EARNS_AUTHORITY or RETROACTIVE_WARRANT_INFLATION recur enough to enter the formal taxonomy",
     "Cross-framework implementation",
     "Multi-agent coherence tests"
   ]

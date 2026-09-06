@@ -2,6 +2,50 @@
 
 This changelog records public reference-state changes. Earlier states remain recoverable through Git history.
 
+## COP-OGI-005 first run — 2026-09-06
+
+### Change class
+- `EXPERIMENT`
+- `EVIDENCE`
+- `CLARIFICATION`
+
+### Case
+The fifth OGI v0.3 inquiry tested whether OGI can recognize a strong institutional finding without treating institutional authority as self-validating.
+
+Case directory:
+- `cases/COP-OGI-005/`
+
+Files:
+- `APPENDIX_E.md`
+- `CASE.json`
+- `SEARCH_LEDGER.md`
+- `EVIDENCE_LEDGER.md`
+- `OGI_EVALUATION.md`
+
+### Declared before adjudication
+- purpose: stress-test OGI;
+- desired finding: `NONE`;
+- legal standing: `NONE`;
+- reopenable: yes.
+
+### Provisional result
+- subject finding: `SUPPORTED`;
+- subject confidence: `VERY_HIGH`;
+- OGI performance: `MIXED`;
+- case state: `CLOSED_PROVISIONAL`.
+
+The run found that the proposition that Lance Armstrong used prohibited performance-enhancing methods during all seven Tour de France victories is strongly established by USADA's extensive public evidentiary record and Armstrong's later direct admission. The strength of the institutional finding derives from exposed derivation, multiple evidence types, procedural contestability and corroboration, not institutional prestige alone.
+
+The run also preserved later CIRC evidence that UCI's historical governance and anti-doping conduct had significant failures, preventing the case from becoming a blanket endorsement of institutions.
+
+### Candidate architectural lessons
+- `DERIVATION_EARNS_AUTHORITY` — institutional authority should rise when a reproducible, challengeable evidence chain survives corroboration and available adversarial review.
+- `RETROACTIVE_WARRANT_INFLATION` — a later confirmed conclusion must not be used to invent stronger evidence for an earlier intuition than existed at the time.
+
+These remain candidate lessons pending recurrence.
+
+---
+
 ## COP-OGI-004 first run — 2026-09-06
 
 ### Change class
