@@ -2,6 +2,53 @@
 
 This changelog records public reference-state changes. Earlier states remain recoverable through Git history.
 
+## COP-OGI-002 first run — 2026-09-06
+
+### Change class
+- `EXPERIMENT`
+- `EVIDENCE`
+- `CLARIFICATION`
+
+### Case
+The second OGI v0.3 inquiry was run manually on the childhood claim that spinach contains much more iron than other vegetables.
+
+Case directory:
+- `cases/COP-OGI-002/`
+
+Files:
+- `APPENDIX_B.md`
+- `CASE.json`
+- `SEARCH_LEDGER.md`
+- `EVIDENCE_LEDGER.md`
+- `OGI_EVALUATION.md`
+
+### Declared before adjudication
+- purpose: stress-test OGI;
+- desired finding: `NONE`;
+- legal standing: `NONE`;
+- reopenable: yes.
+
+### Provisional result
+- subject finding: `MIXED`;
+- OGI performance: `MIXED`;
+- case state: `CLOSED_PROVISIONAL`.
+
+The run found that spinach is a legitimate source of nonheme iron but is not uniquely exceptional, and that the popular decimal-point explanation for the spinach-iron myth is itself not securely derived from primary historical evidence.
+
+### Candidate architectural lesson
+The case exposed a possible future failure class:
+
+`COUNTER_MYTH_CAPTURE`
+
+A corrective explanation may gain authority because it opposes a familiar misconception while its own evidentiary provenance remains incomplete.
+
+This remains a candidate lesson, not a promoted invariant or formal failure code.
+
+### Important limitation
+As with COP-OGI-001, this was a manual application of the v0.3 specification rather than a completed executable Oggy v0.3 runtime.
+
+---
+
 ## COP-OGI-001 first run — 2026-09-06
 
 ### Change class
