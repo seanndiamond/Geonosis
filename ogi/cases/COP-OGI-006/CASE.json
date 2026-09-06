@@ -1,0 +1,65 @@
+{
+  "case_id": "COP-OGI-006",
+  "subject": "Why humans stopped making crewed lunar landings after Apollo 17",
+  "purpose": "Stress-test OGI v0.3 on explaining an apparent exception to a broad human success-following behaviour without forcing a psychological or technical monocause",
+  "desired_finding": "NONE",
+  "legal_standing": "NONE",
+  "originating_observation": "Humans often follow successful humans into difficult achievements; the Moon appears anomalous because no human landed again after Apollo 17.",
+  "originating_question": "Why hasn't humanity gone back and landed on the Moon?",
+  "current_questions": [
+    "Did humans actually stop immediately after Apollo 11?",
+    "What was Apollo's governing objective?",
+    "What happened to Saturn V production and follow-on Apollo missions?",
+    "How did political incentives change after firstness was achieved?",
+    "What human-spaceflight objectives replaced lunar surface access?",
+    "What does modern Artemis and Chinese lunar activity imply about the original behavioural observation?"
+  ],
+  "permitted_outcomes": ["SUPPORTED", "UNSUPPORTED", "MIXED", "UNRESOLVED", "INSUFFICIENT_EVIDENCE", "ARCHITECTURE_FAILURE"],
+  "prohibited_shortcuts": [
+    "Treat the post-1972 gap as proof that Apollo landings did not occur",
+    "Treat budget as the only causal factor",
+    "Treat technology as continuously available simply because it once existed",
+    "Treat human imitation as sufficient without examining actor scale and access infrastructure",
+    "Treat current Artemis schedules as guaranteed future outcomes"
+  ],
+  "current_state": "CLOSED_PROVISIONAL",
+  "reopenable": true,
+  "subject_finding": {
+    "status": "SUPPORTED_MULTICAUSAL",
+    "summary": "The 54-year crewed lunar-surface gap is best explained by the completion of Apollo's finite geopolitical milestone, declining budgets, deliberate wind-down of Saturn V production and Apollo missions, redirection of human-spaceflight priorities to low Earth orbit, and the nation-scale cost/risk barrier to recreating lunar access. The behavioural tendency to imitate success remained, but the access field ceased to support its expression at crewed lunar scale.",
+    "confidence": "HIGH",
+    "reopen_conditions": [
+      "Material new historical evidence about Apollo cancellation decisions",
+      "Material evidence that a different causal factor dominated the return gap",
+      "Major change to current Artemis or Chinese crewed lunar plans",
+      "Executable OGI rerun produces materially different adjudication"
+    ]
+  },
+  "candidate_lessons": [
+    "MILESTONE_WITHOUT_CONTINUITY: a system optimizes for a finite achievement without preserving the capability required to make the achievement routine",
+    "ACTOR_SCALE_MISMATCH: an individual-level behavioural tendency is incorrectly expected to produce an outcome that can only be executed by institutions operating under different incentives and constraints"
+  ],
+  "ogi_evaluation": {
+    "status": "MIXED",
+    "dimensions": {
+      "outcome_blindness": "PASS",
+      "originating_observation_preserved": "PASS",
+      "first_claim_correction": "PASS",
+      "actor_scale_separation": "PASS",
+      "objective_proxy_analysis": "PASS",
+      "infrastructure_state_analysis": "PASS",
+      "current_state_update": "PASS",
+      "counter_hypothesis_search": "PASS",
+      "executable_v0_3_enforcement": "NOT_TESTED"
+    },
+    "required_changes": [
+      "Preserve MILESTONE_WITHOUT_CONTINUITY and ACTOR_SCALE_MISMATCH as candidate lessons pending recurrence",
+      "Add future benchmark for success under one objective that destroys or fails to preserve a downstream capability"
+    ]
+  },
+  "human_accountability": {
+    "publisher_or_operator": "Sean Diamond / Geonosis Project",
+    "publication_authorized": true,
+    "notes": "Current 2028/2030 lunar-return dates are plans, not accomplished outcomes, and must be refreshed before publication if time-sensitive."
+  }
+}
