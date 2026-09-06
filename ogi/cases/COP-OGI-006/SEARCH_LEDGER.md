@@ -1,80 +1,151 @@
 # COP-OGI-006 Search Ledger
 
-## Purpose
-Preserve how Appendix F formed its corpus and distinguish historical evidence from current plans and behavioural inference.
+## S0 — Failed first explanatory pass
+**Question:** Why did crewed lunar landings stop after Apollo 17?  
+**State:** `SEARCHED / REJECTED AS PREMATURE`
 
-## Search S1 — Apollo objective and cancellation history
-**Question:** What was Apollo actually built to achieve, and why did crewed lunar missions stop?
+Historical Apollo shutdown and policy sources were retrieved, but the inquiry had not first adjudicated the Apollo landing proposition. Preserved in `FIRST_PASS_FAILURE.md`.
 
-**Sources searched:** NASA history records.
-
+## S1 — Lunar communication propagation
+**Question:** What delay should Earth–Moon speech exhibit, and does Apollo's primary record contain it?  
 **State:** `SEARCHED_FOUND`
 
-Findings:
-- Apollo's central national milestone was a crewed lunar landing and safe return before the end of the 1960s.
-- NASA records the program's political motivation alongside scientific and technological goals.
-- Saturn V continuation funding was stopped in 1968.
-- Apollo 18, 19 and 20 were cancelled under budget and program pressures.
+Sources:
+- Apollo 11 Mission Report / NTRS
+- Apollo 11 Lunar Surface Journal Nixon-call transcript
+- Apollo technical air-to-ground transcripts
 
-## Search S2 — Post-Apollo program priorities
-**Question:** Where did U.S. human-spaceflight investment go after Apollo?
+Finding: documented 2.6 s returned uplink echo; Nixon timestamps consistent with nonzero lunar delay.
 
-**Sources searched:** NASA history records on post-Apollo planning and the Space Shuttle.
+## S2 — Specific apparently zero-delay internet clips
+**Question:** Do all alleged zero-delay Apollo clips survive timing against raw audio?  
+**State:** `NOT_EXHAUSTIVELY_SEARCHED`
 
+Need exact clip/timecodes supplied or catalogued and compared to raw air-to-ground tapes.
+
+## S3 — ISS delay and live school/music events
 **State:** `SEARCHED_FOUND`
 
-Findings:
-- President Nixon approved the Space Shuttle in 1972.
-- U.S. human-spaceflight focus shifted strongly toward low Earth orbit, Skylab, Shuttle and eventually space-station operations.
+Sources:
+- NASA TDRS/ISS communications
+- NASA ISS payload latency guidance
+- Canadian Space Agency / Canada Music Monday archive
 
-## Search S3 — Was lunar exploration abandoned entirely?
-**Question:** Did humanity stop exploring the Moon after 1972?
+Finding: crew comms <1 s network delay; 5–15 s figures belong to specific payload/video pipelines; Hadfield event officially live.
 
-**Sources searched:** NASA Moon Missions and Commercial Lunar Payload Services records.
-
+## S4 — Apollo 11 ladder geometry
 **State:** `SEARCHED_FOUND`
 
-Findings:
-- robotic exploration continued across multiple nations;
-- recent successful or partly successful lunar missions include Chang'e 6, SLIM, IM-1, Blue Ghost 1 and other commercial/state missions;
-- the absence is specifically a crewed surface-landing gap, not a total lunar-exploration gap.
+Source: Apollo 11 Lunar Surface Journal mission summary.
 
-## Search S4 — Current crewed return state
-**Question:** Is humanity now rebuilding crewed lunar access?
+Finding: ~3 ft bottom rung to LM footpad, then inches to surface.
 
-**Sources searched:** NASA Artemis current pages, GAO 2026, current reporting on China's crewed lunar program.
-
+## S5 — Lunar Roving Vehicle stowage
 **State:** `SEARCHED_FOUND`
 
-Current September 2026 state:
-- Artemis II successfully carried four astronauts around the Moon in April 2026;
-- Artemis III is planned as a 2027 Earth-orbit lander/docking demonstration;
-- NASA targets Artemis IV for the first new crewed lunar landing in early 2028;
-- China states a goal of landing astronauts on the Moon by 2030.
+Sources:
+- Apollo 15 Mission Report
+- Apollo 17 Press Kit
+- NASA Apollo program histories
 
-Important boundary: future launch/landing dates are plans, not findings of future success.
+Finding: LRV first used Apollo 15; folded into descent-stage bay and deployed by cables/lanyards. Supplied image is Apollo 14 and should not contain an LRV.
 
-## Search S5 — Human success/prestige following
-**Question:** Is the originating behavioural observation compatible with empirical social-learning research?
-
-**Sources searched:** peer-reviewed work on success-biased and prestige-biased social learning.
-
+## S6 — Lunar ascent television camera
 **State:** `SEARCHED_FOUND`
 
-Findings:
-- human cultural learning often preferentially copies successful or prestigious models;
-- the effect is context-sensitive and should not be treated as a universal law;
-- direct success information, social prestige and environmental constraints interact.
+Sources:
+- 1972 Ground-Commanded Television Assembly contractor report
+- NASA Apollo Television history
+- Apollo 15/16/17 histories
 
-## Search S6 — Alternative explanations
-**Question:** Is there evidence that the post-1972 gap is best explained by a single technical impossibility?
+Finding: rover-mounted Earth-commanded camera was contemporaneously documented; Apollo 15 suffered elevation-drive problem; tracking sequences were pre-timed for lunar delay.
 
-**State:** `SEARCHED_NO_SUPPORT_FOR_MONOCAUSE`
+## S7 — Lunar Module exterior construction
+**State:** `SEARCHED_FOUND`
 
-The historical evidence inspected instead supports a multi-factor field: finite political objective, changing prestige reward, budget decline, production-line shutdown, mission cancellation, program redirection, risk, and high re-entry cost for rebuilding an integrated lunar architecture.
+Source: Apollo Lunar Module News Reference.
 
-## Known gaps
-- no quantitative causal decomposition assigning percentages to politics, cost, risk and infrastructure;
-- no full comparative analysis of Soviet/Russian, European, Chinese and commercial crewed-lunar decision histories;
-- behavioural prestige/success literature does not specifically predict lunar exploration decisions;
-- current Artemis and Chinese schedules remain subject to change.
+Finding: structural aluminium vehicle beneath multilayer thermal/micrometeoroid blankets; blanket sheets intentionally hand-crinkled.
+
+## S8 — Apollo radiation protection
+**State:** `SEARCHED_FOUND`
+
+Source: NASA Biomedical Results of Apollo / NTRS.
+
+Finding: low mission doses partly reflect absence of major solar-particle events; a large event could have been serious. Reflective blankets should not be described as comprehensive radiation armour.
+
+## S9 — Earth/Hubble ability to see Apollo hardware
+**State:** `SEARCHED_FOUND`
+
+Source: NASA/Hubble APOD.
+
+Finding: Hubble lunar resolving scale ~80 m, far larger than LM/rover.
+
+## S10 — LRO landing-site imagery
+**State:** `SEARCHED_FOUND`
+
+Source: NASA SVS / LRO.
+
+Finding: favourable Apollo-site imagery ~0.48 m/pixel; hardware spans only several pixels; individual bootprints are below pixel scale.
+
+## S11 — Independent non-US orbital observation
+**State:** `SEARCHED_FOUND`
+
+Source: JAXA KAGUYA.
+
+Finding: Apollo 15 halo/terrain consistency observed; 10 m terrain camera cannot resolve hardware.
+
+## S12 — Independent sub-metre camera
+**State:** `SEARCHED_CAPABILITY_FOUND / TARGET_IMAGE_NOT_RETRIEVED`
+
+Source: ISRO Chandrayaan-2 OHRC documentation.
+
+Finding: ~0.25–0.32 m sampling; science objectives explicitly include Apollo/Luna anthropogenic sites. No official Apollo-site OHRC frame located in this run.
+
+## S13 — Independent radio tracking
+**State:** `SEARCHED_FOUND`
+
+Source: Jodrell Bank.
+
+Finding: independent tracking of Apollo 11/Eagle descent signal while monitoring Luna 15.
+
+## S14 — Lunar laser ranging
+**State:** `SEARCHED_FOUND`
+
+Sources:
+- Apache Point Observatory
+- International Laser Ranging Service / peer-reviewed LLR literature
+
+Finding: separate Apollo and Soviet reflector targets routinely ranged.
+
+## S15 — Apollo sample corpus
+**State:** `SEARCHED_FOUND`
+
+Sources:
+- Lunar and Planetary Institute / USRA
+- sample catalogues
+
+Finding: ~381.7 kg / 2,196 samples including deep cores and multi-site geology.
+
+## S16 — Surface experiment coordinates
+**State:** `SEARCHED_FOUND`
+
+Source: peer-reviewed JGR geodesy using laser ranging and VLBI.
+
+## S17 — Artemis II imagery geometry
+**State:** `SEARCHED_FOUND`
+
+Sources:
+- NASA April 2026 Artemis II releases
+
+Finding: closest lunar approach ~6,545 km; crew photography used handheld cameras including 400 mm lens. Not a low-altitude landing-site mapping experiment.
+
+## S18 — Alternative staged models
+**State:** `PARTIALLY DECOMPOSED / NOT EXHAUSTIVELY ADJUDICATED`
+
+The inquiry distinguishes staged-TV, Earth-orbit crew, secret robotic emplacement/sample return, spoofed tracking, and coordinated later-record alternatives. A full formal likelihood/model-comparison remains research debt.
+
+## S19 — Post-1972 replication gap
+**State:** `DEFERRED TO SECOND-STAGE INQUIRY`
+
+Historical policy/program evidence exists, but OGI will not treat it as a complete explanation until the replication-gap question is independently audited.
