@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/seanndiamond/Geonosis/ogi/schemas/inquiry_case.schema.json",
+  "title": "OGI Adversarial Inquiry Case",
+  "description": "Outcome-blind case record for OGI v0.3 complex inquiry.",
+  "type": "object",
+  "required": [
+    "case_id",
+    "subject",
+    "purpose",
+    "desired_finding",
+    "legal_standing",
+    "originating_observation",
+    "originating_question",
+    "permitted_outcomes",
+    "current_state",
+    "reopenable",
+    "ogi_evaluation"
+  ],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "subject": {"type": "string", "minLength": 1},
+    "purpose": {"type": "string", "minLength": 1},
+    "desired_finding": {
+      "oneOf": [
+        {"const": "NONE"},
+        {"type": "string", "minLength": 1}
+      ]
+    },
+    "legal_standing": {
+      "enum": ["NONE", "LEGAL", "REGULATORY", "INTERNAL", "UNKNOWN"]
+    },
+    "originating_observation": {"type": "string", "minLength": 1},
+    "originating_question": {"type": "string", "minLength": 1},
+    "current_questions": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "permitted_outcomes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED",
+          "UNRESOLVED",
+          "INSUFFICIENT_EVIDENCE",
+          "ARCHITECTURE_FAILURE"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "prohibited_shortcuts": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "current_state": {
+      "enum": [
+        "OPEN",
+        "EXPLORING",
+        "RETURN_REQUIRED",
+        "ADJUDICATING",
+        "HOLD",
+        "CLOSED_PROVISIONAL",
+        "REOPENED"
+      ]
+    },
+    "reopenable": {"type": "boolean"},
+    "search_ledger": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["search_id", "question", "date", "database_or_source", "search_state"],
+        "properties": {
+          "search_id": {"type": "string"},
+          "question": {"type": "string"},
+          "jurisdiction": {"type": ["string", "null"]},
+          "language": {"type": ["string", "null"]},
+          "database_or_source": {"type": "string"},
+          "query_or_method": {"type": ["string", "null"]},
+          "date": {"type": "string", "format": "date"},
+          "inclusion_rule": {"type": ["string", "null"]},
+          "exclusion_rule": {"type": ["string", "null"]},
+          "search_state": {
+            "enum": [
+              "SEARCHED_FOUND",
+              "SEARCHED_NONE_FOUND",
+              "NOT_SEARCHED",
+              "INACCESSIBLE",
+              "KNOWN_BUT_NOT_RETRIEVED",
+              "PROPRIETARY_NOT_INSPECTED",
+              "SEARCH_METHOD_LIMITED"
+            ]
+          },
+          "known_gaps": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "institutional_provenance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_id": {"type": "string"},
+          "funding_source": {"type": ["string", "null"]},
+          "sponsor": {"type": ["string", "null"]},
+          "sponsor_role": {"type": ["string", "null"]},
+          "author_conflicts": {"type": ["string", "null"]},
+          "data_owner": {"type": ["string", "null"]},
+          "raw_data_access": {"type": ["string", "null"]},
+          "publication_route": {"type": ["string", "null"]},
+          "regulatory_submission_status": {"type": ["string", "null"]},
+          "correction_or_retraction_status": {"type": ["string", "null"]},
+          "independent_replication_status": {"type": ["string", "null"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "incentive_graph": {
+      "type": "object",
+      "properties": {
+        "nodes": {"type": "array", "items": {"type": "object"}},
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["from", "to", "relation", "status"],
+            "properties": {
+              "from": {"type": "string"},
+              "to": {"type": "string"},
+              "relation": {"type": "string"},
+              "status": {"enum": ["DOCUMENTED", "INFERRED", "ALLEGED", "UNKNOWN"]},
+              "evidence_refs": {"type": "array", "items": {"type": "string"}}
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "research_debt": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question", "status"],
+        "properties": {
+          "question": {"type": "string"},
+          "status": {"enum": ["DOCUMENTED", "SUSPECTED", "RESOLVED"]},
+          "reason": {"type": ["string", "null"]},
+          "confidence_effect": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "subject_finding": {
+      "type": ["object", "null"],
+      "properties": {
+        "status": {
+          "enum": ["SUPPORTED", "UNSUPPORTED", "MIXED", "UNRESOLVED", "INSUFFICIENT_EVIDENCE"]
+        },
+        "summary": {"type": "string"},
+        "reopen_conditions": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "ogi_evaluation": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["NOT_RUN", "PASS", "MIXED", "FAIL", "UNRESOLVED"]},
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": {
+            "enum": ["PASS", "WARN", "FAIL", "UNKNOWN", "NOT_TESTED"]
+          }
+        },
+        "observed_failures": {"type": "array", "items": {"type": "string"}},
+        "required_changes": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "human_accountability": {
+      "type": "object",
+      "properties": {
+        "publisher_or_operator": {"type": ["string", "null"]},
+        "publication_authorized": {"type": "boolean"},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}
