@@ -29,6 +29,21 @@ OGI therefore treats the following as first-class system objects:
 
 This directory is intended to expose the staircase from idea to implementation. It is not a black-box claim that OGI works.
 
+## You do not need to code to contribute
+
+A real-world problem is useful evidence.
+
+If you mow lawns, teach children, run a shop, care for animals, drive trucks, work in health care, manage people, farm, build things, parent, volunteer, or simply notice a system behaving strangely, you can bring that problem to OGI without writing a line of software.
+
+Start here:
+
+- [`START_HERE_NO_CODE.md`](START_HERE_NO_CODE.md) — five-minute plain-language route for non-technical contributors.
+- GitHub **Issues → New issue → OGI: Real-world problem / question** — describe what is happening in ordinary language.
+
+You may write **I don't know** wherever you do not know an answer. Unknown is a valid state.
+
+**Bring the problem. Show us the field.**
+
 ## Why Oggy exists
 
 The project grew from three converging observations:
@@ -51,6 +66,9 @@ The shared engineering lesson is narrower:
 - [`schemas/return_state.schema.json`](schemas/return_state.schema.json) — machine-readable return-state record.
 - [`benchmarks/RETURN_FAIL_TESTS.md`](benchmarks/RETURN_FAIL_TESTS.md) — regression suite T-11 through T-20.
 - [`ROADMAP.md`](ROADMAP.md) — smallest viable implementation path.
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — technical contribution and challenge process.
+- [`GOVERNANCE.md`](GOVERNANCE.md) — how the public reference state changes.
+- [`CURRENT_STATE.json`](CURRENT_STATE.json) — machine-readable current reference state.
 
 OGI extends the existing Persistent Research Intelligence / Epistemic Scope Controller architecture already developed in the Geonosis research workflow. It does not replace the evidence ladder. It adds a behavioural and relational control layer beside it.
 
@@ -96,6 +114,8 @@ OGI should be weakened or rejected if controlled testing shows that:
 This is intentionally public.
 
 Build it differently. Break it. Reproduce it. Replace parts. Bring a better controller. Show a case where actor-only analysis performs better. Show a case where our return logic fails.
+
+Or simply bring a real problem that you think the current way of thinking gets wrong.
 
 The point is not ownership of the answer.
 
