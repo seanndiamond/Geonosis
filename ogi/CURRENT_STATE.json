@@ -96,6 +96,21 @@
     "run_type": "manual_application_of_v0.3_specification",
     "strongest_limitation": "v0.3 inquiry controls are specified but not yet fully implemented as an executable Oggy runtime"
   },
+  "second_stress_test": {
+    "case_id": "COP-OGI-002",
+    "directory": "cases/COP-OGI-002/",
+    "subject": "spinach, iron, and inherited nutrition folklore",
+    "purpose": "stress-test OGI on correction of a familiar lay belief and resistance to an attractive counter-myth",
+    "desired_finding": "NONE",
+    "legal_standing": "NONE",
+    "paper_role": "Appendix B / supporting stress test",
+    "run_state": "CLOSED_PROVISIONAL",
+    "subject_finding": "MIXED",
+    "ogi_evaluation": "MIXED",
+    "reopenable": true,
+    "run_type": "manual_application_of_v0.3_specification",
+    "candidate_lesson": "COUNTER_MYTH_CAPTURE: a corrective explanation can gain authority because it opposes a misconception while its own derivation remains incomplete"
+  },
   "open_frontier": [
     "Implement Shared Coherence Kernel",
     "Implement Local Exploration Loop",
@@ -104,8 +119,10 @@
     "Implement adjudicated integration gate",
     "Convert T-21 through T-33 to executable tests",
     "Rerun COP-OGI-001 against implemented v0.3 runtime",
+    "Rerun COP-OGI-002 against implemented v0.3 runtime",
     "Retrieve site-specific evidence for COP-OGI-001",
     "Run fresh-model continuity and adversarial inquiry tests",
+    "Evaluate whether COUNTER_MYTH_CAPTURE recurs enough to enter the formal failure taxonomy",
     "Cross-framework implementation",
     "Multi-agent coherence tests"
   ]

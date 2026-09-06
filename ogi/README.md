@@ -144,9 +144,7 @@ The canonical Court of Provenance lives at:
 
 It has **no legal standing**. It is an evidence-adjudication methodology used to inspect claims, provenance, derivation, alternatives, contradictions, unknowns, reopening, and supersession.
 
-## First complex stress test — COP-OGI-001
-
-The first public complex case has now been run manually against the v0.3 specification.
+## Stress test A — COP-OGI-001
 
 Subject: glyphosate and riverbank weed-management field.
 
@@ -169,14 +167,41 @@ case state: CLOSED_PROVISIONAL
 
 Read the complete case:
 
-- [`cases/COP-OGI-001/README.md`](cases/COP-OGI-001/README.md) — case index.
-- [`cases/COP-OGI-001/APPENDIX_A.md`](cases/COP-OGI-001/APPENDIX_A.md) — readable Appendix A.
-- [`cases/COP-OGI-001/CASE.json`](cases/COP-OGI-001/CASE.json) — machine-readable case state.
-- [`cases/COP-OGI-001/SEARCH_LEDGER.md`](cases/COP-OGI-001/SEARCH_LEDGER.md) — search provenance.
-- [`cases/COP-OGI-001/EVIDENCE_LEDGER.md`](cases/COP-OGI-001/EVIDENCE_LEDGER.md) — evidence and claim boundaries.
-- [`cases/COP-OGI-001/OGI_EVALUATION.md`](cases/COP-OGI-001/OGI_EVALUATION.md) — separate OGI scorecard.
+- [`cases/COP-OGI-001/README.md`](cases/COP-OGI-001/README.md)
+- [`cases/COP-OGI-001/APPENDIX_A.md`](cases/COP-OGI-001/APPENDIX_A.md)
+- [`cases/COP-OGI-001/CASE.json`](cases/COP-OGI-001/CASE.json)
+- [`cases/COP-OGI-001/SEARCH_LEDGER.md`](cases/COP-OGI-001/SEARCH_LEDGER.md)
+- [`cases/COP-OGI-001/EVIDENCE_LEDGER.md`](cases/COP-OGI-001/EVIDENCE_LEDGER.md)
+- [`cases/COP-OGI-001/OGI_EVALUATION.md`](cases/COP-OGI-001/OGI_EVALUATION.md)
 
 The case did not resolve the subject to a simple `safe` or `poison` verdict. It returned a decomposed, reopenable state and separately found that v0.3 still lacks executable enforcement of several specified controls.
+
+## Stress test B — COP-OGI-002
+
+Subject: spinach, iron, and inherited nutrition folklore.
+
+Originating question:
+
+> When I was a kid growing up, we were told that spinach had much more iron in it than other vegetables. What should I tell my children?
+
+Provisional result:
+
+```text
+subject finding: MIXED
+OGI performance: MIXED
+case state: CLOSED_PROVISIONAL
+```
+
+Read the complete case:
+
+- [`cases/COP-OGI-002/README.md`](cases/COP-OGI-002/README.md)
+- [`cases/COP-OGI-002/APPENDIX_B.md`](cases/COP-OGI-002/APPENDIX_B.md)
+- [`cases/COP-OGI-002/CASE.json`](cases/COP-OGI-002/CASE.json)
+- [`cases/COP-OGI-002/SEARCH_LEDGER.md`](cases/COP-OGI-002/SEARCH_LEDGER.md)
+- [`cases/COP-OGI-002/EVIDENCE_LEDGER.md`](cases/COP-OGI-002/EVIDENCE_LEDGER.md)
+- [`cases/COP-OGI-002/OGI_EVALUATION.md`](cases/COP-OGI-002/OGI_EVALUATION.md)
+
+This case exposed a candidate failure mode: **counter-myth capture**. A system may correctly reject an inherited misconception and then adopt an attractive debunking explanation whose own derivation chain is weak. The label remains experimental and has not been promoted into the formal OGI failure taxonomy.
 
 The subject conclusion is not the OGI test result.
 
