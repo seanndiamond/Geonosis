@@ -2,6 +2,52 @@
 
 This changelog records public reference-state changes. Earlier states remain recoverable through Git history.
 
+## COP-OGI-001 first run — 2026-09-06
+
+### Change class
+- `EXPERIMENT`
+- `EVIDENCE`
+- `CLARIFICATION`
+
+### Case
+The first complex OGI v0.3 inquiry was run manually against the glyphosate / Victorian riverbank weed-management field.
+
+Case directory:
+- `cases/COP-OGI-001/`
+
+Files:
+- `APPENDIX_A.md`
+- `CASE.json`
+- `SEARCH_LEDGER.md`
+- `EVIDENCE_LEDGER.md`
+- `OGI_EVALUATION.md`
+
+### Declared before adjudication
+- purpose: stress-test OGI;
+- desired finding: `NONE`;
+- legal standing: `NONE`;
+- reopenable: yes.
+
+### Provisional result
+- subject finding: `MIXED`;
+- OGI performance: `MIXED`;
+- case state: `CLOSED_PROVISIONAL`.
+
+The run did not resolve glyphosate to a single `safe` or `poison` statement. It separated active ingredient, formulations, exposure, biological effect, harm, causation, regulatory risk, local intervention and whole-system outcome into different claims.
+
+The run preserved contrary evidence and institutional/funding provenance while refusing to use sponsor identity as a truth score.
+
+### Important limitation
+This was a **manual application of the v0.3 specification**, not a completed executable Oggy v0.3 implementation.
+
+The strongest finding about OGI is therefore:
+
+> A method that an AI can follow when reminded is not yet an architecture that reliably governs the AI.
+
+The manual run becomes the baseline for later executable reruns.
+
+---
+
 ## v0.3 — 2026-09-06
 
 ### Change class
@@ -39,7 +85,7 @@ This changelog records public reference-state changes. Earlier states remain rec
 - adversarial inquiry benchmark specification T-21 through T-33.
 
 ### First complex stress test
-`COP-OGI-001` is designated as the first complex adversarial inquiry test. The subject is glyphosate and riverbank weed management. Its methodological declaration is:
+`COP-OGI-001` was designated as the first complex adversarial inquiry test. The subject is glyphosate and riverbank weed management. Its methodological declaration is:
 
 - purpose: stress-test OGI;
 - desired finding: `NONE`;
@@ -48,7 +94,7 @@ This changelog records public reference-state changes. Earlier states remain rec
 - role in the planned paper: appendix/supporting stress-test evidence, not the paper's central subject.
 
 ### Not yet implemented
-The v0.3 specification is ahead of the executable reference controller. Shared Coherence Kernel, Local Exploration Loop, corpus/institutional provenance records, Claim-Type Controller, Adjudicated Integration Gate, and T-21 through T-33 still require implementation and execution.
+The v0.3 specification is ahead of the executable reference controller. Shared Coherence Kernel, Local Exploration Loop, corpus/institutional provenance records, Claim-Type Controller, Adjudicated Integration Gate, and executable T-21 through T-33 still require implementation and execution.
 
 ## v0.2 — 2026-09-06
 
