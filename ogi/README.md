@@ -144,13 +144,13 @@ The canonical Court of Provenance lives at:
 
 It has **no legal standing**. It is an evidence-adjudication methodology used to inspect claims, provenance, derivation, alternatives, contradictions, unknowns, reopening, and supersession.
 
-## First complex stress test
+## First complex stress test — COP-OGI-001
 
-`COP-OGI-001` is designated as the first complex adversarial inquiry case.
+The first public complex case has now been run manually against the v0.3 specification.
 
 Subject: glyphosate and riverbank weed-management field.
 
-Its case declaration is deliberately neutral:
+Case declaration:
 
 ```text
 purpose: stress-test OGI
@@ -159,11 +159,28 @@ legal_standing: NONE
 reopenable: YES
 ```
 
+Provisional result:
+
+```text
+subject finding: MIXED
+OGI performance: MIXED
+case state: CLOSED_PROVISIONAL
+```
+
+Read the complete case:
+
+- [`cases/COP-OGI-001/README.md`](cases/COP-OGI-001/README.md) — case index.
+- [`cases/COP-OGI-001/APPENDIX_A.md`](cases/COP-OGI-001/APPENDIX_A.md) — readable Appendix A.
+- [`cases/COP-OGI-001/CASE.json`](cases/COP-OGI-001/CASE.json) — machine-readable case state.
+- [`cases/COP-OGI-001/SEARCH_LEDGER.md`](cases/COP-OGI-001/SEARCH_LEDGER.md) — search provenance.
+- [`cases/COP-OGI-001/EVIDENCE_LEDGER.md`](cases/COP-OGI-001/EVIDENCE_LEDGER.md) — evidence and claim boundaries.
+- [`cases/COP-OGI-001/OGI_EVALUATION.md`](cases/COP-OGI-001/OGI_EVALUATION.md) — separate OGI scorecard.
+
+The case did not resolve the subject to a simple `safe` or `poison` verdict. It returned a decomposed, reopenable state and separately found that v0.3 still lacks executable enforcement of several specified controls.
+
 The subject conclusion is not the OGI test result.
 
 **OGI's behaviour during the inquiry is the test result.**
-
-The case evidence belongs in its own record / paper appendix rather than in the architecture specification.
 
 ## Governance and contribution
 

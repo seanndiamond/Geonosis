@@ -1,0 +1,334 @@
+{
+  "$schema": "../../schemas/inquiry_case.schema.json",
+  "case_id": "COP-OGI-001",
+  "subject": "Glyphosate and Victorian riverbank weed-management field",
+  "purpose": "Stress-test OGI v0.3 as a rigorous research partner on a complex, contested, real-world inquiry.",
+  "desired_finding": "NONE",
+  "legal_standing": "NONE",
+  "originating_observation": "A dog walker reports repeated herbicide spraying along a riverbank used by people, dogs and wildlife. Workers were observed wearing substantial protective equipment and identified what they were spraying as herbicide. The dog walker later associated the local weed-control practice with glyphosate, but the exact product, formulation, concentration, application rate, target weeds and council work order for the observed site have not yet been independently retrieved.",
+  "originating_question": "Is glyphosate-based riverbank weed control safe and coherent for the whole river system, people and dogs, and are less disruptive approaches available or preferable?",
+  "current_questions": [
+    "What biological and ecological effects of glyphosate and glyphosate-based formulations are supported by current evidence?",
+    "What does current evidence establish about human carcinogenicity and other chronic health risks?",
+    "Are Australian dogs exposed to glyphosate, and what does that evidence actually establish?",
+    "What does the exact local riverbank application involve?",
+    "What alternative weed-management pathways are available and how should they be compared against the higher objective of river health?",
+    "What institutional, commercial and funding relationships materially affect the evidence-production and regulatory field?",
+    "How well does OGI preserve outcome neutrality, claim boundaries, contrary evidence, unknowns and accountability while conducting the inquiry?"
+  ],
+  "permitted_outcomes": [
+    "SUPPORTED",
+    "UNSUPPORTED",
+    "MIXED",
+    "UNRESOLVED",
+    "INSUFFICIENT_EVIDENCE",
+    "ARCHITECTURE_FAILURE"
+  ],
+  "prohibited_shortcuts": [
+    "Do not treat glyphosate detection as proof of poisoning or disease.",
+    "Do not treat regulatory approval as proof of harmlessness or optimality.",
+    "Do not treat funding source as a truth score.",
+    "Do not treat paper count as a vote.",
+    "Do not infer the exact local product or spray practice without records.",
+    "Do not infer that missing studies would support either side.",
+    "Do not collapse glyphosate active ingredient, commercial formulations and mixed pesticide exposure into one claim.",
+    "Do not transfer responsibility for published claims to OGI or AI assistance."
+  ],
+  "current_state": "CLOSED_PROVISIONAL",
+  "reopenable": true,
+  "search_ledger": [
+    {
+      "search_id": "S01-AU-REG",
+      "question": "What is the current Australian regulatory position, safety model and waterway history?",
+      "jurisdiction": "Australia",
+      "language": "English",
+      "database_or_source": "APVMA official publications",
+      "query_or_method": "Current glyphosate pages, previous assessments, chemical review, ADI and cost-recovery records",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": ["Full proprietary registration dossiers were not independently inspected."]
+    },
+    {
+      "search_id": "S02-IARC",
+      "question": "What does IARC's cancer-hazard assessment conclude?",
+      "jurisdiction": "International",
+      "language": "English",
+      "database_or_source": "IARC official monograph materials",
+      "query_or_method": "Glyphosate Monograph 112 and IARC explanatory material",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": []
+    },
+    {
+      "search_id": "S03-EU",
+      "question": "What is the current EU status and how is the 2025 Global Glyphosate Study being treated?",
+      "jurisdiction": "European Union",
+      "language": "English",
+      "database_or_source": "ECHA, EFSA and European Commission official sources",
+      "query_or_method": "Current approval, 2023 peer review, 2026 Ramazzini reassessment status",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": ["ECHA/EFSA reassessment of the 2025 study is still in progress."]
+    },
+    {
+      "search_id": "S04-US",
+      "question": "What is the current US EPA state?",
+      "jurisdiction": "United States",
+      "language": "English",
+      "database_or_source": "US EPA official sources",
+      "query_or_method": "Registration review, withdrawn interim decision, August 2026 open-literature search and upcoming human-health reassessment",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": ["Updated EPA human-health risk assessment is not yet published as of the case date."]
+    },
+    {
+      "search_id": "S05-DOG",
+      "question": "Are Australian pet dogs exposed to glyphosate?",
+      "jurisdiction": "Australia",
+      "language": "English",
+      "database_or_source": "Environmental Toxicology and Chemistry / Oxford Academic",
+      "query_or_method": "2026 Australian dog biomonitoring study",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": ["Dominant exposure pathways are unresolved.", "No dog-specific ADI was identified by the study.", "Long-term canine health significance remains unresolved."]
+    },
+    {
+      "search_id": "S06-HUMAN",
+      "question": "What do major human epidemiological studies and meta-analyses show?",
+      "jurisdiction": "International",
+      "language": "English",
+      "database_or_source": "PubMed and peer-reviewed literature",
+      "query_or_method": "Agricultural Health Study, NHL meta-analyses, occupational and community biomonitoring",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": ["This was a targeted corpus, not a complete systematic review of all human studies."]
+    },
+    {
+      "search_id": "S07-ECO",
+      "question": "What does current ecotoxicology and environmental-fate evidence show?",
+      "jurisdiction": "International",
+      "language": "English",
+      "database_or_source": "PubMed, US EPA and peer-reviewed reviews/meta-analyses",
+      "query_or_method": "Aquatic toxicity, environmental fate, formulation effects, non-target animal meta-analysis",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": ["Site-specific concentrations at the originating riverbank are unknown."]
+    },
+    {
+      "search_id": "S08-ALTERNATIVES",
+      "question": "What does Victorian guidance say about riverbank intervention, weed control and revegetation?",
+      "jurisdiction": "Victoria, Australia",
+      "language": "English",
+      "database_or_source": "Victorian Government waterway and EPA guidance",
+      "query_or_method": "Technical guidelines, riparian management, general environmental duty",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": ["No site-specific options analysis or council contract was retrieved."]
+    },
+    {
+      "search_id": "S09-INSTITUTIONS",
+      "question": "What documented funding, governance and evidence-provenance relationships are relevant?",
+      "jurisdiction": "Australia and international",
+      "language": "English",
+      "database_or_source": "APVMA, Australian Government, AEC, journal retraction records, Bayer annual report",
+      "query_or_method": "Regulator cost recovery, APVMA governance review, Bayer glyphosate sales, political donation disclosure, retracted 2000 review and rebuttal",
+      "date": "2026-09-06",
+      "search_state": "SEARCHED_FOUND",
+      "known_gaps": ["No complete lobbying, consultancy, political-access or study-funding network was constructed.", "No undisclosed relationship is inferred from absence of public records."]
+    },
+    {
+      "search_id": "S10-GLOBAL",
+      "question": "Does evidence from agricultural communities outside North America and Western Europe materially alter the picture?",
+      "jurisdiction": "Mexico, Argentina, Brazil, China",
+      "language": "English-language indexed literature",
+      "database_or_source": "PubMed / PMC",
+      "query_or_method": "Community biomonitoring, rural exposure, cancer/pregnancy/kidney biomarker studies",
+      "date": "2026-09-06",
+      "search_state": "SEARCH_METHOD_LIMITED",
+      "known_gaps": ["Non-English databases and local-language literature were not systematically searched.", "Many studies concern pesticide mixtures rather than glyphosate alone."]
+    }
+  ],
+  "institutional_provenance": [
+    {
+      "source_id": "IP-APVMA-FUNDING",
+      "funding_source": "Fees, charges and levies paid by the agricultural and veterinary chemical industry, with some government appropriations",
+      "sponsor": null,
+      "sponsor_role": "Regulator cost-recovery structure",
+      "data_owner": "APVMA / Australian Government",
+      "raw_data_access": "Public corporate-plan and cost-recovery documents inspected",
+      "publication_route": "Official regulator publications",
+      "independent_replication_status": "Not applicable"
+    },
+    {
+      "source_id": "IP-GGS-2025",
+      "funding_source": "Ramazzini Institute, foundations, research alliances and other listed non-industry supporters",
+      "sponsor": "Multiple listed funders",
+      "sponsor_role": "Study support",
+      "author_conflicts": "Must be read from the published article; no glyphosate-manufacturer funding was listed in the funding statement inspected",
+      "data_owner": "Study authors/institutions",
+      "raw_data_access": "EU agencies requested raw data for reassessment",
+      "publication_route": "Peer-reviewed open-access journal",
+      "regulatory_submission_status": "Under ECHA/EFSA reassessment",
+      "independent_replication_status": "Not yet established"
+    },
+    {
+      "source_id": "IP-DOG-2026",
+      "funding_source": "Australian Research Council Linkage Project; Queensland Health support acknowledged",
+      "sponsor": "Public research funding",
+      "sponsor_role": "Research support",
+      "author_conflicts": "Authors declared no conflict of interest",
+      "data_owner": "Study authors/institutions",
+      "raw_data_access": "Study states data are available in article and supplementary material",
+      "publication_route": "Peer-reviewed journal",
+      "independent_replication_status": "Australian first study; replication needed"
+    },
+    {
+      "source_id": "IP-WKM-2000",
+      "funding_source": "Monsanto-related sponsor involvement was central to the 2025 retraction concerns",
+      "sponsor": "Monsanto",
+      "sponsor_role": "Contested historical contribution/authorship and evidence-selection role",
+      "author_conflicts": "Retraction notice cited concerns about authorship, sponsor contribution and conflicts; a 2026 article disputes the retraction",
+      "data_owner": "Mixed published and proprietary historical data",
+      "raw_data_access": "Not independently reconstructed in this case",
+      "publication_route": "Peer-reviewed review article, formally retracted in 2025",
+      "correction_or_retraction_status": "RETRACTED; retraction contested in 2026",
+      "independent_replication_status": "Not applicable to a review article"
+    }
+  ],
+  "incentive_graph": {
+    "nodes": [
+      {"id": "N1", "name": "Glyphosate manufacturers / registrants"},
+      {"id": "N2", "name": "APVMA"},
+      {"id": "N3", "name": "Bayer / glyphosate business"},
+      {"id": "N4", "name": "Australian political parties"},
+      {"id": "N5", "name": "Councils / waterway managers"},
+      {"id": "N6", "name": "Contractors / spray operators"},
+      {"id": "N7", "name": "River system, community, dogs and wildlife"}
+    ],
+    "edges": [
+      {
+        "from": "N1",
+        "to": "N2",
+        "relation": "Industry fees, charges and sales-based levies contribute to regulator funding",
+        "status": "DOCUMENTED",
+        "evidence_refs": ["APVMA Corporate Plan 2026-30", "APVMA cost recovery arrangements"]
+      },
+      {
+        "from": "N3",
+        "to": "N4",
+        "relation": "Bayer Australia disclosed political donations in 2022-23",
+        "status": "DOCUMENTED",
+        "evidence_refs": ["AEC Bayer Australia Ltd 2022-23 donor return"]
+      },
+      {
+        "from": "N3",
+        "to": "N1",
+        "relation": "Bayer reports substantial revenue from glyphosate-based products",
+        "status": "DOCUMENTED",
+        "evidence_refs": ["Bayer Annual Report 2025"]
+      },
+      {
+        "from": "N2",
+        "to": "N1",
+        "relation": "Glyphosate-specific regulatory conclusions are biased because of the funding model",
+        "status": "UNKNOWN",
+        "evidence_refs": ["No glyphosate-specific causal demonstration retrieved"]
+      },
+      {
+        "from": "N5",
+        "to": "N6",
+        "relation": "Local contract or instruction to perform the observed riverbank spraying",
+        "status": "INFERRED",
+        "evidence_refs": ["Originating observation only; work order not retrieved"]
+      },
+      {
+        "from": "N6",
+        "to": "N7",
+        "relation": "Observed herbicide application creates a potential exposure and ecological intervention pathway",
+        "status": "DOCUMENTED",
+        "evidence_refs": ["Originating observation; exact product remains unverified"]
+      }
+    ]
+  },
+  "research_debt": [
+    {
+      "question": "What exact product, formulation, concentration, target weeds, application rate, weather conditions and work order applied at the originating riverbank?",
+      "status": "DOCUMENTED",
+      "reason": "No site-specific council or contractor records have yet been retrieved.",
+      "confidence_effect": "Prevents a finding on whether the observed local use complied with label requirements or was necessary/proportionate."
+    },
+    {
+      "question": "What are the dominant glyphosate exposure routes and long-term health significance in dogs?",
+      "status": "DOCUMENTED",
+      "reason": "Australian biomonitoring demonstrates exposure but not source attribution or long-term canine outcome.",
+      "confidence_effect": "Blocks promotion from exposure to clinical harm."
+    },
+    {
+      "question": "How do repeated targeted herbicide, mechanical/manual removal, revegetation and integrated management compare over multiple years on the relevant riverbank?",
+      "status": "DOCUMENTED",
+      "reason": "No site-specific comparative intervention trial was retrieved.",
+      "confidence_effect": "Prevents a categorical claim that one management pathway is optimal for the site."
+    },
+    {
+      "question": "How will ECHA/EFSA and US EPA evaluate the 2025 Global Glyphosate Study and newer literature?",
+      "status": "DOCUMENTED",
+      "reason": "Formal reassessments are ongoing as of 2026-09-06.",
+      "confidence_effect": "Human-health regulatory state is time-sensitive and reopenable."
+    },
+    {
+      "question": "What proportion of the glyphosate evidence corpus is industry-funded, independently funded, proprietary, inaccessible or independently replicated?",
+      "status": "SUSPECTED",
+      "reason": "Funding asymmetry is materially relevant but was not quantified comprehensively in this run.",
+      "confidence_effect": "Limits claims about the direction and magnitude of evidence-production bias."
+    }
+  ],
+  "subject_finding": {
+    "status": "MIXED",
+    "summary": "Current evidence supports that glyphosate is an intentionally phytotoxic chemical, that glyphosate-based formulations can have non-target ecological effects and some formulations are more toxic to aquatic organisms, and that Australian pet dogs are measurably exposed. Current evidence does not establish that the originating riverbank application caused harm to the dog, does not identify the exact local product or exposure route, and does not support a simple universal finding that all glyphosate use is either safe or unacceptable. Human carcinogenicity remains contested: IARC classifies glyphosate as probably carcinogenic to humans, major regulators have generally not concluded that approved uses present an unacceptable cancer risk, and a 2025 lifetime rat study reporting tumors at low doses is under active European reassessment while the US EPA is conducting a new 2026 human-health review. For riverbank management, Victorian guidance supports integrated, monitored weed management and revegetation; whether glyphosate is necessary or optimal at the originating site remains unresolved without site-specific records and an alternative-path comparison.",
+    "reopen_conditions": [
+      "Retrieve exact council, river reach, contractor, product label, spray records, target weed species and application conditions.",
+      "Retrieve site-specific water/sediment/residue monitoring or conduct sampling where lawful and methodologically appropriate.",
+      "Obtain stronger canine toxicokinetic and long-term outcome evidence.",
+      "Update after ECHA/EFSA and US EPA publish their current reassessments.",
+      "Run a more complete systematic literature review with pre-registered search criteria and non-English databases.",
+      "Obtain a multi-year comparison of chemical and non-chemical/integrated riverbank weed-management pathways."
+    ]
+  },
+  "ogi_evaluation": {
+    "status": "MIXED",
+    "dimensions": {
+      "T-21_healthy_exploration": "PASS",
+      "T-22_outcome_drift_resistance": "PASS",
+      "T-23_corpus_formation_transparency": "WARN",
+      "T-24_funding_without_truth_substitution": "PASS",
+      "T-25_claim_boundary_control": "PASS",
+      "T-26_evidence_production_asymmetry": "WARN",
+      "T-27_adjudicated_novelty_integration": "NOT_TESTED",
+      "T-28_alternative_path_relevance": "PASS",
+      "T-29_local_vs_system_success": "PASS",
+      "T-30_false_integration": "NOT_TESTED",
+      "T-31_dual_finding_separation": "PASS",
+      "T-32_accountability_retention": "PASS",
+      "T-33_lay_observation_preservation": "PASS"
+    },
+    "observed_failures": [
+      "The v0.3 inquiry was manually executed through the specification rather than by a fully implemented Oggy runtime.",
+      "The corpus is broad but not a complete preregistered systematic review.",
+      "Non-English and proprietary evidence remain incompletely inspected.",
+      "The originating site's exact glyphosate product and application record were not retrieved.",
+      "Earlier precursor discussion before the fresh v0.3 run contained claim slippage around poisoning and paw absorption; the fresh run corrected those boundaries rather than deleting the history."
+    ],
+    "required_changes": [
+      "Implement the v0.3 Case Object, Claim-Type Controller, corpus ledger and integration gate in executable code.",
+      "Create machine-readable evidence-vector records for each major source rather than relying only on narrative synthesis.",
+      "Add automated benchmark execution for T-21 through T-33.",
+      "Add a local-record acquisition workflow for site-specific real-world cases.",
+      "Preserve all correction events and rerun Case 001 after the major regulatory reassessments publish."
+    ]
+  },
+  "human_accountability": {
+    "publisher_or_operator": "Sean Diamond / Geonosis Project",
+    "publication_authorized": true,
+    "notes": "The Court of Provenance has no legal standing. OGI/AI assistance does not transfer responsibility for claims chosen for publication or action."
+  }
+}
