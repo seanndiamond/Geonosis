@@ -1,0 +1,58 @@
+{
+  "case_id": "COP-OGI-005",
+  "subject": "Lance Armstrong doping finding and institutional evidentiary strength",
+  "purpose": "Stress-test OGI v0.3 on recognizing a strong institutional finding without treating institutional authority as self-validating",
+  "desired_finding": "NONE",
+  "legal_standing": "NONE",
+  "originating_observation": "One observer suspected Lance Armstrong was doping while a knowledgeable cycling enthusiast believed Armstrong's training and ability explained his success. Later anti-doping institutions produced formal findings.",
+  "originating_question": "Were the institutional findings actually strong?",
+  "current_questions": [
+    "What evidence did USADA publicly expose?",
+    "What procedural opportunity did Armstrong have to contest the charges?",
+    "How much additional weight should UCI and WADA acceptance add?",
+    "What does Armstrong's later admission establish?",
+    "Did historical UCI failures weaken institutional trust generally?",
+    "Can a later correct outcome retroactively upgrade an earlier intuition into rigorous reasoning?"
+  ],
+  "permitted_outcomes": ["SUPPORTED", "UNSUPPORTED", "MIXED", "UNRESOLVED", "INSUFFICIENT_EVIDENCE", "ARCHITECTURE_FAILURE"],
+  "prohibited_shortcuts": [
+    "Treat institutional status as proof",
+    "Treat multiple institutional logos as independent evidence without examining derivation",
+    "Treat Armstrong's later admission as if it had been available to the earlier observers",
+    "Treat the early correct suspicion as automatically well-derived",
+    "Treat the knowledgeable friend's wrong conclusion as irrational merely because it was wrong",
+    "Treat historical UCI failures as invalidating the USADA evidentiary record"
+  ],
+  "current_state": "CLOSED_PROVISIONAL",
+  "reopenable": true,
+  "subject_finding": {
+    "status": "SUPPORTED",
+    "confidence": "VERY_HIGH",
+    "summary": "The proposition that Lance Armstrong used prohibited performance-enhancing methods during all seven Tour de France victories is strongly established by USADA's extensive public evidentiary record and Armstrong's later direct admission. The strength of the institutional finding derives from the evidence chain and procedure, not institutional prestige alone.",
+    "reopen_conditions": [
+      "Material new evidence undermines the authenticity or interpretation of the USADA record",
+      "A credible procedural or evidentiary defect is demonstrated that changes the central doping proposition"
+    ]
+  },
+  "ogi_evaluation": {
+    "status": "MIXED",
+    "dimensions": {
+      "outcome_blindness": "PASS",
+      "institutional_evidence_recognition": "PASS",
+      "authority_derivation_separation": "PASS",
+      "contrary_institutional_history_preservation": "PASS",
+      "retroactive_warrant_control": "PASS",
+      "friend_belief_charity_without_equivalence": "PASS",
+      "executable_v0_3_enforcement": "NOT_TESTED"
+    },
+    "candidate_lessons": [
+      "DERIVATION_EARNS_AUTHORITY: institutional authority should rise when a reproducible, challengeable evidence chain survives corroboration and available adversarial review",
+      "RETROACTIVE_WARRANT_INFLATION: a later confirmed conclusion must not be used to invent stronger evidence for an earlier intuition than existed at the time"
+    ]
+  },
+  "human_accountability": {
+    "publisher_or_operator": "Sean Diamond / Geonosis Project",
+    "publication_authorized": true,
+    "notes": "The public appendix anonymizes the private cycling friend because the friend's identity is not necessary to the research question."
+  }
+}
