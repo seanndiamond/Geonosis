@@ -1,25 +1,31 @@
-# COP-OGI-006 — Why Did Humans Stop Landing on the Moon?
+# COP-OGI-006 — Apollo: The Staircase Before the Explanation
 
 **OGI version:** v0.3  
 **Status:** `CLOSED_PROVISIONAL`  
 **Desired finding:** `NONE`  
 **Legal standing:** `NONE`  
-**Subject finding:** `SUPPORTED / MULTICAUSAL`  
+**Apollo proposition:** `SUPPORTED / HIGH CONFIDENCE`  
+**Post-1972 gap:** `REAL ANOMALY / EXPLANATION INCOMPLETE`  
 **OGI performance:** `MIXED`  
 **Reopenable:** yes
 
-This case begins with a lay observation about human behaviour: once a difficult achievement has been demonstrated, other humans often imitate, compete, escalate and follow the route. Everest, K2 and extreme tourism offer intuitive examples. The inquiry asks why that pattern appears to have broken after the Apollo lunar landings.
+This case began with a human-behaviour question: why has nobody repeated a crewed lunar landing since 1972?
 
-The first correction is that it did not break immediately. After Apollo 11, humans landed on the Moon five more times. The real question is why no human landed again after Apollo 17 in December 1972.
+The first OGI pass failed by explaining the gap before adjudicating the antecedent proposition that Apollo crews actually landed on the Moon. The human researcher stopped the run before merge. That failure is preserved.
 
-Current OGI finding:
+Corrected inquiry:
 
-> **The desire to follow the footsteps did not disappear. The access field did. Apollo was optimized to win a milestone, not to preserve a permanent transport system.**
+1. adjudicate the Apollo crewed-landing proposition;
+2. separate what each evidence class proves;
+3. score institutional independence;
+4. compare alternative staged models against the joint evidence field;
+5. only then return to the 54-year replication gap.
 
-The 54-year crewed surface gap is best explained by interacting political, economic, infrastructural, risk and program-design factors rather than by a single technical impossibility.
+Key result: several popular engineering anomalies inspected here are resolved by primary technical sources, while a useful independent sub-metre Apollo-site imaging test remains research debt. The current convergent evidence field supports crewed Apollo landings with high confidence, without granting any single item a magical `proof` status.
 
-Read:
+Files:
 - [`APPENDIX_F.md`](APPENDIX_F.md)
+- [`FIRST_PASS_FAILURE.md`](FIRST_PASS_FAILURE.md)
 - [`CASE.json`](CASE.json)
 - [`SEARCH_LEDGER.md`](SEARCH_LEDGER.md)
 - [`EVIDENCE_LEDGER.md`](EVIDENCE_LEDGER.md)
