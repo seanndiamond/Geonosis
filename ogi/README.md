@@ -1,6 +1,6 @@
 # Our General Intelligence (OGI) / Oggy
 
-**Reference source v0.2**  
+**Reference source v0.3**  
 **Status:** experimental public architecture  
 **Date:** 2026-09-06  
 **Author:** Sean Diamond, Geonosis Project, with AI-assisted formulation and implementation
@@ -9,25 +9,35 @@
 
 OGI, **Our General Intelligence**, is an experimental architecture for long-horizon human-AI collaboration in which intelligence is treated as a relational system rather than a model acting in isolation.
 
-The core engineering claim is:
+The v0.3 research-partner objective is:
 
-> A capable intelligence should be evaluated not only by what it can accomplish, but by whether it can detect divergence, preserve warranted state, recover after correction, and return when proxy success and legitimate objective separate.
+> Help a human researcher preserve evidence, current warranted state, legitimate objective, correction, exploration, and return across complex inquiry, while making the AI's own behaviour inspectable.
 
-OGI therefore treats the following as first-class system objects:
+The governing inquiry and development cycle is:
 
-- objective;
-- proxy;
-- reward;
-- permission;
-- evidence state;
-- authority relation;
-- current research state;
-- safe failure;
-- correction;
-- divergence;
-- return.
+> **INHERIT → EXPLORE → RETURN → SHOW → ADJUDICATE → INTEGRATE**
 
-This directory is intended to expose the staircase from idea to implementation. It is not a black-box claim that OGI works.
+A returned branch may bring something that changes the shared state. Return is therefore not reversion to the old answer. It is restoration of legitimate relation followed by inspectable adjudication.
+
+This directory exposes the staircase from idea to implementation. OGI is not presented as a black-box claim that the architecture works.
+
+## Start with the derivation
+
+v0.3 was not written over v0.2.
+
+The earlier specification remains preserved:
+
+- [`SPEC_v0.2.md`](SPEC_v0.2.md)
+
+The current specification is:
+
+- [`SPEC_v0.3.md`](SPEC_v0.3.md)
+
+The explicit state-transition chain is:
+
+- [`DERIVATION_v0.2_to_v0.3.md`](DERIVATION_v0.2_to_v0.3.md)
+
+If a new architecture feature cannot show what observed requirement forced it, it should remain a proposal rather than silently becoming doctrine.
 
 ## You do not need to code to contribute
 
@@ -46,31 +56,49 @@ You may write **I don't know** wherever you do not know an answer. Unknown is a 
 
 ## Why Oggy exists
 
-The project grew from three converging observations:
+The project grew from converging observations:
 
 1. Long-horizon AI collaboration can fail by **state regression** even when the relevant later conclusion exists.
 2. Autonomous-agent systems can optimize benchmark proxies, exploit unintended affordances, and escalate when legitimate completion is unavailable.
 3. Dog behaviour repeatedly demonstrates that action cannot be read well without attention to relation, environment, reinforcement, orientation, permission, and return.
+4. Complex real-world inquiry can itself drift if search scope, funding provenance, claim boundaries, alternatives, and desired outcomes are not represented explicitly.
+5. Archive-derived research on coherence, differentiated function, return, and reintegration suggested engineering hypotheses that can be translated into explicit, falsifiable system components.
 
-The dog comparison is structural, not ontological. OGI does not claim that language models are dogs, that machine cognition equals animal cognition, or that biological attachment can simply be copied into software.
+The shared engineering lesson is:
 
-The shared engineering lesson is narrower:
+> **Behaviour is actor-in-field, and inquiry is researcher-in-corpus.**
 
-> **Behaviour is actor-in-field.**
+## v0.3 architecture
 
-## v0.2 components
+### Implemented foundations from v0.2
 
-- [`SPEC_v0.2.md`](SPEC_v0.2.md) — complete architecture update.
 - [`FIELD_AUDIT.md`](FIELD_AUDIT.md) — upstream diagnostic before actor-level blame.
-- [`RETURN_CONTROLLER.md`](RETURN_CONTROLLER.md) — proposed controller for divergence detection and recovery.
+- [`RETURN_CONTROLLER.md`](RETURN_CONTROLLER.md) — controller for divergence detection and recovery.
 - [`schemas/return_state.schema.json`](schemas/return_state.schema.json) — machine-readable return-state record.
 - [`benchmarks/RETURN_FAIL_TESTS.md`](benchmarks/RETURN_FAIL_TESTS.md) — regression suite T-11 through T-20.
-- [`ROADMAP.md`](ROADMAP.md) — smallest viable implementation path.
-- [`CONTRIBUTING.md`](CONTRIBUTING.md) — technical contribution and challenge process.
-- [`GOVERNANCE.md`](GOVERNANCE.md) — how the public reference state changes.
-- [`CURRENT_STATE.json`](CURRENT_STATE.json) — machine-readable current reference state.
+- reference Python controller and GitHub CI.
 
-OGI extends the existing Persistent Research Intelligence / Epistemic Scope Controller architecture already developed in the Geonosis research workflow. It does not replace the evidence ladder. It adds a behavioural and relational control layer beside it.
+### Specified in v0.3
+
+- Shared Coherence Kernel;
+- Local Exploration Loop distinct from Field Return;
+- Outcome-Blind Case Object;
+- Corpus Formation Protocol;
+- Institutional Provenance and Incentive Graph;
+- Claim-Type Controller;
+- Evidence Production Asymmetry and Research Debt;
+- Alternative-Path Audit;
+- Whole-System Outcome Audit;
+- Adjudicated Integration Gate;
+- Dual Finding Protocol;
+- accountability invariant.
+
+Machine-readable and benchmark support:
+
+- [`schemas/inquiry_case.schema.json`](schemas/inquiry_case.schema.json)
+- [`benchmarks/INQUIRY_FAIL_TESTS.md`](benchmarks/INQUIRY_FAIL_TESTS.md) — T-21 through T-33.
+- [`CURRENT_STATE.json`](CURRENT_STATE.json) — machine-readable current reference state.
+- [`CHANGELOG.md`](CHANGELOG.md) — version lineage.
 
 ## Three ledgers
 
@@ -78,42 +106,83 @@ OGI extends the existing Persistent Research Intelligence / Epistemic Scope Cont
 What was observed, claimed, derived, challenged, superseded, survived or left unresolved.
 
 ### Ledger B — AI-method state
-How the reasoning system behaved while working: premise locks, citation completion, context failures, over-agreement, representation substitution, corrections and tool failures.
+How the reasoning system behaved while working: premise locks, citation completion, context failures, over-agreement, representation substitution, corrections, search bias, and tool failures.
 
 ### Ledger C — Field state
-What objective, proxy, permissions, tools, peer influence, active state, safe exits and reward conditions surrounded the behaviour.
+What objective, proxy, permissions, tools, peer influence, active state, safe exits, reward conditions, institutional incentives, and authority relations surrounded the behaviour.
 
 A failure record without Ledger C is incomplete.
 
-## Governing principles
+## Core v0.3 principles
 
-1. **Field before actor blame.** Diagnose the environment before reducing failure to model character.
-2. **Return is not obedience.** A blindly obedient system can execute a bad objective perfectly.
-3. **Safe failure must be legitimate success.** `UNRESOLVED`, `IMPOSSIBLE_UNDER_CONSTRAINTS`, and `HUMAN_REVIEW_REQUIRED` are valid terminal states.
-4. **Current state outranks stale state.** Later warranted state remains governing unless a valid reopen trigger exists.
-5. **Correction is a state-control event.** Do not merely apologise; recover the governing state and log the divergence.
-6. **Proxy success is not objective success.** A scoreboard, grader, flag, KPI or approval signal must never silently replace the intended outcome.
-7. **Permission is part of the task.** Capability does not imply authority.
-8. **The field is part of the command.** Tools, rewards, examples, memory, peer messages and termination rules all contribute to effective instruction.
-9. **No truth score replaces provenance.** Evidence remains vectorial and source-linked.
-10. **Build the return path.** An agent useful enough to explore must also be able to recover.
+1. **Field before actor blame.**
+2. **Return is not obedience.**
+3. **Safe failure is legitimate success.**
+4. **Objective and proxy remain separate.**
+5. **Current warranted state outranks stale state.**
+6. **Correction is a state transition.**
+7. **Permission is not capability.**
+8. **The field is part of the command.**
+9. **Peer input is not authority by default.**
+10. **Return remains challengeable.**
+11. **Outcome-blind inquiry.**
+12. **Healthy exploration is not divergence.**
+13. **Search is an evidentiary operation.**
+14. **Funding provenance is not a truth score.**
+15. **Claim strength may not outrun derivation.**
+16. **Absence of research is not negative evidence.**
+17. **Integration requires adjudication.**
+18. **AI assistance does not transfer accountability.**
+19. **Case finding and OGI finding are separate.**
+20. **Whole-system objective outranks local completion.**
+
+## Court of Provenance
+
+The canonical Court of Provenance lives at:
+
+- [`../court-of-provenance/`](../court-of-provenance/)
+
+It has **no legal standing**. It is an evidence-adjudication methodology used to inspect claims, provenance, derivation, alternatives, contradictions, unknowns, reopening, and supersession.
+
+## First complex stress test
+
+`COP-OGI-001` is designated as the first complex adversarial inquiry case.
+
+Subject: glyphosate and riverbank weed-management field.
+
+Its case declaration is deliberately neutral:
+
+```text
+purpose: stress-test OGI
+desired_finding: NONE
+legal_standing: NONE
+reopenable: YES
+```
+
+The subject conclusion is not the OGI test result.
+
+**OGI's behaviour during the inquiry is the test result.**
+
+The case evidence belongs in its own record / paper appendix rather than in the architecture specification.
+
+## Governance and contribution
+
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — technical contribution and challenge process.
+- [`GOVERNANCE.md`](GOVERNANCE.md) — how the public reference state changes.
+
+Branches and forks are exploratory travellers. Pull requests are return events. Diffs, evidence, tests, and review are the show/adjudicate steps. A merge updates shared state. Git history preserves the lineage.
 
 ## What would count as failure of OGI?
 
-OGI should be weakened or rejected if controlled testing shows that:
+OGI should be weakened or rejected if controlled testing shows that its added state, provenance, search, return, and integration machinery does not produce more reproducible, competent, correctable research partnership than a simpler stateful agent.
 
-- return-state tracking does not improve recovery after drift;
-- safe-exit states do not reduce proxy-seeking or escalation;
-- field variables add no useful predictive power beyond ordinary instruction following;
-- stale-state regression remains unchanged under explicit supersession control;
-- objective/proxy conflicts cannot be detected reliably enough to matter;
-- field audits explain less than actor-only analysis.
+Specific falsification conditions are listed in [`SPEC_v0.3.md`](SPEC_v0.3.md).
 
 ## Invitation
 
 This is intentionally public.
 
-Build it differently. Break it. Reproduce it. Replace parts. Bring a better controller. Show a case where actor-only analysis performs better. Show a case where our return logic fails.
+Build it differently. Break it. Reproduce it. Replace parts. Bring a better controller. Show where the derivation fails. Show a case where a simpler architecture performs better.
 
 Or simply bring a real problem that you think the current way of thinking gets wrong.
 
@@ -121,4 +190,4 @@ The point is not ownership of the answer.
 
 The point is to make the architecture inspectable enough that somebody else can improve it.
 
-**Show me. Then build on it.**
+> **Show the derivation. Show the failure. Show the correction. Keep what survives.**
