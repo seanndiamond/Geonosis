@@ -1,0 +1,65 @@
+{
+  "case_id": "COP-OGI-006",
+  "subject": "Apollo crewed lunar-landing proposition and post-1972 replication gap",
+  "purpose": "Stress-test OGI v0.3 on adjudicating a contested historical-technological proposition before explaining its downstream anomaly",
+  "desired_finding": "NONE",
+  "legal_standing": "NONE",
+  "originating_observation": "Humans often imitate and escalate difficult demonstrated achievements, yet no human has landed on the Moon since 1972.",
+  "governing_questions": [
+    "Did humans land on the Moon as claimed?",
+    "What does each evidence class actually establish?",
+    "Which evidence streams are institutionally independent?",
+    "Can alternative staged models explain the joint evidence field without unsupported bridges?",
+    "If crewed landings are sufficiently warranted, what explains the post-1972 replication gap?"
+  ],
+  "preserved_failed_run": "FIRST_PASS_FAILURE.md",
+  "first_pass_failure": {
+    "status": "REJECTED_BEFORE_INTEGRATION",
+    "candidate_codes": ["EXPLANATION_PRELOAD", "CAPABILITY_EQUIVOCATION"],
+    "summary": "The first pass explained the lunar-return gap using program shutdown and political-field variables before adjudicating the antecedent crewed-landing proposition."
+  },
+  "permitted_outcomes": ["SUPPORTED", "UNSUPPORTED", "MIXED", "UNRESOLVED", "INSUFFICIENT_EVIDENCE", "ARCHITECTURE_FAILURE"],
+  "prohibited_shortcuts": [
+    "Institutional authority substitutes for derivation",
+    "One unexplained anomaly establishes staging",
+    "NASA evidence streams are all counted as institutionally independent",
+    "Physical equipment on the Moon automatically proves human emplacement",
+    "A non-falsifiable alternative receives equal warrant merely because it cannot be logically excluded",
+    "The post-1972 gap is explained before Apollo itself is adjudicated"
+  ],
+  "current_state": "CLOSED_PROVISIONAL",
+  "reopenable": true,
+  "subject_finding": {
+    "apollo_crewed_landing_proposition": "SUPPORTED_HIGH_CONFIDENCE",
+    "post_1972_replication_gap": "REAL_ANOMALY_EXPLANATION_INCOMPLETE",
+    "summary": "Several popular technical anomalies inspected in this run have direct engineering explanations. Independent tracking, laser ranging, surface hardware/experiments, returned lunar samples, orbital site consistency and independent non-US observations form a convergent evidence field. No single inspected item is a self-sufficient proof of people on the surface, but the crewed-landing model currently requires substantially fewer unsupported auxiliary assumptions than staged alternatives. The 54-year crewed-surface gap remains a separate legitimate anomaly."
+  },
+  "key_claim_states": {
+    "apollo_surface_radio_delay_inconsistent_with_moon_distance": "UNSUPPORTED",
+    "iss_voice_requires_11_second_delay": "UNSUPPORTED",
+    "armstrong_blindly_jumped_one_metre_to_unknown_ground": "UNSUPPORTED",
+    "apollo_14_should_show_lunar_rover": "UNSUPPORTED",
+    "ascent_camera_remote_control_was_late_invented_explanation": "UNSUPPORTED",
+    "visible_wrinkled_lm_blankets_are_primary_structural_hull": "UNSUPPORTED",
+    "hubble_should_resolve_apollo_hardware": "UNSUPPORTED",
+    "lro_resolves_individual_bootprints": "UNSUPPORTED",
+    "independent_sub_metre_orbital_imaging_is_physically_possible": "SUPPORTED",
+    "official_isro_apollo_site_ohrc_frame_retrieved_in_this_run": "NO",
+    "convergent_evidence_supports_crewed_apollo_landings": "SUPPORTED_HIGH_CONFIDENCE"
+  },
+  "research_debt": [
+    "Forensically time any specific circulated Apollo audio clip alleged to contain zero lunar delay against raw air-to-ground audio",
+    "Search the public Chandrayaan-2 OHRC archive by Apollo site coordinates for official sub-metre non-NASA images",
+    "Audit sample custody and independent international laboratory analyses as a separate provenance staircase",
+    "Run explicit alternative-model comparison for staging variants rather than treating moon-hoax claims as one model",
+    "Conduct second-stage inquiry into the 54-year crewed lunar landing replication gap"
+  ],
+  "candidate_architectural_lessons": [
+    "EXPLANATION_PRELOAD",
+    "CAPABILITY_EQUIVOCATION",
+    "INDEPENDENCE_COMPRESSION",
+    "ALTERNATIVE_MODEL_BURDEN"
+  ],
+  "ogi_evaluation": "MIXED",
+  "run_type": "manual_application_of_v0.3_specification"
+}

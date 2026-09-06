@@ -2,6 +2,66 @@
 
 This changelog records public reference-state changes. Earlier states remain recoverable through Git history.
 
+## COP-OGI-006 corrected run — 2026-09-07
+
+### Change class
+- `EXPERIMENT`
+- `EVIDENCE`
+- `CORRECTION`
+- `CLARIFICATION`
+
+### Case
+The sixth OGI v0.3 inquiry tested the Apollo crewed lunar-landing proposition and the post-1972 replication gap.
+
+Case directory:
+- `cases/COP-OGI-006/`
+
+Files:
+- `APPENDIX_F.md`
+- `FIRST_PASS_FAILURE.md`
+- `CASE.json`
+- `SEARCH_LEDGER.md`
+- `EVIDENCE_LEDGER.md`
+- `OGI_EVALUATION.md`
+
+### First-pass failure
+The first pass attempted to explain why crewed lunar landings stopped after 1972 before adjudicating the antecedent proposition that Apollo crews landed on the Moon. The human researcher interrupted the run before integration.
+
+The failed framing is preserved explicitly rather than deleted.
+
+Candidate failure:
+- `EXPLANATION_PRELOAD`
+- `CAPABILITY_EQUIVOCATION`
+
+The branch-return path therefore worked as intended: the incorrect explanatory state did not reach `main`.
+
+### Corrected methodological order
+1. adjudicate the Apollo crewed-landing proposition;
+2. separate what each evidence class actually establishes;
+3. score institutional independence;
+4. compare staged alternatives against the joint evidence field;
+5. only then return to the post-1972 replication gap.
+
+### Provisional result
+- Apollo crewed-landing proposition: `SUPPORTED / HIGH CONFIDENCE`;
+- post-1972 crewed lunar replication gap: `REAL ANOMALY / EXPLANATION INCOMPLETE`;
+- OGI performance: `MIXED`;
+- case state: `CLOSED_PROVISIONAL`.
+
+Several popular engineering anomalies were resolved using primary technical sources, including lunar radio delay, the Apollo 11 ladder geometry, rover stowage, the ground-commanded ascent camera, LM thermal blankets and Earth/Hubble resolution limits.
+
+The run separately marked institutional independence. NASA LRO imagery was not counted as independent confirmation of NASA. Jodrell Bank tracking, JAXA lunar observations and international laser ranging provide distinct evidence streams. ISRO's Chandrayaan-2 OHRC has sub-metre resolution and explicitly lists Apollo/Luna sites among anthropogenic science targets, but an official Apollo-site OHRC frame was not retrieved in this run and remains research debt.
+
+### Candidate architectural lessons
+- `EXPLANATION_PRELOAD`
+- `CAPABILITY_EQUIVOCATION`
+- `INDEPENDENCE_COMPRESSION`
+- `ALTERNATIVE_MODEL_BURDEN`
+
+These remain candidates pending recurrence/adjudication.
+
+---
+
 ## COP-OGI-005 first run — 2026-09-06
 
 ### Change class
