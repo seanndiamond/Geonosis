@@ -1,0 +1,33 @@
+name: OGI bug or failure
+description: Report a reproducible failure in OGI code, schema, benchmark, or architecture
+title: "[OGI BUG] "
+labels: []
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      placeholder: Return Controller, Field Audit, schema, benchmark, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: What did you do and what happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, logs, or test output
+  - type: textarea
+    id: falsifier
+    attributes:
+      label: What result would show this is not an OGI failure?
