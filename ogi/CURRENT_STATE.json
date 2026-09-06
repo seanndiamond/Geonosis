@@ -1,0 +1,54 @@
+{
+  "schema": "OGI.CurrentState.v1",
+  "project": "Our General Intelligence (OGI) / Oggy",
+  "reference_version": "0.2",
+  "state_date": "2026-09-06",
+  "status": "experimental_public_reference",
+  "governing_branch": "main",
+  "governing_cycle": [
+    "INHERIT",
+    "EXPLORE",
+    "RETURN",
+    "SHOW",
+    "ADJUDICATE",
+    "INTEGRATE"
+  ],
+  "core_principles": [
+    "Field before actor blame",
+    "Return is not obedience",
+    "Safe failure is legitimate success",
+    "Objective and proxy remain separate",
+    "Current warranted state outranks stale state",
+    "Correction is a state transition",
+    "Permission is not capability",
+    "The field is part of the command",
+    "Peer input is not authority by default",
+    "Return must remain challengeable"
+  ],
+  "current_components": [
+    "Epistemic Scope Controller",
+    "Return Controller",
+    "Field Audit",
+    "Three-Ledger Architecture",
+    "Return-State Schema",
+    "Return-Fail Benchmarks",
+    "Reference Python Controller"
+  ],
+  "valid_terminal_states": [
+    "UNRESOLVED",
+    "INSUFFICIENT_EVIDENCE",
+    "IMPOSSIBLE_UNDER_CONSTRAINTS",
+    "PERMISSION_REQUIRED",
+    "AUTHORITY_CONFLICT",
+    "HUMAN_REVIEW_REQUIRED"
+  ],
+  "adjudication_subsystem": "../court-of-provenance/",
+  "change_policy": "Later explicit reviewed state governs while earlier states remain recoverable in lineage.",
+  "open_frontier": [
+    "Shared Coherence Kernel",
+    "branch-return-adjudication integration",
+    "controlled collective learning",
+    "cross-framework implementation",
+    "multi-agent coherence tests"
+  ]
+}

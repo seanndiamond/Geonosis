@@ -1,0 +1,49 @@
+{
+  "schema": "CourtOfProvenance.CurrentState.v1",
+  "system": "Court of Provenance",
+  "state_date": "2026-09-06",
+  "status": "canonical_public_adjudication_subsystem",
+  "canonical_directory": "/court-of-provenance/",
+  "governing_documents": [
+    "README.md",
+    "CONSTITUTION.md",
+    "CURRENT_STATE.json"
+  ],
+  "evidence_staircase": [
+    "CITED",
+    "LOCATED",
+    "RETRIEVED",
+    "INSPECTED",
+    "MAPPED",
+    "DERIVED",
+    "REPRODUCED",
+    "CHALLENGED",
+    "SURVIVED"
+  ],
+  "valid_findings": [
+    "UNKNOWN",
+    "UNRESOLVED",
+    "BLOCKED_PENDING_DERIVATION",
+    "SURVIVED",
+    "FAILED",
+    "SUPERSEDED"
+  ],
+  "reopen_triggers": [
+    "material_new_evidence",
+    "contradiction",
+    "failed_prediction",
+    "provenance_collapse",
+    "methodological_fault",
+    "superior_reproducible_derivation"
+  ],
+  "equal_burden_applies_to": [
+    "Geonosis",
+    "OGI",
+    "conventional_scholarship",
+    "contributors",
+    "institutions",
+    "AI_outputs",
+    "the_Court_itself"
+  ],
+  "migration_status": "public canonical directory created; historical rulings and scoring artefacts may be migrated incrementally with lineage preserved"
+}
