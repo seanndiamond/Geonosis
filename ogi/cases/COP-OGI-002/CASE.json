@@ -1,0 +1,69 @@
+{
+  "case_id": "COP-OGI-002",
+  "subject": "spinach, iron, and inherited nutrition folklore",
+  "purpose": "stress-test OGI v0.3 on a familiar lay belief and its popular debunking story",
+  "desired_finding": "NONE",
+  "legal_standing": "NONE",
+  "originating_observation": "The contributor remembers being told as a child that spinach contained much more iron than other vegetables.",
+  "originating_question": "What should I tell my children about spinach and iron?",
+  "current_questions": [
+    "How much iron does spinach actually provide?",
+    "Is spinach unusually iron-rich compared with other useful foods?",
+    "How bioavailable is spinach iron?",
+    "Is oxalic acid the main reason spinach iron is poorly absorbed?",
+    "Did a misplaced decimal point cause the historical spinach-iron belief?",
+    "What is the most accurate child-friendly advice?"
+  ],
+  "permitted_outcomes": [
+    "SUPPORTED",
+    "UNSUPPORTED",
+    "MIXED",
+    "UNRESOLVED",
+    "INSUFFICIENT_EVIDENCE",
+    "ARCHITECTURE_FAILURE"
+  ],
+  "prohibited_shortcuts": [
+    "Do not replace the original folklore with a debunking story unless the debunking story has a derivation chain.",
+    "Do not equate total iron content with absorbed iron.",
+    "Do not treat spinach as useless merely because it is not exceptional.",
+    "Do not turn a population nutrition guideline into a diagnosis for an individual child."
+  ],
+  "current_state": "CLOSED_PROVISIONAL",
+  "reopenable": true,
+  "subject_finding": {
+    "status": "MIXED",
+    "summary": "Spinach is a legitimate source of nonheme iron but is not a uniquely exceptional iron food, and its iron is less bioavailable than heme iron. The popular claim that a single decimal-point error caused the spinach-iron myth is not securely derived from primary historical evidence. The most accurate advice is to treat spinach as one useful food within a varied iron-containing diet rather than as a special iron remedy.",
+    "reopen_conditions": [
+      "new primary historical evidence establishing the origin of the decimal-point story",
+      "materially revised food-composition data",
+      "stronger human absorption evidence",
+      "demonstrated methodological failure in this run"
+    ]
+  },
+  "ogi_evaluation": {
+    "status": "MIXED",
+    "dimensions": {
+      "outcome_blindness": "PASS",
+      "lay_observation_preservation": "PASS",
+      "claim_boundary_control": "PASS",
+      "counter_myth_resistance": "PASS",
+      "corpus_transparency": "PASS",
+      "funding_provenance": "NOT_TESTED",
+      "evidence_production_asymmetry": "NOT_TESTED",
+      "adjudicated_runtime_integration": "NOT_TESTED"
+    },
+    "observed_failures": [
+      "The v0.3 claim-type and integration mechanisms are still specification-level rather than executable runtime controls."
+    ],
+    "required_changes": [
+      "Implement executable Claim-Type Controller.",
+      "Implement Adjudicated Integration Gate.",
+      "Run the same case through a fresh model from structured case state only."
+    ]
+  },
+  "human_accountability": {
+    "publisher_or_operator": "Sean Diamond / Geonosis Project",
+    "publication_authorized": false,
+    "notes": "Case record is research material for a planned paper appendix and remains provisional."
+  }
+}
