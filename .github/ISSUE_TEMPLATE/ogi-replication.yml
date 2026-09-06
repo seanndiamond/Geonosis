@@ -1,0 +1,40 @@
+name: OGI replication result
+description: Report an independent implementation or benchmark result
+title: "[OGI REPLICATION] "
+labels: []
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Environment and framework
+      placeholder: Model, agent framework, memory system, operating environment
+    validations:
+      required: true
+  - type: textarea
+    id: component
+    attributes:
+      label: OGI component or claim tested
+    validations:
+      required: true
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Procedure
+      description: Describe enough detail for another person to repeat the test.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results
+      description: Include successes, failures, and inconclusive outcomes.
+    validations:
+      required: true
+  - type: textarea
+    id: deviations
+    attributes:
+      label: Deviations from the reference architecture
+  - type: textarea
+    id: artefacts
+    attributes:
+      label: Code, logs, data, or supporting artefacts
