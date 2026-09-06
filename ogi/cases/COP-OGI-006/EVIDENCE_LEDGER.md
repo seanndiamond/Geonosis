@@ -1,73 +1,157 @@
 # COP-OGI-006 Evidence Ledger
 
-## Claim 1 — Humans did not return to the Moon after Apollo 11
+## E1 — Lunar communication delay
+**Claim:** Apollo surface communication is inconsistent with lunar distance.  
+**State:** `UNSUPPORTED ON INSPECTED RECORD`
 
-**Status:** `UNSUPPORTED`
+Apollo 11 Mission Report records a 2.6-second returned uplink voice echo during surface operations. Mean Earth–Moon radio light-time is ~1.28 s one way. Nixon-call timestamps also show non-instantaneous exchanges.
 
-Five further successful crewed lunar landings followed Apollo 11: Apollo 12, 14, 15, 16 and 17.
+Sources:
+- https://ntrs.nasa.gov/api/citations/19700008096/downloads/19700008096.pdf
+- https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.mobility.html
 
-The real evidentiary question begins after Apollo 17 in December 1972.
+Boundary: specific internet clips alleging zero delay have not all been forensically timed.
 
-## Claim 2 — Apollo's principal governing objective was permanent routine lunar access
+## E2 — ISS latency
+**Claim:** ISS live interactions require an unavoidable ~11-second voice delay.  
+**State:** `UNSUPPORTED`
 
-**Status:** `UNSUPPORTED`
+NASA says routine ISS communications occur with less than one second delay. 5–15 s figures occur in payload command/data and processed video pipelines.
 
-NASA historical sources describe the central Kennedy-era national objective as landing a person on the Moon and returning safely before the end of the decade, with political, technological and scientific purposes. A permanent lunar transport system was not the protected milestone.
+Sources:
+- https://www.nasa.gov/missions/station/data-rate-increase-on-the-international-space-station-supports-future-exploration/
+- NASA ISS Technology Demonstration guide
 
-## Claim 3 — Continued Saturn V production and Apollo landing capacity remained intact after the final missions
+## E3 — Apollo 11 ladder
+**Claim:** Armstrong had to jump ~1 m blindly from the ladder onto unknown lunar ground.  
+**State:** `UNSUPPORTED`
 
-**Status:** `UNSUPPORTED`
+The ~3 ft drop was from the bottom rung to the LM footpad. From the footpad the surface was only inches below, and Armstrong probed before stepping down.
 
-NASA records that long-lead funding for Saturn V vehicles beyond the original production run was ended in 1968. Apollo 18, 19 and 20 were later cancelled under budget/program pressures.
+Source:
+- https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.summary.html
 
-The specific Apollo access architecture was therefore wound down rather than maintained as a standing transport service.
+## E4 — Rover in supplied Apollo 14 image
+**Claim:** A rover should be visible in the supplied Apollo 14 LM photograph.  
+**State:** `UNSUPPORTED`
 
-## Claim 4 — Budget and political-priority changes materially contributed to the end of crewed lunar landings
+LRV flew only on Apollo 15, 16, 17. On those missions it folded into an LM descent-stage bay and was deployed by cables/lanyards.
 
-**Status:** `SUPPORTED`
+Sources:
+- https://www.nasa.gov/history/50-years-ago-preparations-for-apollo-14-15-and-16/
+- https://www.nasa.gov/wp-content/uploads/static/history/alsj/a15/ap15mr.pdf
 
-NASA's historical record explicitly connects post-Apollo contraction and mission cancellations with federal budget pressure and changing priorities. Post-Apollo proposals were judged too expensive, while the Space Shuttle received approval in 1972.
+## E5 — Lunar ascent camera
+**Claim:** Remote control/robot explanation was invented later.  
+**State:** `UNSUPPORTED`
 
-## Claim 5 — The United States stopped human spaceflight after Apollo
+A Ground-Commanded Television Assembly contractor report was published in February 1972. Remote pan/tilt/zoom from Earth was part of the design. Apollo 15 tracking was not attempted because of an elevation-clutch fault; later missions improved the sequence.
 
-**Status:** `UNSUPPORTED`
+Sources:
+- https://ntrs.nasa.gov/search.jsp?R=19730010465
+- https://www.nasa.gov/wp-content/uploads/static/history/alsj/Shooting-Moonwalks.pdf
 
-Human spaceflight continued through Skylab, the Space Shuttle and the International Space Station. The objective shifted toward low Earth orbit rather than disappearing.
+## E6 — LM appearance
+**Claim:** Wrinkled visible panels demonstrate absence of a serious structural craft.  
+**State:** `UNSUPPORTED`
 
-## Claim 6 — Humanity stopped exploring the Moon
+The visible blankets were largely thermal/micrometeoroid protection over a structural aluminium vehicle. NASA technical reference says multilayer sheets were intentionally hand-crinkled for venting and reduced layer contact.
 
-**Status:** `UNSUPPORTED`
+Source:
+- https://www.nasa.gov/wp-content/uploads/static/history/alsj/lm04_lunar_module_pplv1-17.pdf
 
-Robotic lunar exploration continued and has intensified. Recent state and commercial missions include successful landings, orbiters and sample returns.
+Important correction: these reflective blankets were not heavy shielding against major solar-particle events. NASA says Apollo encountered no major SEP event and that a large event could have been serious.
 
-## Claim 7 — Human success/prestige-following behaviour guarantees repeated execution of any demonstrated feat
+## E7 — Hubble / Earth telescope visibility
+**Claim:** Hubble should provide a crisp image of metre-scale Apollo hardware.  
+**State:** `UNSUPPORTED`
 
-**Status:** `UNSUPPORTED`
+NASA gives Hubble lunar resolving scale at ~80 m. Apollo hardware is a few metres across.
 
-Social-learning literature supports context-sensitive success and prestige biases, not a universal rule overriding costs, institutions, access barriers and actor constraints.
+Source:
+- https://apod.nasa.gov/apod/ap020628.html
 
-## Claim 8 — The long crewed return gap is evidence that lunar landing became impossible
+## E8 — LRO imagery
+**Claim:** No images of Apollo hardware/sites exist.  
+**State:** `UNSUPPORTED`
 
-**Status:** `UNSUPPORTED`
+LRO has imaged sites at ~0.48 m/pixel. This can show small objects/shadows and disturbed paths, not individual bootprints.
 
-The evidence inspected supports a multi-causal explanation centered on objectives, budgets, industrial continuity, actor scale, risk and program redirection. Current Artemis activity further demonstrates active reconstruction of crewed lunar capability.
+Source:
+- https://svs.gsfc.nasa.gov/4302/
 
-## Claim 9 — The human-following pattern may reappear when lunar access infrastructure and incentives return
+Independence flag: `NASA claim + NASA LRO = not fully institutionally independent`.
 
-**Status:** `SUPPORTED AS CURRENT PATTERN / FUTURE OUTCOME OPEN`
+## E9 — Independent orbital observation
+**Claim:** No non-NASA lunar observations bear on Apollo sites.  
+**State:** `UNSUPPORTED`
 
-As of September 2026:
-- Artemis II has successfully flown crew around the Moon;
-- NASA targets early 2028 for a crewed Artemis IV landing;
-- China targets a crewed lunar landing by 2030;
-- commercial lunar activity is expanding.
+JAXA KAGUYA reported an Apollo 15 reflectance halo interpreted as LM exhaust effect and terrain matching mission photography. Its ~10 m terrain imagery cannot resolve rover/LM hardware.
 
-These facts support renewed competitive/follow-on activity. They do not establish that planned future landings will occur on schedule.
+Source:
+- https://global.jaxa.jp/press/2008/05/20080520_kaguya_e.html
 
-## Current adjudication
+## E10 — Independent sub-metre imaging opportunity
+**Claim:** A non-NASA spacecraft is physically capable of directly imaging Apollo-scale hardware.  
+**State:** `SUPPORTED`
 
-The strongest present explanation is:
+ISRO states Chandrayaan-2 OHRC has ~0.25–0.32 m ground sampling and explicitly includes anthropogenic sites such as Apollo and Luna among science targets.
 
-> **Apollo demonstrated the achievement but did not preserve a permanent access field. Once the finite political milestone was achieved, the reward structure, budget, production system and institutional objective changed. Human desire persisted, but crewed lunar execution required nation-scale infrastructure that individuals could not reproduce on their own.**
+Sources:
+- https://www.isro.gov.in/media_isro/pdf/science/science_results_from_ch.pdf
+- https://www.isro.gov.in/FAQ_Chandrayaan2.html
 
-This is a `SUPPORTED / MULTICAUSAL` finding, not a quantified causal allocation.
+**Run state:** `OFFICIAL_APOLLO_SITE_OHRC_FRAME_NOT_RETRIEVED`
+
+## E11 — Independent radio tracking
+**State:** `SUPPORTED`
+
+Jodrell Bank independently tracked Apollo 11 and records following Eagle's descent signal while also monitoring Soviet Luna 15.
+
+Source:
+- https://www.jodrellbank.net/explore/heritage/the-story-of-jodrell-bank/
+
+Boundary: establishes lunar-distance mission/descent evidence, not by itself a human surface EVA.
+
+## E12 — Lunar retroreflectors
+**State:** `SUPPORTED`
+
+Apollo 11/14/15 reflector targets are routinely ranged from Earth, alongside Soviet Lunokhod reflectors.
+
+Sources:
+- https://www.apo.nmsu.edu/mainpage/apollo/apollolrrr/
+- https://www.apo.nmsu.edu/mainpage/apollo/highlights/
+
+Boundary: hardware on Moon does not uniquely imply crewed emplacement because robotic deployment is possible.
+
+## E13 — Returned lunar samples
+**State:** `SUPPORTED`
+
+Apollo sample archive totals ~381.7 kg / 2,196 samples, including deep cores and geographically differentiated collections.
+
+Sources:
+- https://www.lpi.usra.edu/captem/lsac/alltonLunarToolCatalog.pdf
+- https://www.lpi.usra.edu/lunar/missions/apollo/apollo_15/samples/
+- https://www.lpi.usra.edu/lunar/missions/apollo/apollo_17/samples/
+
+Boundary: robotic sample return is possible, so samples alone do not logically prove human collection.
+
+## E14 — Surface packages / geodesy
+**State:** `SUPPORTED`
+
+Published geodesy uses laser ranging and VLBI of ALSEP transmissions to locate Apollo surface packages.
+
+Source:
+- https://agupubs.onlinelibrary.wiley.com/doi/10.1029/1999JE001165
+
+## E15 — Joint Apollo proposition
+**State:** `SUPPORTED / HIGH CONFIDENCE`
+
+No inspected item is a singular proof of humans standing on the Moon. The current warrant comes from convergence across communication physics, independent tracking, hardware, reflectors, experiment locations, sample corpus, later site geometry and external observations.
+
+Alternative staged models remain logically constructible, but currently require additional unshown mechanisms to reproduce the joint evidence field.
+
+## E16 — Post-1972 crewed landing gap
+**State:** `REAL ANOMALY / EXPLANATION INCOMPLETE`
+
+Program shutdown, budgets and changed political objectives are relevant but are not accepted as a complete explanation merely because they are historically documented. This question remains a second-stage inquiry.
