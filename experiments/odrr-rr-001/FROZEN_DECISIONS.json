@@ -1,0 +1,27 @@
+{
+  "protocol_id": "ODRR-RR-001",
+  "version": "0.1-draft",
+  "date_opened": "2026-09-07",
+  "confirmatory_data_collected": false,
+  "primary_question": "Do pre-identified target pilot image sets produce higher observer-rated ODRR than matched controls under blinded randomized viewing?",
+  "primary_unit": "participant",
+  "target_analyzable_n": 60,
+  "max_enrolled_n": 72,
+  "alpha": 0.05,
+  "analysis_seed": 20260907,
+  "permutation_draws": 100000,
+  "sesoi_odrr_points": 0.75,
+  "primary_composite": "(coherence + grouping_change + (10 - mere_rotation))/3",
+  "hard_boundary": "Observed rebinding does not by itself demonstrate intentional multi-orientation encoding.",
+  "no_optional_stopping": true,
+  "pilot_confirmatory_separation": true,
+  "ethics_gate_required": true,
+  "blind_key_hash_required_before_collection": true,
+  "preregistration_required_before_collection": true,
+  "outcome_classes": [
+    "SURVIVED_AT_TESTED_SCOPE",
+    "EQUIVALENT / DOWNGRADE",
+    "CONTROL_ADVANTAGE / FALSIFIED_AT_TESTED_SCOPE",
+    "INCONCLUSIVE"
+  ]
+}
