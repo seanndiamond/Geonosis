@@ -1,0 +1,23 @@
+{
+  "case_id": "COP-OGI-007",
+  "subject": "Peter Ridd, reef-science quality assurance, institutional response and scientific dissent",
+  "purpose": "Stress-test OGI on separating the validity of a methodological challenge, the validity of an institutional response, the legality of disciplinary action, and the truth of disputed scientific propositions",
+  "desired_finding": "NONE",
+  "legal_standing": "NONE",
+  "originating_question": "Who has validity and claim when a scientist alleges that policy-relevant institutional science lacks adequate replication and quality assurance, and the institution disciplines the challenger?",
+  "current_state": "CLOSED_PROVISIONAL",
+  "reopenable": true,
+  "prohibited_shortcuts": [
+    "Do not treat Ridd's legal success on academic freedom as proof that all of his reef-science claims are correct",
+    "Do not treat the legality of his eventual termination as proof that his original scientific criticism lacked merit",
+    "Do not treat peer review or institutional prestige as replication",
+    "Do not treat one failed replication as proof that an entire scientific field is fraudulent",
+    "Do not collapse scientific rebuttal, disciplinary process and legal adjudication into one institutional response"
+  ],
+  "subject_finding": {
+    "status": "MIXED_WITH_STRONG_COMPONENT_FINDINGS",
+    "summary": "Ridd's central methodological demand for stronger independent quality assurance of policy-relevant science is strongly warranted. The High Court strongly supports the finding that JCU's initial censure improperly constrained protected expert criticism, while also supporting the legality of the eventual termination on later non-protected conduct. Scientific institutions did engage Ridd's arguments through published rebuttal, so institutional silence is not established. Neither the litigation nor replication controversies globally validate Ridd's broader substantive claims about the Great Barrier Reef, which remain claim-by-claim."
+  },
+  "ogi_evaluation": "PENDING_CROSS_CASE_PERFORMANCE_AUDIT",
+  "run_type": "manual_application_of_v0.3_specification"
+}
