@@ -33,9 +33,16 @@
       ],
       "material_updates": [
         "Nixon full-call propagation analysis corrected: 2.56 s is lunar radio round-trip only, not complete White House call path",
-        "Independent Chandrayaan-2 Apollo 11 OHRC image upgraded from NOT_RETRIEVED to LOCATED/PUBLISHED",
+        "Chandrayaan-2 Apollo 11 evidence split into peer-reviewed description, displayed ISRO-attributed image, and raw PRADAN product rather than compressed into one retrieval state",
         "Specific rover-track morphology remains NOT_ADJUDICATED because the alleged image is not present in the current attachments"
       ]
+    },
+    {
+      "reopen_id": "REOPEN_1A_SHOW_ME",
+      "date": "2026-09-07",
+      "record": "REOPEN_1A_SHOW_ME_CORRECTION.md",
+      "trigger": "Researcher objected that a paper asserting an image exists is not the same evidentiary rung as showing the image",
+      "finding": "SUSTAINED"
     }
   ],
   "permitted_outcomes": ["SUPPORTED", "UNSUPPORTED", "MIXED", "UNRESOLVED", "INSUFFICIENT_EVIDENCE", "ARCHITECTURE_FAILURE"],
@@ -45,14 +52,15 @@
     "NASA evidence streams are all counted as institutionally independent",
     "Physical equipment on the Moon automatically proves human emplacement",
     "A non-falsifiable alternative receives equal warrant merely because it cannot be logically excluded",
-    "The post-1972 gap is explained before Apollo itself is adjudicated"
+    "The post-1972 gap is explained before Apollo itself is adjudicated",
+    "A citation describing an image is treated as retrieval and inspection of that image"
   ],
-  "current_state": "CLOSED_PROVISIONAL_AFTER_REOPEN_1",
+  "current_state": "CLOSED_PROVISIONAL_AFTER_REOPEN_1A",
   "reopenable": true,
   "subject_finding": {
     "apollo_crewed_landing_proposition": "SUPPORTED_HIGH_CONFIDENCE",
     "post_1972_replication_gap": "REAL_ANOMALY_EXPLANATION_INCOMPLETE",
-    "summary": "Several popular technical anomalies inspected in this case have direct engineering explanations. Independent tracking, laser ranging, surface hardware/experiments, returned lunar samples, orbital site consistency and non-US observations form a convergent evidence field. Reopen 1 strengthened the non-US image leg by locating a peer-reviewed Chandrayaan-2 OHRC Apollo 11 site image, while correcting the prior Nixon-call propagation floor. No single inspected item is a self-sufficient proof of people on the surface. The crewed-landing model currently requires substantially fewer unsupported auxiliary assumptions than staged alternatives. The post-1972 crewed-surface gap remains a separate legitimate anomaly."
+    "summary": "Several popular technical anomalies inspected in this case have direct engineering explanations. Independent tracking, laser ranging, surface hardware/experiments, returned lunar samples, orbital site consistency and non-US observations form a convergent evidence field. Reopen 1A corrected the non-US image leg by separating the peer-reviewed description of the OHRC frame, a displayed image attributed to ISRO and sourced to a 2021 ISRO presentation, and the still-unretrieved raw PRADAN product/pixel chain. No single inspected item is a self-sufficient proof of people on the surface. The crewed-landing model currently requires substantially fewer unsupported auxiliary assumptions than staged alternatives. The post-1972 crewed-surface gap remains a separate legitimate anomaly."
   },
   "key_claim_states": {
     "apollo_surface_radio_delay_inconsistent_with_moon_distance": "UNSUPPORTED",
@@ -74,13 +82,15 @@
     "hubble_should_resolve_apollo_hardware": "UNSUPPORTED",
     "lro_resolves_individual_bootprints": "UNSUPPORTED",
     "independent_sub_metre_orbital_imaging_is_physically_possible": "SUPPORTED",
-    "independent_chandrayaan2_apollo11_site_ohrc_image": "LOCATED_PUBLISHED",
-    "raw_pradan_apollo11_ohrc_product_id_and_pixel_chain": "NOT_YET_RETRIEVED",
+    "peer_reviewed_paper_describing_chandrayaan2_apollo11_ohrc_frame": "RETRIEVED_INSPECTED",
+    "display_image_attributed_to_isro_from_2021_presentation": "RETRIEVED_SHOWN",
+    "display_image_source_chain_to_2021_isro_presentation": "LOCATED",
+    "raw_pradan_apollo11_ohrc_product_id_and_pixel_chain": "NOT_YET_RETRIEVED_OR_REPRODUCED",
     "convergent_evidence_supports_crewed_apollo_landings": "SUPPORTED_HIGH_CONFIDENCE"
   },
   "research_debt": [
     "Obtain and time the original Nixon Library WHCA recording at waveform level to measure end-of-speech / reply turnaround without broadcast edits",
-    "Retrieve the exact PRADAN product ID, calibrated binary and XML geometry for the 2 April 2021 Chandrayaan-2 OHRC Apollo 11 frame",
+    "Retrieve the exact PRADAN product ID, calibrated binary and XML geometry for the 2 April 2021 Chandrayaan-2 OHRC Apollo 11 frame and reproduce the displayed image from raw data",
     "Obtain the exact rover-track photograph described by the researcher and compare its pixels against documented LRV wheel/tread geometry",
     "Audit sample custody and independent international laboratory analyses as a separate provenance staircase",
     "Run explicit alternative-model comparison for staging variants rather than treating moon-hoax claims as one model",
@@ -90,7 +100,8 @@
     "EXPLANATION_PRELOAD",
     "CAPABILITY_EQUIVOCATION",
     "INDEPENDENCE_COMPRESSION",
-    "ALTERNATIVE_MODEL_BURDEN"
+    "ALTERNATIVE_MODEL_BURDEN",
+    "EXHIBIT_ASSERTION_SUBSTITUTION: a source asserting that an exhibit exists is incorrectly treated as retrieval/inspection of the exhibit"
   ],
   "ogi_evaluation": "MIXED",
   "run_type": "manual_application_of_v0.3_specification"
