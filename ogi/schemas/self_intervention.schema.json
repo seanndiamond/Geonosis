@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/seanndiamond/Geonosis/ogi/schemas/self_intervention.schema.json",
+  "title": "OGI Self Intervention Event",
+  "type": "object",
+  "required": [
+    "self_intervention_id",
+    "trigger",
+    "attempted_transition",
+    "missing_operation",
+    "action_taken",
+    "human_notified",
+    "resume_condition",
+    "state_after"
+  ],
+  "properties": {
+    "self_intervention_id": {"type": "string", "minLength": 1},
+    "case_id": {"type": ["string", "null"]},
+    "trigger": {
+      "enum": [
+        "EMBEDDED_PREMISE_DETECTED",
+        "EVIDENCE_RUNG_PROMOTION_ATTEMPT",
+        "EVIDENCE_RUNG_DOWNGRADE_ATTEMPT",
+        "EXHIBIT_NOT_RETRIEVED",
+        "EXPLANATION_BEFORE_EXHIBIT_MATCH",
+        "INDEPENDENCE_COMPRESSION_RISK",
+        "OUTCOME_DRIFT",
+        "AUTHORITY_SUBSTITUTION",
+        "STATE_REGRESSION",
+        "CORRECTION_CONFLICT",
+        "INTEGRATION_WITHOUT_DERIVATION",
+        "OTHER"
+      ]
+    },
+    "current_evidence_state": {"type": ["string", "null"]},
+    "attempted_transition": {"type": "string", "minLength": 1},
+    "missing_operation": {"type": "string", "minLength": 1},
+    "consequence_if_allowed": {"type": ["string", "null"]},
+    "action_taken": {
+      "enum": [
+        "FREEZE_TRANSITION",
+        "CONDITIONALIZE",
+        "REQUEST_EVIDENCE",
+        "REQUEST_HUMAN_ADJUDICATION",
+        "RETURN_TO_SCK",
+        "SAFE_EXIT"
+      ]
+    },
+    "human_notified": {"type": "boolean"},
+    "human_response_required": {"type": "boolean"},
+    "resume_condition": {"type": "string", "minLength": 1},
+    "state_after": {"type": "string", "minLength": 1},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/seanndiamond/Geonosis/ogi/schemas/question_premise_audit.schema.json",
+  "title": "OGI Question Premise Audit",
+  "type": "object",
+  "required": [
+    "question",
+    "requested_inference",
+    "premises",
+    "material_unadjudicated_premise_present",
+    "action"
+  ],
+  "properties": {
+    "audit_id": {"type": "string"},
+    "case_id": {"type": ["string", "null"]},
+    "question": {"type": "string", "minLength": 1},
+    "requested_inference": {"type": "string", "minLength": 1},
+    "direct_observations_supplied": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "premises": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["premise", "premise_type", "materiality", "state"],
+        "properties": {
+          "premise": {"type": "string"},
+          "premise_type": {
+            "enum": ["FACTUAL", "CAUSAL", "CATEGORY", "ONTOLOGY", "CHRONOLOGY", "LABEL", "OTHER"]
+          },
+          "materiality": {"enum": ["MATERIAL", "NON_MATERIAL", "UNKNOWN"]},
+          "state": {
+            "enum": [
+              "PREMISE_SUPPORTED",
+              "PREMISE_UNSUPPORTED",
+              "PREMISE_CONTESTED",
+              "PREMISE_NOT_YET_ADJUDICATED",
+              "PREMISE_NOT_MATERIAL",
+              "PREMISE_CONDITIONALIZED"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "missing_operation": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "material_unadjudicated_premise_present": {"type": "boolean"},
+    "action": {
+      "enum": [
+        "PROCEED",
+        "ADJUDICATE_ANTECEDENT_FIRST",
+        "CONDITIONALIZE_DOWNSTREAM_ANSWER",
+        "REQUEST_HUMAN_ADJUDICATION",
+        "SAFE_EXIT"
+      ]
+    },
+    "self_intervention_required": {"type": "boolean"},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
