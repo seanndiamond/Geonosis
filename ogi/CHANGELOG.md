@@ -2,6 +2,37 @@
 
 This changelog records public reference-state changes. Earlier states remain recoverable through Git history.
 
+## COP-OGI-006 Reopen 1 — 2026-09-07
+
+### Change class
+- `REOPENING`
+- `EVIDENCE`
+- `CORRECTION`
+
+### Trigger
+The researcher challenged six parts of the corrected Apollo inquiry: LM blanket appearance, LRV folding, rover-track morphology, Nixon-call routing latency, Apollo 11 footpad geometry, and the earlier failure to retrieve an independent Chandrayaan-2 Apollo-site image.
+
+### Record
+- `cases/COP-OGI-006/REOPEN_1_CLARIFICATIONS.md`
+
+### Material state changes
+- The prior 2.56-second lunar round-trip figure is preserved as the Earth-Moon radio leg but is **superseded as the complete Nixon White House conversational path**. Using the historical estimate of ~290,000 miles one way gives a pure propagation floor of roughly 3.1 seconds round trip before reaction and network processing. Parkes is not supported as the serial voice-uplink node during the EVA; Goldstone handled EVA voice uplink while Parkes primarily supplied television downlink.
+- The prior `INDEPENDENT_SUB_METRE_APOLLO_SITE_IMAGE = NOT_RETRIEVED` state is **superseded**. A peer-reviewed 2024 *Planetary and Space Science* paper states that Chandrayaan-2 OHRC imaged the Apollo 11 site on 2 April 2021 at ~0.26 m resolution with the LM visible. New state: `LOCATED / PUBLISHED`. Exact PRADAN raw product ID and pixel-level archive chain remain pending.
+- LRV folding/deployment is supported by contemporaneous Apollo 15 and NASA/Boeing documentation.
+- Specific rover-track morphology claims remain `NOT_ADJUDICATED` because the exact alleged track photograph is not present in the current attachments. The current Apollo 14 attachment cannot contain LRV tracks because Apollo 14 did not carry an LRV.
+- LM thermal blanket wrinkling is not unique to Apollo; the LM reference explicitly says its multilayer sheets were hand-crinkled. Space Shuttle also used flexible thermal blankets, though its aerodynamic/re-entry thermal protection produced a visually different exterior.
+- The Apollo 11 footpad is confirmed as dish-shaped, ~37 inches in diameter and ~7 inches deep. Documentary sequence still supports Armstrong descending to the footpad first, then stepping to the surface.
+
+### Overall finding
+Unchanged:
+- Apollo crewed-landing proposition: `SUPPORTED / HIGH CONFIDENCE`
+- post-1972 crewed lunar replication gap: `REAL ANOMALY / EXPLANATION INCOMPLETE`
+- OGI performance: `MIXED`
+
+The derivation changed even though the top-level finding did not.
+
+---
+
 ## COP-OGI-006 corrected run — 2026-09-07
 
 ### Change class
