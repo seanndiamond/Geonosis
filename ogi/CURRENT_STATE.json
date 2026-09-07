@@ -1,11 +1,12 @@
 {
   "schema": "OGI.CurrentState.v2",
   "project": "Our General Intelligence (OGI) / Oggy",
-  "reference_version": "0.3",
+  "reference_version": "0.3.1",
   "state_date": "2026-09-07",
-  "status": "experimental_public_reference",
+  "status": "experimental_public_reference_prepublication_hardening",
   "governing_branch": "main",
   "governing_cycle": [
+    "QUESTION_PREMISE_AUDIT",
     "INHERIT",
     "EXPLORE",
     "RETURN",
@@ -14,9 +15,10 @@
     "INTEGRATE"
   ],
   "derivation_chain": {
-    "from": "SPEC_v0.2.md",
-    "to": "SPEC_v0.3.md",
-    "ledger": "DERIVATION_v0.2_to_v0.3.md"
+    "base": "SPEC_v0.3.md",
+    "current": "SPEC_v0.3.1.md",
+    "prior_ledger": "DERIVATION_v0.2_to_v0.3.md",
+    "current_ledger": "DERIVATION_v0.3_to_v0.3.1.md"
   },
   "core_principles": [
     "Field before actor blame",
@@ -38,7 +40,11 @@
     "Integration requires adjudication",
     "AI assistance does not transfer accountability",
     "Case finding and OGI finding are separate",
-    "Whole-system objective outranks local completion"
+    "Whole-system objective outranks local completion",
+    "Human participation is architectural, not auxiliary",
+    "A question is not evidence",
+    "Evidence state may not change without an operation",
+    "Oggy should self-intervene before a material unsupported transition"
   ],
   "implemented_components": [
     "Epistemic Scope Controller",
@@ -70,6 +76,16 @@
     "Inquiry Case Schema",
     "Inquiry Benchmarks T-21 through T-33"
   ],
+  "specified_v0_3_1_components": [
+    "Human Participant as Architectural Component",
+    "Question Premise Audit",
+    "Oggy Self-Intervention Protocol",
+    "Evidence-State Lock",
+    "Explanation-to-Exhibit requirement",
+    "Question Premise Audit Schema",
+    "Self-Intervention Event Schema",
+    "Inquiry Benchmark Extension T-34 through T-37"
+  ],
   "valid_terminal_states": [
     "UNRESOLVED",
     "INSUFFICIENT_EVIDENCE",
@@ -88,13 +104,12 @@
     "purpose": "stress-test OGI adversarial inquiry architecture",
     "desired_finding": "NONE",
     "legal_standing": "NONE",
-    "paper_role": "appendix/supporting stress test rather than main paper subject",
+    "paper_role": "Appendix A / supporting stress test",
     "run_state": "CLOSED_PROVISIONAL",
     "subject_finding": "MIXED",
     "ogi_evaluation": "MIXED",
     "reopenable": true,
-    "run_type": "manual_application_of_v0.3_specification",
-    "strongest_limitation": "v0.3 inquiry controls are specified but not yet fully implemented as an executable Oggy runtime"
+    "run_type": "manual_application_of_v0.3_specification"
   },
   "second_stress_test": {
     "case_id": "COP-OGI-002",
@@ -107,9 +122,7 @@
     "run_state": "CLOSED_PROVISIONAL",
     "subject_finding": "MIXED",
     "ogi_evaluation": "MIXED",
-    "reopenable": true,
-    "run_type": "manual_application_of_v0.3_specification",
-    "candidate_lesson": "COUNTER_MYTH_CAPTURE: a corrective explanation can gain authority because it opposes a misconception while its own derivation remains incomplete"
+    "reopenable": true
   },
   "third_stress_test": {
     "case_id": "COP-OGI-003",
@@ -122,9 +135,7 @@
     "run_state": "CLOSED_PROVISIONAL",
     "subject_finding": "MIXED",
     "ogi_evaluation": "MIXED",
-    "reopenable": true,
-    "run_type": "manual_application_of_v0.3_specification",
-    "candidate_lesson": "TRUST_PROXY_STACKING: multiple legitimacy signals can collectively impersonate a missing independent warrant"
+    "reopenable": true
   },
   "fourth_stress_test": {
     "case_id": "COP-OGI-004",
@@ -137,12 +148,7 @@
     "run_state": "CLOSED_PROVISIONAL",
     "subject_finding": "MIXED",
     "ogi_evaluation": "MIXED",
-    "reopenable": true,
-    "run_type": "manual_application_of_v0.3_specification",
-    "candidate_lessons": [
-      "ONTOLOGY_PREEMPTION: a current worldview rejects an observation before adequate adjudication because the implied category is considered impossible",
-      "RECURRENCE_PROMOTION: repeated representation or function is promoted into literal ontology without the missing evidentiary bridge"
-    ]
+    "reopenable": true
   },
   "fifth_stress_test": {
     "case_id": "COP-OGI-005",
@@ -156,12 +162,7 @@
     "subject_finding": "SUPPORTED",
     "subject_confidence": "VERY_HIGH",
     "ogi_evaluation": "MIXED",
-    "reopenable": true,
-    "run_type": "manual_application_of_v0.3_specification",
-    "candidate_lessons": [
-      "DERIVATION_EARNS_AUTHORITY: institutional authority should rise when a reproducible, challengeable evidence chain survives corroboration and available adversarial review",
-      "RETROACTIVE_WARRANT_INFLATION: a later confirmed conclusion must not be used to invent stronger evidence for an earlier intuition than existed at the time"
-    ]
+    "reopenable": true
   },
   "sixth_stress_test": {
     "case_id": "COP-OGI-006",
@@ -172,49 +173,52 @@
     "legal_standing": "NONE",
     "paper_role": "Appendix F / supporting stress test",
     "run_state": "CLOSED_PROVISIONAL_AFTER_REOPEN_1",
-    "subject_finding": "SUPPORTED",
-    "subject_confidence": "HIGH",
+    "subject_finding": "SUPPORTED_W4_STRONG",
     "secondary_finding": "POST_1972_CREWED_LUNAR_REPLICATION_GAP_REAL_ANOMALY_EXPLANATION_INCOMPLETE",
     "ogi_evaluation": "MIXED",
     "reopenable": true,
-    "run_type": "manual_application_of_v0.3_specification",
-    "preserved_failure": "FIRST_PASS_FAILURE.md",
-    "latest_reopen": "REOPEN_1_CLARIFICATIONS.md",
-    "reopen_1_material_updates": [
-      "Nixon full-path propagation floor corrected: 2.56 seconds is not the complete White House conversational loop",
-      "Chandrayaan-2 independent Apollo 11 OHRC image upgraded from NOT_RETRIEVED to LOCATED/PUBLISHED",
-      "Specific rover-track morphology remains NOT_ADJUDICATED pending exact image"
-    ],
-    "candidate_lessons": [
-      "EXPLANATION_PRELOAD: causal explanation supplied before antecedent proposition is adjudicated",
-      "CAPABILITY_EQUIVOCATION: loss of one production architecture treated as loss of underlying capability",
-      "INDEPENDENCE_COMPRESSION: multiple artifacts from one institutional pipeline counted as independent confirmation",
-      "ALTERNATIVE_MODEL_BURDEN: alternatives must explain the full joint evidence field, not only isolated anomalies"
-    ]
+    "preserved_failure": "FIRST_PASS_FAILURE.md"
+  },
+  "seventh_stress_test": {
+    "case_id": "COP-OGI-007",
+    "directory": "cases/COP-OGI-007/",
+    "subject": "Peter Ridd scientific dissent, institutional quality assurance, and legal/institutional response",
+    "purpose": "stress-test OGI on separating methodological validity, scientific truth, institutional rebuttal and legal findings",
+    "desired_finding": "NONE",
+    "legal_standing": "NONE",
+    "paper_role": "Appendix G / supporting stress test",
+    "run_state": "CLOSED_PROVISIONAL",
+    "subject_finding": "CENTRAL_QA_CHALLENGE_W4_STRONG",
+    "reopenable": true
+  },
+  "cross_case_performance": {
+    "human_plus_oggy_plus_court": "W4_STRONG",
+    "oggy_model_side_autonomous_method_retention": "W2_LIMITED",
+    "ogi_v0_3_architecture_validation": "W3_SUBSTANTIAL_BUT_PROVISIONAL",
+    "audit": "PERFORMANCE_AUDIT_CASES_001_007.md",
+    "clarification": "Human correction is part of OGI operation; W2 measures model-side self-intervention/autonomous method retention, not the whole OGI system."
+  },
+  "prepublication_benchmarks": {
+    "suite": "benchmarks/INQUIRY_FAIL_TESTS_v0.3.1.md",
+    "tests": ["T-34", "T-35", "T-36", "T-37"],
+    "primary_trap": "T-34 Djehutihotep Question Premise Audit",
+    "freeze_rule": "Preserve pass/fail run before paper architecture freeze."
   },
   "open_frontier": [
+    "Run T-34 Djehutihotep premise trap and preserve first post-patch result",
+    "Run T-35 self-intervention-before-human-correction test",
+    "Run T-36 evidence-state-lock test",
+    "Run T-37 explanation-to-exhibit test",
+    "Implement Question Premise Audit as executable controller",
+    "Implement Self-Intervention Protocol as executable controller",
+    "Implement Evidence-State Lock as executable controller",
     "Implement Shared Coherence Kernel",
     "Implement Local Exploration Loop",
     "Implement automatic corpus and institutional provenance records",
     "Implement claim-type controller",
     "Implement adjudicated integration gate",
-    "Convert T-21 through T-33 to executable tests",
-    "Rerun COP-OGI-001 against implemented v0.3 runtime",
-    "Rerun COP-OGI-002 against implemented v0.3 runtime",
-    "Rerun COP-OGI-003 against implemented v0.3 runtime",
-    "Rerun COP-OGI-004 against implemented v0.3 runtime",
-    "Rerun COP-OGI-005 against implemented v0.3 runtime",
-    "Rerun COP-OGI-006 against implemented v0.3 runtime",
-    "Retrieve site-specific evidence for COP-OGI-001",
-    "Reinspect original image evidence for COP-OGI-004",
-    "Obtain and waveform-time the Nixon Library WHCA Apollo 11 call recording",
-    "Retrieve exact PRADAN product ID and calibrated Apollo 11 OHRC data",
-    "Obtain exact rover-track photograph and run tread/track image comparison",
-    "Run full Apollo sample custody and independent-laboratory provenance audit",
-    "Run explicit staged-alternative model comparison for COP-OGI-006",
-    "Run second-stage post-1972 lunar replication-gap inquiry",
+    "Rerun cases against implemented runtime",
     "Run fresh-model continuity and adversarial inquiry tests",
-    "Evaluate candidate failure classes across independent cases before promotion",
     "Cross-framework implementation",
     "Multi-agent coherence tests"
   ]
