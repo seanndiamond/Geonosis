@@ -1,56 +1,90 @@
 #!/usr/bin/env python3
-import csv
-import math
-import statistics
-import sys
+"""
+ODRR-RR-001 deterministic target-control matcher.
+Uses only pre-outcome image features and declared source metadata.
+"""
+import argparse
+import numpy as np
+import pandas as pd
 
-NUMERIC = ["aspect_ratio", "mean_luminance", "rms_contrast", "edge_strength", "entropy_bits"]
-
-
-def load(path):
-    rows = list(csv.DictReader(open(path, newline="", encoding="utf-8")))
-    for r in rows:
-        for k in NUMERIC:
-            r[k] = float(r[k])
-    return rows
-
-
-def zscore(rows):
-    means = {k: statistics.fmean(r[k] for r in rows) for k in NUMERIC}
-    sds = {}
-    for k in NUMERIC:
-        vals = [r[k] for r in rows]
-        sds[k] = statistics.stdev(vals) if len(vals) > 1 and statistics.stdev(vals) > 0 else 1.0
-    for r in rows:
-        for k in NUMERIC:
-            r["z_" + k] = (r[k] - means[k]) / sds[k]
+HIST=[f"orientation_hist_bin_{i}" for i in range(8)]
+DIST_FEATURES=[
+    "log_aspect_ratio","mean_luma_norm","rms_contrast_norm","entropy_bits",
+    "edge_density_grad20","mean_gradient_norm","orientation_anisotropy",*HIST
+]
 
 
-def distance(a, b):
-    return math.sqrt(sum((a["z_" + k] - b["z_" + k]) ** 2 for k in NUMERIC))
+def js_divergence(p,q):
+    p=np.asarray(p,float); q=np.asarray(q,float)
+    p=p/(p.sum()+1e-12); q=q/(q.sum()+1e-12)
+    m=.5*(p+q)
+    def kl(a,b):
+        mask=a>0
+        return float(np.sum(a[mask]*np.log2(a[mask]/(b[mask]+1e-12))))
+    return .5*kl(p,m)+.5*kl(q,m)
 
 
-def main(path):
-    rows = load(path)
-    required = {"source_id", "condition", "source_class"}
-    if not rows or not required.issubset(rows[0]):
-        raise ValueError("CSV requires source_id, condition, source_class and numeric feature columns")
-    zscore(rows)
-    targets = sorted((r for r in rows if r["condition"] == "TARGET"), key=lambda r: r["source_id"])
-    available = {r["source_id"]: r for r in rows if r["condition"] == "CONTROL_CANDIDATE"}
-    writer = csv.writer(sys.stdout)
-    writer.writerow(["target_source_id", "control_source_id", "source_class", "standardized_distance"])
-    for target in targets:
-        candidates = [r for r in available.values() if r["source_class"] == target["source_class"]]
-        if not candidates:
-            raise ValueError(f"no remaining same-class control for {target['source_id']}")
-        candidates.sort(key=lambda r: (distance(target, r), r["source_id"]))
-        chosen = candidates[0]
-        writer.writerow([target["source_id"], chosen["source_id"], target["source_class"], f"{distance(target, chosen):.8f}"])
-        del available[chosen["source_id"]]
+def safe_ratio(a,b):
+    if abs(b)<1e-12:
+        return 1.0 if abs(a)<1e-12 else np.inf
+    return a/b
 
 
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        raise SystemExit("usage: match_controls.py IMAGE_FEATURES_WITH_METADATA.csv")
-    main(sys.argv[1])
+def eligible(t,c):
+    if t.source_class!=c.source_class: return False,"source_class"
+    if t.render_mode!=c.render_mode: return False,"render_mode"
+    if t.crop_scale_class!=c.crop_scale_class: return False,"crop_scale_class"
+    ar=t.aspect_ratio/c.aspect_ratio
+    if not (0.80<=ar<=1.25): return False,"aspect_ratio"
+    if abs(t.mean_luma_norm-c.mean_luma_norm)>0.10: return False,"luminance"
+    if abs(t.rms_contrast_norm-c.rms_contrast_norm)>0.10: return False,"contrast"
+    if abs(t.entropy_bits-c.entropy_bits)>0.75: return False,"entropy"
+    er=safe_ratio(t.edge_density_grad20,c.edge_density_grad20)
+    if not (0.75<=er<=1.33): return False,"edge_density"
+    gr=safe_ratio(t.mean_gradient_norm,c.mean_gradient_norm)
+    if not (0.75<=gr<=1.33): return False,"gradient"
+    js=js_divergence([getattr(t,h) for h in HIST],[getattr(c,h) for h in HIST])
+    if js>0.20: return False,"orientation_hist_jsd"
+    return True,""
+
+
+def main():
+    ap=argparse.ArgumentParser()
+    ap.add_argument("features_csv")
+    ap.add_argument("matches_csv")
+    ap.add_argument("--audit_csv",default=None)
+    args=ap.parse_args()
+    df=pd.read_csv(args.features_csv)
+    targets=df[df.kind=="target"].sort_values("source_id").copy()
+    controls=df[df.kind=="control"].sort_values("source_id").copy()
+    audit=[]; candidates={}
+    for t in targets.itertuples(index=False):
+        ids=[]
+        for c in controls.itertuples(index=False):
+            ok,reason=eligible(t,c)
+            audit.append({"target_id":t.source_id,"control_id":c.source_id,"eligible":ok,"reject_reason":reason})
+            if ok: ids.append(c.source_id)
+        candidates[t.source_id]=ids
+
+    X=df[DIST_FEATURES].astype(float)
+    mu=X.mean(); sd=X.std(ddof=0).replace(0,1)
+    Z=(X-mu)/sd
+    zmap={sid:Z.iloc[i].to_numpy(float) for i,sid in enumerate(df.source_id)}
+
+    used=set(); matches=[]
+    for t in targets.itertuples(index=False):
+        avail=[cid for cid in candidates[t.source_id] if cid not in used]
+        if len(avail)<1:
+            matches.append({"target_id":t.source_id,"control_id":"","distance":"","status":"NO_ELIGIBLE_UNUSED_CONTROL"})
+            continue
+        scored=sorted((float(np.linalg.norm(zmap[t.source_id]-zmap[cid])),cid) for cid in avail)
+        dist,cid=scored[0]
+        used.add(cid)
+        matches.append({"target_id":t.source_id,"control_id":cid,"distance":dist,"status":"MATCHED"})
+    pd.DataFrame(matches).to_csv(args.matches_csv,index=False)
+    if args.audit_csv:
+        pd.DataFrame(audit).to_csv(args.audit_csv,index=False)
+
+
+if __name__=="__main__":
+    main()
