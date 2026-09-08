@@ -1,0 +1,261 @@
+{
+  "engine": "Geonosis Research-Narrative Continuity Engine",
+  "project": "Trojan Horse Trilogy",
+  "version": "0.1.0",
+  "lastUpdated": "2026-09-09",
+  "authority": {
+    "canonical": true,
+    "rule": "This ledger is the machine-readable source of truth for trilogy continuity. Chat memory and summaries are secondary. Conflicts must be surfaced, not silently reconciled.",
+    "owner": "Sean Diamond"
+  },
+  "series": {
+    "books": [
+      {
+        "number": 1,
+        "title": "Who Let the Trojan Horse In?",
+        "status": "released"
+      },
+      {
+        "number": 2,
+        "title": "What's Inside the Trojan Horse?",
+        "status": "in development"
+      },
+      {
+        "number": 3,
+        "title": "What Came Out of the Trojan Horse?",
+        "status": "in development"
+      }
+    ]
+  },
+  "immutableCanon": [
+    {
+      "id": "TC-001",
+      "statement": "The trilogy's core causal research-narrative chain is Field Before Form -> Earth grammar -> responsive stone -> Rekhmire -> Giza red/blue pipe -> Tabernacle -> War on Ra -> weapon used while the dogs were still inside -> Dante/afterlife capture.",
+      "status": "locked",
+      "changeRule": "Explicit revision by Sean Diamond required."
+    },
+    {
+      "id": "TC-002",
+      "statement": "Narrative continuity must preserve the distinction between research evidence, project finding, inference, and fictional dramatization.",
+      "status": "locked",
+      "changeRule": "Explicit revision by Sean Diamond required."
+    },
+    {
+      "id": "TC-003",
+      "statement": "A character may not know, infer, or reveal information before the story has supplied a valid route by which that character could acquire it.",
+      "status": "locked",
+      "changeRule": "Explicit revision by Sean Diamond required."
+    },
+    {
+      "id": "TC-004",
+      "statement": "Material reserved for a later book must not be consumed early merely to improve a local chapter or twist.",
+      "status": "locked",
+      "changeRule": "Explicit revision by Sean Diamond required."
+    }
+  ],
+  "researchCanon": [
+    {
+      "id": "RC-001",
+      "topic": "Field Before Form",
+      "status": "project finding",
+      "source": [],
+      "observation": [],
+      "inference": [],
+      "projectFinding": "Field Before Form is a central Geonosis explanatory principle and must remain causally upstream of later narrative technologies and discoveries.",
+      "narrativeUse": "Foundational architecture across the trilogy."
+    },
+    {
+      "id": "RC-002",
+      "topic": "Earth grammar",
+      "status": "project finding",
+      "source": [],
+      "observation": [],
+      "inference": [],
+      "projectFinding": "The Earth-surface archive is treated within the project as a structured pictographic grammar rather than background scenery.",
+      "narrativeUse": "Supports the transition from Field Before Form to responsive material and archive interpretation."
+    },
+    {
+      "id": "RC-003",
+      "topic": "Responsive stone",
+      "status": "project finding",
+      "source": [],
+      "observation": [],
+      "inference": [],
+      "projectFinding": "Responsive stone occupies a causal position between Earth grammar and the later technological/historical sequence.",
+      "narrativeUse": "Used as a bridge from archive-reading to material technology."
+    },
+    {
+      "id": "RC-004",
+      "topic": "War on Ra",
+      "status": "project finding",
+      "source": [],
+      "observation": [],
+      "inference": [],
+      "projectFinding": "The War on Ra is part of the trilogy's underlying historical-research architecture and includes the locked event that a weapon was used while dogs were still inside.",
+      "narrativeUse": "Major later-series revelation and causal hinge."
+    }
+  ],
+  "characters": {
+    "Calder Ray": {
+      "role": "central character",
+      "currentLocation": "unknown/not yet populated",
+      "knowledge": [],
+      "beliefs": [],
+      "relationships": {},
+      "arcState": "requires manuscript-derived population"
+    },
+    "ORA": {
+      "role": "central AI/intelligence character",
+      "currentLocation": "unknown/not yet populated",
+      "knowledge": [],
+      "beliefs": [],
+      "relationships": {},
+      "arcState": "requires manuscript-derived population"
+    },
+    "Julian": {
+      "role": "major character",
+      "currentLocation": "unknown/not yet populated",
+      "knowledge": [],
+      "beliefs": [],
+      "relationships": {},
+      "arcState": "requires manuscript-derived population"
+    },
+    "Dr. Shone": {
+      "role": "major character",
+      "currentLocation": "unknown/not yet populated",
+      "knowledge": [],
+      "beliefs": [],
+      "relationships": {},
+      "arcState": "requires manuscript-derived population"
+    },
+    "Voss": {
+      "role": "major character",
+      "currentLocation": "unknown/not yet populated",
+      "knowledge": [],
+      "beliefs": [],
+      "relationships": {},
+      "arcState": "requires manuscript-derived population"
+    },
+    "Mei": {
+      "role": "major character",
+      "currentLocation": "unknown/not yet populated",
+      "knowledge": [],
+      "beliefs": [],
+      "relationships": {},
+      "arcState": "requires manuscript-derived population"
+    },
+    "Anton": {
+      "role": "major character",
+      "currentLocation": "unknown/not yet populated",
+      "knowledge": [],
+      "beliefs": [],
+      "relationships": {},
+      "arcState": "requires manuscript-derived population"
+    }
+  },
+  "artefactLedger": [
+    {
+      "id": "AR-001",
+      "name": "Rekhmire",
+      "researchStatus": "active project evidence",
+      "storyStatus": "causal-chain artefact",
+      "notes": []
+    },
+    {
+      "id": "AR-002",
+      "name": "Giza red/blue pipe",
+      "researchStatus": "active project evidence",
+      "storyStatus": "causal-chain artefact",
+      "notes": []
+    },
+    {
+      "id": "AR-003",
+      "name": "Tabernacle",
+      "researchStatus": "active project evidence",
+      "storyStatus": "causal-chain artefact",
+      "notes": []
+    }
+  ],
+  "revelationLedger": [],
+  "timeline": {
+    "storyChronology": [],
+    "historicalChronology": [],
+    "rule": "Story chronology and historical chronology must remain separate because the narrative may reveal historical material non-linearly."
+  },
+  "causalChain": [
+    "Field Before Form",
+    "Earth grammar",
+    "responsive stone",
+    "Rekhmire",
+    "Giza red/blue pipe",
+    "Tabernacle",
+    "War on Ra",
+    "weapon used while the dogs were still inside",
+    "Dante/afterlife capture"
+  ],
+  "openThreads": [
+    {
+      "id": "OT-001",
+      "thread": "Populate detailed character knowledge states from the existing manuscripts and handoff files.",
+      "status": "open",
+      "book": "series-wide"
+    },
+    {
+      "id": "OT-002",
+      "thread": "Populate chapter-by-chapter entry and exit states from the existing manuscripts.",
+      "status": "open",
+      "book": "series-wide"
+    },
+    {
+      "id": "OT-003",
+      "thread": "Attach provenance/evidence references to researchCanon entries so important narrative propositions retain SOURCE -> OBSERVATION -> INFERENCE -> PROJECT FINDING -> NARRATIVE USE traceability.",
+      "status": "open",
+      "book": "series-wide"
+    }
+  ],
+  "chapterState": [],
+  "voiceFingerprint": {
+    "status": "initial",
+    "rules": [
+      "Avoid generic AI prose habits and repetitive atmospheric phrasing.",
+      "Vary chapter openings and endings by narrative function rather than mechanical rotation alone.",
+      "Preserve investigative, philosophical, ironic and evidentiary texture where appropriate.",
+      "Do not improve prose by changing canon.",
+      "Do not use em dashes."
+    ],
+    "bannedOrWatchedPatterns": []
+  },
+  "forbiddenContinuityMoves": [
+    "Silent retconning",
+    "Premature revelation",
+    "Character knowledge without acquisition path",
+    "Using fictional invention as evidence for the research",
+    "Changing an artefact's evidentiary meaning solely for plot convenience",
+    "Collapsing project finding and external scientific consensus into the same status",
+    "Resolving an ambiguity without recording that a choice was made"
+  ],
+  "updateProtocol": {
+    "beforeDraft": [
+      "Load current ledger",
+      "Identify current book/chapter position",
+      "Load incoming character states",
+      "Load active open threads",
+      "Load relevant researchCanon entries",
+      "Check sealed revelations",
+      "Check previous chapter exit state"
+    ],
+    "afterApproval": [
+      "Record events that became canon",
+      "Update character locations and knowledge",
+      "Update reader revelation state",
+      "Resolve or create open threads",
+      "Update timelines",
+      "Update artefact states",
+      "Record foreshadowing",
+      "Record next-chapter entry state",
+      "Increment ledger version",
+      "Commit to GitHub"
+    ],
+    "conflictRule": "If manuscript, user instruction, prior summary, and ledger disagree, stop silent reconciliation. Record the conflict and defer to explicit user resolution or the most authoritative primary text."
+  }
+}
