@@ -34,6 +34,16 @@ The archive also preserves a **63-item March 2026 snapshot** in [`publications/r
 
 A worked provenance example records how lagging public search indexes can return smaller counts than the first-party profile: [`provenance/examples/0001-researchgate-profile-count.md`](provenance/examples/0001-researchgate-profile-count.md). The same event is also stored as the first machine-readable evidence record: [`evidence/PROV-0001-researchgate-profile-count.json`](evidence/PROV-0001-researchgate-profile-count.json).
 
+## Current reader state and release ethic
+
+> **At present, this reading is being carried by one active reader. The purpose of publication is to make sure it does not remain that way.**
+
+This is **single-reader in practice, not exclusive in principle**. The project is designed to make the original researcher progressively less necessary by exposing the source, derivation, controls, corrections and tests needed for other people to reproduce, challenge or extend the work.
+
+The public-release preference is therefore simple: **open the central derivation rather than place it behind an epistemic paywall**, while still respecting source rights, privacy, heritage-sensitive material and any future genuinely hazardous implementation details.
+
+See the canonical [Public Reading and Release Statement](archive/canonical/PUBLIC_READING_STATEMENT.md).
+
 ## Our General Intelligence / Oggy
 
 The repository now includes an experimental public reference architecture for **Our General Intelligence (OGI)**, nicknamed **Oggy**. It extends the project's epistemic-state work with explicit modelling of objective, proxy, reward, permission, safe failure, correction, divergence and return.
