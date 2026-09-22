@@ -31,6 +31,24 @@ Original PDF/DOCX versions may also be mirrored where useful and rights-clear, b
 
 The ResearchGate record establishes that a work was publicly posted. It does not by itself validate the paper's claims. Claim-level evidence lives in the source and evidence records.
 
+## Current public mirrors and active migrations
+
+### The Tabernacle: From Civilisational Function to Ritualized Memory
+
+A public preprint package was added on **22 September 2026**:
+
+- [paper record](tabernacle-civilisational-function-ritualized-memory/README.md)
+- [provenance](tabernacle-civilisational-function-ritualized-memory/provenance.json)
+- [latest post-render amendment](tabernacle-civilisational-function-ritualized-memory/LATEST_AMENDMENT.md)
+
+The complete figure-rich DOCX/PDF is not mirrored blindly because the paper contains mixed-rights archive imagery. The GitHub package records the current version and amendment while figure-by-figure provenance is reconciled.
+
+### Indus visual-operational paper
+
+The September 2026 Indus rewrite is **actively being rebuilt** from artefact-first derivation. The older April prize draft is intentionally not promoted into the paper mirror because the current research has quarantined or removed unsupported corpus totals, statistical-performance claims, fixed frequency claims and synthetic glossary entries pending reproducible source support.
+
+The public direction of travel is already recorded in the research archive; the full current paper should be mirrored when the active revision is frozen rather than publishing a superseded draft for the sake of apparent completeness.
+
 ## Current migration state
 
 The repository currently contains the five-paper public research spine as navigational records. Full-text migration is being done from verified public versions rather than assuming every manuscript in the private project archive is identical to the ResearchGate version.
