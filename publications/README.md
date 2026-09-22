@@ -6,6 +6,12 @@ This directory preserves the public publication chronology of the Geonosis resea
 
 **75 ResearchGate research items** are visible on Sean Diamond's live ResearchGate profile in an author-supplied screenshot dated **12 August 2026**.
 
+## Post-August public GitHub releases
+
+- **The Tabernacle: From Civilisational Function to Ritualized Memory — Field, Matter, Image and the Reconstruction of a Portable Civilisational Machine** — public GitHub preprint package, 22 September 2026; not peer reviewed; ResearchGate posting not asserted here until first-party confirmation is preserved.
+
+The GitHub public-release record and the ResearchGate registry are deliberately kept distinct. A work can be public here before its ResearchGate status is confirmed.
+
 ## Preserved snapshots
 
 - [`researchgate-snapshot-2026-03.md`](researchgate-snapshot-2026-03.md) — 63-item saved ResearchGate profile snapshot.
