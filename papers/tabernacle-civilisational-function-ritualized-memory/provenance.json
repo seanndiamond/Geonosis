@@ -1,0 +1,37 @@
+{
+  "record_id": "PAPER-TABERNACLE-2026-09-22",
+  "title": "The Tabernacle: From Civilisational Function to Ritualized Memory",
+  "subtitle": "Field, Matter, Image and the Reconstruction of a Portable Civilisational Machine",
+  "author": "Sean Diamond",
+  "project": "Geonosis Project",
+  "status": "public_gitHub_preprint_package",
+  "peer_reviewed": false,
+  "date": "2026-09-22",
+  "rendered_source_files": [
+    {
+      "filename": "The_Tabernacle_From_Civilisational_Function_to_Ritualized_Memory_Sean_Diamond_REVISED.docx",
+      "sha256": "6e5b3fe85aab656490da8b365f3364e48b4493ea55f78370f9f77bdc33431be9"
+    },
+    {
+      "filename": "The_Tabernacle_From_Civilisational_Function_to_Ritualized_Memory_Sean_Diamond_REVISED.pdf",
+      "sha256": "a9cd6afd6b5ca4ecac506e7fb41a21d4072ba08c6bb087845d6fad6f34fc8d37"
+    }
+  ],
+  "post_render_amendments": [
+    {
+      "date": "2026-09-22",
+      "title": "Operational deactivation, apparent damage and withheld knowledge",
+      "reason": "Adds the previously omitted Geonosis reading linking apparent responsive-stone damage, pyramid deactivation, removal of operating information, concealed/withheld technological knowledge and the imperative of public derivation."
+    }
+  ],
+  "rights": {
+    "author_text": "Copyright Sean Diamond; publicly readable under repository LICENSING.md boundary.",
+    "third_party_images": "Retain original rights. No blanket relicensing asserted.",
+    "figure_mirror_status": "Full figure migration deferred until individual rights/provenance are reconciled."
+  },
+  "notes": [
+    "GitHub publication establishes a public version record; it does not validate the paper's conclusions.",
+    "ResearchGate posting is not asserted here until first-party confirmation is preserved.",
+    "The current GitHub package records the latest amendment even though the preceding rendered DOCX/PDF hashes refer to the version immediately before that amendment."
+  ]
+}
