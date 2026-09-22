@@ -88,6 +88,10 @@ This directory will hold the canonical public forms of:
 
 Private working files, unresolved-rights material, or incomplete exhibits are not automatically public merely because the Court is public.
 
+## Public observation notes
+
+- [CUN-OBS-2026-001 — Global-Field Morphology in Clay Tablets](observations/CUN-OBS-2026-001-global-field-clay-tablets.md) — records the open observation that irregular/rough tablet zones can retain structured morphology and should be tested before being discarded as damage; manufacturing mechanism remains unresolved.
+
 ## Current public state
 
 See `CURRENT_STATE.json` and `CONSTITUTION.md`.
