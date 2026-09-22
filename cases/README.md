@@ -5,6 +5,7 @@ This is a navigation layer, not a scoreboard. `Current room` describes where the
 | Case / programme | Current room | What exists | Next decisive hurdle |
 |---|---|---|---|
 | Méthodê Glyph canon method | Method infrastructure | Formal public method, reject conditions, visible derivation and claim separation | Independent use by researchers on cases not selected by the author |
+| Cuneiform manufacturing / global-field morphology | Open observation / under test | Court note CUN-OBS-2026-001; structured morphology recorded in irregular tablet zones; mechanism not adjudicated | Exact provenance, multi-light high-resolution imaging, 3D surface forensics, damage controls and contact-by-contact reconstruction |
 | Cuneiform visible-derivation audit | Active adversarial audit | Institutional-reading audit framework; candidate controlled cases; same-burden rule | Full artefact-to-sign-to-value-to-grammar derivation records for conventional and Geonosis readings |
 | Taş Tepeler: From Egg-Field to Womb-Field | Local/regional grammar hypothesis | Site-by-site operator model, alternatives, failure conditions, v0.2 APA claim-tier draft | Rights-cleared source plates, chronology audit and blinded/semi-blinded independent operator mapping |
 | Karahantepe head-emergence chamber | Major local case | Emergence/cavity/pillar relations identified as a key test case | Independent mapping and alternative archaeological model comparison |
