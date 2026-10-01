@@ -91,6 +91,8 @@ Private working files, unresolved-rights material, or incomplete exhibits are no
 ## Public observation notes
 
 - [CUN-OBS-2026-001 — Global-Field Morphology in Clay Tablets](observations/CUN-OBS-2026-001-global-field-clay-tablets.md) — records the open observation that irregular/rough tablet zones can retain structured morphology and should be tested before being discarded as damage; manufacturing mechanism remains unresolved.
+- [VIS-OBS-2026-001 — Transformation Persistence in Pictographic Systems](observations/VIS-OBS-2026-001-transformation-persistence.md) — records the cross-corpus finding that examined pictographic systems remain semantically productive across multiple geometric transformations while retaining local-corpus coherence.
+- [LINB-OBS-2026-001 — Linear B Preliminary Hearing](observations/LINB-OBS-2026-001-linear-b-preliminary-hearing.md) — opens the Linear B phonetic-provenance hearing, records the absence of a bedrock acoustic derivation to Court standard, and logs the emerging transformation-surviving guardian / dog reading.
 
 ## Current public state
 
