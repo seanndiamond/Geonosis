@@ -63,6 +63,27 @@ A claim may not be stated at a deeper evidentiary level than the record supports
 9. **EQUAL BURDEN.** The Court applies the same standard inward as outward.
 10. **NO INVENTED BRIDGE.** Missing evidence remains missing.
 
+
+## Philosophical posture: come prepared
+
+The Court is not a declaration of certainty and it is not a stage for institutional deference.
+
+Its posture is adversarial in the constructive sense: **bring your strongest case**.
+
+A claimant should expect the Court to ask for the source, the derivation, every visible rung in the staircase, the contradiction test, and the conditions under which the claim would fail. A challenger should expect exactly the same burden.
+
+Confidence in a current finding does not imply certainty that no stronger staircase can exist. The Court therefore welcomes the opponent who has read the record carefully and arrives with something better.
+
+The governing spirit is:
+
+> **OSTENDE MIHI. NESCIS CUM QUO CONTENDAS.**
+
+In Court terms:
+
+> **Show me. Come prepared. Do not assume the other side has exhausted its case, and do not expect authority, familiarity, novelty, status, or ridicule to substitute for derivation.**
+
+A worthy opponent is not a problem for the Court. A worthy opponent is what the Court is built for.
+
 ## Relationship to OGI
 
 OGI uses the Court as its adjudication layer for branch-return integration, architecture challenges, benchmark disputes, and state supersession.
