@@ -1,0 +1,50 @@
+{
+  "schema": "CourtOfProvenance.ProsecutionBrief.v1",
+  "title": "",
+  "case_id": "",
+  "date_opened": "",
+  "prosecutor": "OGI",
+  "subject": "",
+  "proposition_under_test": "",
+  "burden": "Equal burden on claimant, challenger, institution, AI, Geonosis and the Court itself.",
+  "instruction": "Prosecute the strongest available version of the proposition. Do not protect either side. Require an inspectable staircase from source to conclusion.",
+  "required_sequence": [
+    "STATE_THE_CLAIM",
+    "LOCATE_PRIMARY_SOURCE",
+    "RETRIEVE_SOURCE",
+    "INSPECT_SOURCE",
+    "SEPARATE_OBSERVATION_FROM_INTERPRETATION",
+    "MAP_EVERY_DERIVATIONAL_RUNG",
+    "IDENTIFY_ASSUMPTIONS",
+    "SEEK_INDEPENDENT_REPLICATION",
+    "SEARCH_FOR_CONTRADICTION",
+    "TEST_PREDICTIONS",
+    "COMPARE_COMPETING_EXPLANATIONS",
+    "ISSUE_CURRENT_FINDING"
+  ],
+  "prohibited_shortcuts": [
+    "consensus_as_proof",
+    "citation_as_derivation",
+    "transcription_as_primary_evidence",
+    "authority_as_missing_rung",
+    "invented_bridge",
+    "special_pleading_for_either_side"
+  ],
+  "valid_findings": [
+    "UNKNOWN",
+    "UNRESOLVED",
+    "BLOCKED_PENDING_DERIVATION",
+    "SURVIVED",
+    "FAILED",
+    "SUPERSEDED"
+  ],
+  "reopen_on": [
+    "material_new_evidence",
+    "contradiction",
+    "failed_prediction",
+    "provenance_collapse",
+    "methodological_fault",
+    "superior_reproducible_derivation"
+  ],
+  "closing_rule": "OSTENDE MIHI. Show the staircase."
+}
