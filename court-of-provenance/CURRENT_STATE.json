@@ -1,7 +1,7 @@
 {
   "schema": "CourtOfProvenance.CurrentState.v1",
   "system": "Court of Provenance",
-  "state_date": "2026-09-06",
+  "state_date": "2026-10-01",
   "status": "canonical_public_adjudication_subsystem",
   "canonical_directory": "/court-of-provenance/",
   "governing_documents": [
@@ -45,5 +45,34 @@
     "AI_outputs",
     "the_Court_itself"
   ],
-  "migration_status": "public canonical directory created; historical rulings and scoring artefacts may be migrated incrementally with lineage preserved"
+  "migration_status": "public canonical directory created; historical rulings and scoring artefacts may be migrated incrementally with lineage preserved",
+  "active_observations": [
+    "CUN-OBS-2026-001",
+    "VIS-OBS-2026-001",
+    "LINB-OBS-2026-001"
+  ],
+  "current_findings": [
+    {
+      "id": "VIS-OBS-2026-001",
+      "finding": "Across corpora examined in this research program, pictographic systems remain semantically productive under multiple geometric transformations and return coherent information consistent with local corpus grammar.",
+      "status": "SURVIVED_TO_CURRENT_RECORD"
+    },
+    {
+      "id": "LINB-OBS-2026-001",
+      "finding": "Linear B structural recurrence is admitted; foundational phonetic derivation from primary evidence to sound is not proven to Court standard; pictographic investigation remains open and active.",
+      "status": "UNRESOLVED_OPEN_HEARING"
+    }
+  ],
+  "transformation_protocol": [
+    "0_degree",
+    "90_degree",
+    "180_degree",
+    "270_degree",
+    "horizontal_mirror",
+    "vertical_mirror",
+    "overlay",
+    "mirrored_overlay",
+    "local_crop",
+    "whole_object_field"
+  ]
 }
