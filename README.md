@@ -14,6 +14,8 @@ This repository is being built as the **public audit trail of the work**, not me
 
 ## Start here
 
+**October 2026 Court continuity:** [Geonosis relational literacy and dynamic reading record](archive/canonical/COP_CONTINUITY_2026-10-18_GEONOSIS.json). This dated additive JSON records the author's discovery chronology, active ontology, new method definitions, Linear B hearing pointers, and the rule to return to existing provenance rather than relitigating the whole programme.
+
 1. **[Public Constitution](archive/canonical/PUBLIC_CONSTITUTION.md)** — the research rules.
 2. **[Evidence Ladder](method/EVIDENCE_LADDER.md)** — what a claim must clear before it can climb.
 3. **[Reject Conditions](method/REJECT_CONDITIONS.md)** — how a preferred reading is allowed to fail.
