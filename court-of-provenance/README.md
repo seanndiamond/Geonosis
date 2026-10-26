@@ -116,6 +116,11 @@ An excerpted image or motif from a Geonosis report **is not an isolated reading*
 - [Continuous Reading Provenance Standard](CONTINUOUS_READING_PROVENANCE_STANDARD.md) — governing rule, parent-context obligations, chronology, source separation, version history and website navigation contract.
 - [Continuous Reading Excerpt JSON Schema](CONTINUOUS_READING_EXCERPT_SCHEMA.json) — minimal machine-readable record for motif → excerpt → parent reading, supporting later archive and website implementation.
 
+
+## Research partnership and adversarial collaboration
+
+- [Research Partnership and Adversarial Collaboration Charter](RESEARCH_PARTNERSHIP_AND_ADVERSARIAL_COLLABORATION_CHARTER.md) — coherence-first comprehension, constructive challenge, independent intellectual judgment, supersession, discovery chronology and the Kailasa revision example. This is a reviewable operating charter, not a finding that particular substantive claims have been proven.
+
 ## Public observation notes
 
 - [CUN-OBS-2026-001 — Global-Field Morphology in Clay Tablets](observations/CUN-OBS-2026-001-global-field-clay-tablets.md) — records the open observation that irregular/rough tablet zones can retain structured morphology and should be tested before being discarded as damage; manufacturing mechanism remains unresolved.
