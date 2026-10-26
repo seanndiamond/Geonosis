@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Geonosis Continuous Reading Excerpt Record",
+  "description": "Indexing contract for thematic excerpts traceable to versioned continuous parent readings; no fabricated links.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "excerpt_id",
+    "parent_reading_id",
+    "parent_reading_version",
+    "source_image_id",
+    "motif_tags",
+    "selected_feature",
+    "narrative_position",
+    "parent_link_status",
+    "interpretive_claim"
+  ],
+  "properties": {
+    "excerpt_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_reading_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_reading_title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parent_reading_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "current_reading_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parent_reading_uri": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parent_link_status": {
+      "enum": [
+        "LINKED",
+        "PARENT_LINK_PENDING"
+      ]
+    },
+    "corpus": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_image_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_capture_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_capture_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_status": {
+      "enum": [
+        "INSPECTABLE",
+        "SOURCE_PENDING",
+        "UNKNOWN"
+      ]
+    },
+    "image_excerpt_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "selected_feature": {
+      "type": "string",
+      "minLength": 1
+    },
+    "motif_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "narrative_position": {
+      "type": "string",
+      "minLength": 1
+    },
+    "preceding_context_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "following_context_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "local_lexicon_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "observed_features": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "interpretive_claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "external_verification": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author_original_caption": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "transformations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "discovery_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "extraction_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "related_excerpt_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supersedes_excerpt_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "revision_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
