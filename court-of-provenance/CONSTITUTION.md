@@ -38,6 +38,9 @@ If an intermediate source, transformation, mapping, or derivation is missing, re
 ### COP-I-10 — Provenance and interpretation are distinct
 Incomplete provenance may limit a claim about source history without preventing visible analysis of the material actually in hand.
 
+### COP-I-11 — Continuous Reading Provenance / No Isolated Excerpt
+Every featured Geonosis motif, image, crop or scene excerpted from a report must retain its link to the continuous parent reading, local lexicon, sequence position, and preserved version history. Thematic presentation is not an independent reading. A missing link must be marked missing, never invented. [Operating standard](CONTINUOUS_READING_PROVENANCE_STANDARD.md).
+
 ## Current-state rule
 
 Later explicit, source-linked, non-reopened findings govern over stale summaries and generic defaults.
