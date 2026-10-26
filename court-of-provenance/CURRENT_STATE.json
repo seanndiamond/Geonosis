@@ -1,13 +1,15 @@
 {
   "schema": "CourtOfProvenance.CurrentState.v1",
   "system": "Court of Provenance",
-  "state_date": "2026-10-01",
+  "state_date": "2026-10-26",
   "status": "canonical_public_adjudication_subsystem",
   "canonical_directory": "/court-of-provenance/",
   "governing_documents": [
     "README.md",
     "CONSTITUTION.md",
-    "CURRENT_STATE.json"
+    "CURRENT_STATE.json",
+    "CONTINUOUS_READING_PROVENANCE_STANDARD.md",
+    "CONTINUOUS_READING_EXCERPT_SCHEMA.json"
   ],
   "evidence_staircase": [
     "CITED",
@@ -74,5 +76,16 @@
     "mirrored_overlay",
     "local_crop",
     "whole_object_field"
+  ],
+  "procedural_amendments": [
+    {
+      "id": "COP-I-11",
+      "title": "Continuous Reading Provenance — No Isolated Excerpt",
+      "effective_date": "2026-10-26",
+      "status": "CURRENT_OPERATING_RULE_REOPENABLE",
+      "standard": "CONTINUOUS_READING_PROVENANCE_STANDARD.md",
+      "record_schema": "CONTINUOUS_READING_EXCERPT_SCHEMA.json",
+      "summary": "Every excerpted motif/image is linked to a continuous parent reading and its local sequence, source, version and revision lineage; thematic collections do not create isolated readings."
+    }
   ]
 }
