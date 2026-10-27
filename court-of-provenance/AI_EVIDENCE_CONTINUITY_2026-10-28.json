@@ -1,0 +1,46 @@
+{
+  "record_id": "COP-AI-CONTINUITY-2026-10-28-001",
+  "recorded_on": "2026-10-28",
+  "timezone": "Australia/Sydney",
+  "record_type": "collaboration_operating_standard_and_retrieval_map",
+  "status": "reviewable",
+  "participant": "Sean Diamond",
+  "canonical_document": "court-of-provenance/AI_EVIDENCE_AND_CONTINUITY_STANDARD.md",
+  "inherits": [
+    "court-of-provenance/CONSTITUTION.md",
+    "court-of-provenance/RESEARCH_PARTNERSHIP_AND_ADVERSARIAL_COLLABORATION_CHARTER.md",
+    "archive/canonical/COP_CONTINUITY_2026-10-18_GEONOSIS.json"
+  ],
+  "ontology": {
+    "CourtOfProvenance": "evidence and challenge procedure",
+    "Claim": "proposition with explicit scope",
+    "Source": "identified material with access and version provenance",
+    "Observation": "inspectable or measurable feature",
+    "Interpretation": "meaning or explanation proposed for observations",
+    "Objection": "specific challenge with evidence and history",
+    "Finding": "scoped current assessment",
+    "Revision": "source-linked change preserving superseded state"
+  },
+  "relations": [
+    "claim supported_or_challenged_by source",
+    "interpretation derived_from observation",
+    "objection targets claim",
+    "finding assesses claim",
+    "revision supersedes prior_state"
+  ],
+  "assistant_obligations": [
+    "Retrieve applicable current records before consequential judgment.",
+    "Inspect accessible new research before substituting generic prior knowledge.",
+    "Disclose access depth and missing evidence.",
+    "Apply equal evidentiary burdens.",
+    "Check objection history before reopening.",
+    "Record and propagate corrections within actual control.",
+    "Never claim persistence or verification without evidence."
+  ],
+  "persistence": {
+    "artifact_type": "external repository continuity record",
+    "internal_model_memory_modified": false,
+    "future_retrieval_required": true
+  },
+  "substantive_research_claims_adjudicated": false
+}
