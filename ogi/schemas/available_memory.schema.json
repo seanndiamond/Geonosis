@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OGI Available Memory Record v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "source_locator",
+    "source_type",
+    "memory_state",
+    "evidence_status",
+    "access_scope"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_type": {
+      "enum": [
+        "document",
+        "conversation",
+        "image",
+        "court_case",
+        "observation",
+        "hypothesis",
+        "finding",
+        "method",
+        "other"
+      ]
+    },
+    "memory_state": {
+      "enum": [
+        "STORED",
+        "DISCOVERABLE",
+        "AVAILABLE",
+        "RETRIEVED",
+        "INSPECTED",
+        "ACTIVE",
+        "INACCESSIBLE",
+        "UNKNOWN"
+      ]
+    },
+    "evidence_status": {
+      "enum": [
+        "ASSERTED",
+        "CITED",
+        "LOCATED",
+        "RETRIEVED",
+        "INSPECTED",
+        "MAPPED",
+        "DERIVED",
+        "REPRODUCED",
+        "CHALLENGED",
+        "SURVIVED",
+        "UNRESOLVED",
+        "SUPERSEDED"
+      ]
+    },
+    "access_scope": {
+      "enum": [
+        "public",
+        "private",
+        "restricted",
+        "unknown"
+      ]
+    },
+    "last_verified": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "retrieval_attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "timestamp",
+          "status"
+        ],
+        "properties": {
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "status": {
+            "enum": [
+              "SUCCESS",
+              "FAILURE",
+              "NOT_AUTHORIZED",
+              "NOT_FOUND"
+            ]
+          },
+          "query": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "record_id",
+          "relation",
+          "verification"
+        ],
+        "properties": {
+          "record_id": {
+            "type": "string"
+          },
+          "relation": {
+            "enum": [
+              "DERIVED_FROM",
+              "REFERENCES",
+              "SUPERSEDES",
+              "CONTRADICTS",
+              "TESTS",
+              "RELATED_TO"
+            ]
+          },
+          "verification": {
+            "enum": [
+              "VERIFIED",
+              "PROPOSED",
+              "UNKNOWN"
+            ]
+          }
+        }
+      }
+    },
+    "correction_history": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_approval_required": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
