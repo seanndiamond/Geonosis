@@ -2,7 +2,7 @@
 
 **Initial reconstruction:** 2026-11-11  
 **Status:** PARTIAL; anchored in dated documents, not invented dialogue  
-**Linked cases:** GEO-CASE-CUNEIFORM-001; GEO-CASE-INDUS-001; COP-OGI-010
+**Linked cases:** GEO-CASE-CUNEIFORM-001; COP-OGI-010. A prior cross-link to GEO-CASE-INDUS-001 is retained only as a *historical erroneous or unverified association*, not as an established BM 19377 dependency.
 
 | Historical record | Evidence / operation attested | What remains to recover | OGI relevance |
 | --- | --- | --- | --- |
@@ -10,13 +10,17 @@
 | June 2026 *Show Us the Reading* v0.2 §8 | Named BM 19377, conventional administrative/smith, habuda/gur10/marsa, seal owner; demanded mark-to-sign derivation; noted official image-lock pending | Original object photography, sign-grid, separate seal and tablet transcription | Origin of explanation-to-exhibit demand, question premise audit |
 | June 2026 paper Appendix B | Stated missing object-specific sign positions, interpretation control examples, seal impression and practical-use reconstruction | Full evidence-to-exhibit map | Avoid false promotion of **named** to **mapped/verified** |
 | July 2026 `02_GEONOSIS_MASTER_ARCHIVE.json` GEO-PROG-002 | Formal ancient-script derivation programme, rotation/grids/recurrence/controls | Full case-specific trial files | Method preserved before OGI v0.3.2 |
-| July 2026 `04_GEONOSIS_CORPUS_AND_CASE_REGISTRY.json` GEO-CASE-CUNEIFORM-001 | Registered BM 19377 / River of Milk; explicit pending image, transliteration chain, pictographic plate, control examples | Dated local image plates, individual sign and operator tables | Existing case registry must be inherited rather than reinvented |
-| July 2026 GEO-CASE-INDUS-001 | Linked candidate cross-corpus river/milk grammar | Object numbers and independent local Indus grammar | Cross-reference proposal versus independently tested corroboration |
+| July 2026 `04_GEONOSIS_CORPUS_AND_CASE_REGISTRY.json` GEO-CASE-CUNEIFORM-001 | Registered BM 19377 under the **incorrect combined title** “BM 19377 / River of Milk”; explicit pending image, transliteration chain, pictographic plate, control examples | Dated local image plates, individual sign and operator tables | Existing case registry must be inherited rather than reinvented |
+| July 2026 GEO-CASE-INDUS-001 | Historically cross-linked river/milk grammar to the conflated BM case | Restore the **separate Mesopotamian cylinder-seal rollout** and Indus records | **INVALID OR UNVERIFIED BM 19377 dependency**, not a tablet control |
 | November 2026 COP-OGI-010 | Retrospective OGI mapping to human–AI inquiry methods | Controlled implementation comparison, if still needed after recovery | Consolidation step, **not a benchmark pass** |
+
+| 11 November 2026, user correction | User identifies BM 19377 as *Creation and Destruction of Humans*, and *Rivers of Milk* as a separate Mesopotamian cylinder-seal rollout | Independent seal-rollout object identifier; repair legacy Geonosis JSON register when authorised | Wrong-object retrieval, entity disambiguation, correction propagation and state supersession |
 
 ## Evidence states in this register
 
-- `DOCUMENTED`: proposition appears in recovered dated paper or case registry.
+- `DOCUMENTED`: proposition appears in recovered dated paper or case registry; **does not prove a prior label is factually correct**.
+- `AUTHOR_CORRECTED`: current participant corrected which artifact a title refers to; independent museum catalogue match remains a separate check.
+- `SUPERSEDED_IDENTIFIER_LINK`: a historical record linked two distinct objects as though they were the same.
 - `AUTHOR_REPORTED`: earlier work attested in project history but not yet re-examined from original record.
 - `RETRIEVAL_PENDING`: an indicated image, transcript or file has not been obtained for this run.
 - `DERIVATION_PENDING`: substantive interpretation requires complete artifact-to-reading chain.
@@ -27,7 +31,7 @@
 Before demanding a new test, run a **Prior-Work Recovery Audit**:
 (1) search related project archives; (2) distinguish experiments actually run from proposals; (3) restore dated observations, human corrections and null findings; (4) map each to current OGI requirements; (5) rerun only missing or non-reproducible experimental conditions.
 
-Do not treat an incomplete current GitHub register as evidence that earlier research did not occur. Do not equate existence of earlier work with verified results.
+Do not treat an incomplete current GitHub register as evidence that earlier research did not occur. **Do not repeat a retrieved registry error merely because it has an archived date and ID.** Do not equate existence of earlier work with verified results.
 
 ## Public/private access note
 
