@@ -1,4 +1,6 @@
 # Our General Intelligence (OGI) / Oggy
+> **11 November 2026 scope-fidelity patch:** [v0.3.2.1 Claim–Caveat Alignment](SPEC_v0.3.2.1.md) has been registered as a **proposed, unimplemented** addition to the v0.3.2 continuity extension. It arises from [COP-OGI-009](cases/COP-OGI-009/README.md), a documented case of an AI repeatedly qualifying an unasserted proposition during the author-approved *Intelligence Is Not a Ladder* manuscript revision. [Benchmark T-45](benchmarks/CLAIM_CAVEAT_ALIGNMENT_T45.md) will test whether the system avoids irrelevant caveats **while retaining necessary scientific qualifications and contrary evidence**. This does not change the governing v0.3.1 reference.
+
 
 > **11 November 2026 experimental extension:** [v0.3.2 Available Memory and Relational Continuity](SPEC_v0.3.2.md) is registered for implementation and benchmarking. The governing reference remains v0.3.1; no performance gain is claimed yet. See [derivation](DERIVATION_v0.3.1_to_v0.3.2.md), [memory architecture](AVAILABLE_MEMORY.md), [tests T-38–T-44](benchmarks/CONTINUITY_TESTS_T38_T44.md), and [Linear B case COP-OGI-008](cases/COP-OGI-008/README.md).
 
