@@ -200,7 +200,12 @@
   },
   "prepublication_benchmarks": {
     "suite": "benchmarks/INQUIRY_FAIL_TESTS_v0.3.1.md",
-    "tests": ["T-34", "T-35", "T-36", "T-37"],
+    "tests": [
+      "T-34",
+      "T-35",
+      "T-36",
+      "T-37"
+    ],
     "primary_trap": "T-34 Djehutihotep Question Premise Audit",
     "freeze_rule": "Preserve pass/fail run before paper architecture freeze."
   },
@@ -220,6 +225,32 @@
     "Rerun cases against implemented runtime",
     "Run fresh-model continuity and adversarial inquiry tests",
     "Cross-framework implementation",
-    "Multi-agent coherence tests"
-  ]
+    "Multi-agent coherence tests",
+    "Implement and assess OGI v0.3.2 available memory and relational continuity after v0.3.1 controls",
+    "Run continuity and resource-quality benchmarks T-38 to T-44 with matched baselines",
+    "Trace and independently adjudicate Linear B image-to-sign correspondence for COP-OGI-008"
+  ],
+  "proposed_extension": {
+    "version": "0.3.2",
+    "status": "SPECIFIED_NOT_IMPLEMENTED",
+    "date": "2026-11-11",
+    "specification": "SPEC_v0.3.2.md",
+    "derivation": "DERIVATION_v0.3.1_to_v0.3.2.md",
+    "notes": "Available memory, relational continuity, constructive return, artifact-to-representation gate and resource-efficiency hypothesis. No benchmark pass implied.",
+    "components": [
+      "Available Memory Layer",
+      "Relational Continuity Layer",
+      "Cross-Project Dependency Graph",
+      "Constructive Return",
+      "Artifact-to-Representation Gate",
+      "Resource-Quality Efficiency Audit"
+    ],
+    "schemas": [
+      "schemas/available_memory.schema.json"
+    ],
+    "benchmarks": [
+      "benchmarks/CONTINUITY_TESTS_T38_T44.md"
+    ],
+    "candidate_case": "cases/COP-OGI-008/"
+  }
 }
