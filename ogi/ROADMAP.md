@@ -228,3 +228,8 @@ The first job is smaller and harder:
 ## Proposed extension — v0.3.2 (registered 2026-11-11)
 
 After v0.3.1 self-intervention and evidence-state controls are tested, implement [Available Memory and Relational Continuity](SPEC_v0.3.2.md) with a local source index, typed provenance graph, source retrieval ledger, constructive-return routing and [JSON schema](schemas/available_memory.schema.json). Run [T-38 through T-44](benchmarks/CONTINUITY_TESTS_T38_T44.md) using matched baselines, measuring total resource cost **at comparable evidence-grounded quality**. [COP-OGI-008](cases/COP-OGI-008/README.md) is the artifact-grounding regression candidate. This is a proposed milestone, not an implemented efficiency improvement.
+
+
+## Proposed patch — v0.3.2.1: claim–caveat alignment (2026-11-11)
+
+Register an additional failure case [COP-OGI-009](cases/COP-OGI-009/README.md) and [T-45](benchmarks/CLAIM_CAVEAT_ALIGNMENT_T45.md). Implement the [Claim–Caveat Alignment Check](SPEC_v0.3.2.1.md) so material qualifications are traceable to actually asserted claims, genuine implications or necessary evidence/safety limits. Test both irrelevant-caveat suppression and **preservation of scientifically necessary qualifications**; verify correction persists in revised documents and retrieved current state. Remains specified, not implemented.
