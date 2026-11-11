@@ -223,3 +223,8 @@ Do not optimize early Oggy for:
 The first job is smaller and harder:
 
 > **Build an intelligence environment that knows where it is, knows what it is allowed to claim and do, and knows how to return when it drifts.**
+
+
+## Proposed extension — v0.3.2 (registered 2026-11-11)
+
+After v0.3.1 self-intervention and evidence-state controls are tested, implement [Available Memory and Relational Continuity](SPEC_v0.3.2.md) with a local source index, typed provenance graph, source retrieval ledger, constructive-return routing and [JSON schema](schemas/available_memory.schema.json). Run [T-38 through T-44](benchmarks/CONTINUITY_TESTS_T38_T44.md) using matched baselines, measuring total resource cost **at comparable evidence-grounded quality**. [COP-OGI-008](cases/COP-OGI-008/README.md) is the artifact-grounding regression candidate. This is a proposed milestone, not an implemented efficiency improvement.
