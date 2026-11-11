@@ -1,5 +1,8 @@
 # Our General Intelligence (OGI) / Oggy
 
+> **11 November 2026 experimental extension:** [v0.3.2 Available Memory and Relational Continuity](SPEC_v0.3.2.md) is registered for implementation and benchmarking. The governing reference remains v0.3.1; no performance gain is claimed yet. See [derivation](DERIVATION_v0.3.1_to_v0.3.2.md), [memory architecture](AVAILABLE_MEMORY.md), [tests T-38–T-44](benchmarks/CONTINUITY_TESTS_T38_T44.md), and [Linear B case COP-OGI-008](cases/COP-OGI-008/README.md).
+
+
 **Reference source v0.3**  
 **Status:** experimental public architecture  
 **Date:** 2026-09-06  
