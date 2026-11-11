@@ -267,13 +267,21 @@
     {
       "case_id": "COP-OGI-010",
       "original_geonosis_case_id": "GEO-CASE-CUNEIFORM-001",
-      "subject": "BM 19377 (British Museum tablet and seal impression)",
+      "subject": "BM 19377: Creation and Destruction of Humans (destruction of humans); NOT Rivers of Milk",
       "status": "PARTIAL_HISTORICAL_DOCUMENT_RECOVERY_NOT_EXECUTED_BENCHMARK",
       "registered_at": "2026-11-11",
       "case_register": "cases/COP-OGI-010/README.md",
       "evidence_register": "cases/COP-OGI-010/EVIDENCE_AND_RETURN_REGISTER.md",
       "purpose": "Aggregate and consolidate predecessor research before commissioning duplicate experimental tasks",
-      "scope": "Method provenance and historical operations, not archaeological verdict"
+      "scope": "Method provenance and historical operations, not archaeological verdict",
+      "identity_correction": {
+        "date": "2026-11-11",
+        "source": "author direct correction",
+        "record": "cases/COP-OGI-010/CORRECTION_001_ARTIFACT_IDENTITY.md",
+        "superseded_label": "British Museum 19377 / River of Milk",
+        "distinct_artifact": "Rivers of Milk = separate Mesopotamian cylinder-seal rollout; catalogue ID not yet recovered",
+        "cross_links_status": "REVIEW_REQUIRED"
+      }
     }
   ]
 }
