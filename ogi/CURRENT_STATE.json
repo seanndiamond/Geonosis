@@ -228,7 +228,8 @@
     "Multi-agent coherence tests",
     "Implement and assess OGI v0.3.2 available memory and relational continuity after v0.3.1 controls",
     "Run continuity and resource-quality benchmarks T-38 to T-44 with matched baselines",
-    "Trace and independently adjudicate Linear B image-to-sign correspondence for COP-OGI-008"
+    "Trace and independently adjudicate Linear B image-to-sign correspondence for COP-OGI-008",
+    "Implement and test T-45 Claim–Caveat Alignment Check with genuine counter-evidence and necessary-caveat controls"
   ],
   "proposed_extension": {
     "version": "0.3.2",
@@ -243,14 +244,22 @@
       "Cross-Project Dependency Graph",
       "Constructive Return",
       "Artifact-to-Representation Gate",
-      "Resource-Quality Efficiency Audit"
+      "Resource-Quality Efficiency Audit",
+      "Claim–Caveat Alignment Check",
+      "Claim Scope Register",
+      "Scope Regression Detection"
     ],
     "schemas": [
       "schemas/available_memory.schema.json"
     ],
     "benchmarks": [
-      "benchmarks/CONTINUITY_TESTS_T38_T44.md"
+      "benchmarks/CONTINUITY_TESTS_T38_T44.md",
+      "benchmarks/CLAIM_CAVEAT_ALIGNMENT_T45.md"
     ],
-    "candidate_case": "cases/COP-OGI-008/"
+    "candidate_case": "cases/COP-OGI-008/",
+    "patch": "0.3.2.1",
+    "patch_status": "SPECIFIED_NOT_IMPLEMENTED",
+    "patch_specification": "SPEC_v0.3.2.1.md",
+    "additional_case": "cases/COP-OGI-009/"
   }
 }
