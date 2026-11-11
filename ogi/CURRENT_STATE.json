@@ -229,7 +229,8 @@
     "Implement and assess OGI v0.3.2 available memory and relational continuity after v0.3.1 controls",
     "Run continuity and resource-quality benchmarks T-38 to T-44 with matched baselines",
     "Trace and independently adjudicate Linear B image-to-sign correspondence for COP-OGI-008",
-    "Implement and test T-45 Claim–Caveat Alignment Check with genuine counter-evidence and necessary-caveat controls"
+    "Implement and test T-45 Claim–Caveat Alignment Check with genuine counter-evidence and necessary-caveat controls",
+    "Recover BM 19377 pre-OGI evidence and experiments through COP-OGI-010 rather than treating lack of current register as lack of historical work"
   ],
   "proposed_extension": {
     "version": "0.3.2",
@@ -261,5 +262,18 @@
     "patch_status": "SPECIFIED_NOT_IMPLEMENTED",
     "patch_specification": "SPEC_v0.3.2.1.md",
     "additional_case": "cases/COP-OGI-009/"
-  }
+  },
+  "retrospective_origin_cases": [
+    {
+      "case_id": "COP-OGI-010",
+      "original_geonosis_case_id": "GEO-CASE-CUNEIFORM-001",
+      "subject": "BM 19377 (British Museum tablet and seal impression)",
+      "status": "PARTIAL_HISTORICAL_DOCUMENT_RECOVERY_NOT_EXECUTED_BENCHMARK",
+      "registered_at": "2026-11-11",
+      "case_register": "cases/COP-OGI-010/README.md",
+      "evidence_register": "cases/COP-OGI-010/EVIDENCE_AND_RETURN_REGISTER.md",
+      "purpose": "Aggregate and consolidate predecessor research before commissioning duplicate experimental tasks",
+      "scope": "Method provenance and historical operations, not archaeological verdict"
+    }
+  ]
 }
