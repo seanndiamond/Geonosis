@@ -1,0 +1,9 @@
+uploaded_name,pilot_record,width_px,height_px,bytes,sha256,exif_orientation,rights_status,source_status,note
+clamp hands.jpg,RPL-001,2048,1285,578431,97c701172c4caeb5b54cc45684901dac56d2a6295e4a7a5757a837c8e0e5bd8d,,UNKNOWN/UNVERIFIED,USER_SUPPLIED_CURRENT_CHAT,candidate parent/source for clamp-hands sequence
+civ0074.JPG,RPL-002,1485,1751,251895,780da329fd10e4cf2f24c024138fddcc6f271c1ef4a1ea60c8c1a949f1b9501c,8,UNKNOWN/UNVERIFIED,USER_SUPPLIED_CURRENT_CHAT,orientation series member; EXIF 8
+civ0071.JPG,RPL-002,1485,1751,251895,92117951c5177b53fdccd3807666abd851f7b78e7d93b3eee262787cc59d0c17,1,UNKNOWN/UNVERIFIED,USER_SUPPLIED_CURRENT_CHAT,orientation series member; EXIF 1
+civ0072.JPG,RPL-002,1485,1751,251895,8ca8a464f1f1ba1b46ffce22394fc44eeca3121bdbc4f59bade30ca763ee21e9,6,UNKNOWN/UNVERIFIED,USER_SUPPLIED_CURRENT_CHAT,orientation series member; EXIF 6
+civ0073.JPG,RPL-002,1485,1751,251895,6b4ce20e514cfae45bca099f7b64087c2118a44a6a6da8ece9d7d2cda3970b03,3,UNKNOWN/UNVERIFIED,USER_SUPPLIED_CURRENT_CHAT,orientation series member; EXIF 3
+original civ0081.JPG,RPL-003,1200,2047,1260283,cb09ae23899d1d32688b34e22498ba29124a55794e58c73fafdc296e7b07e3cf,,UNKNOWN/UNVERIFIED,USER_SUPPLIED_CURRENT_CHAT,user-supplied file named as original parent for civ0081 enhanced series
+Screenshot 2026-09-07 221336.jpg,RPL-004,1826,1132,197778,9007f06e6a75b5c47d308259ab48dd5ebeb821d61045f5d27b42ed5cfd73c89a,,UNKNOWN/UNVERIFIED,USER_SUPPLIED_CURRENT_CHAT,provenance screenshot for Giza source family; exact Giza001-004 derived files not yet supplied
+original rek only cropped.jpg,RPL-005,1079,1069,239548,cd8cd7efa918510fc64b67609c4e5767a7976d5a4bb75c8ba221be41f6aff1f2,1,UNKNOWN/UNVERIFIED,USER_SUPPLIED_CURRENT_CHAT,user-supplied original cropped Rekhmire source for rotation/render sequence
