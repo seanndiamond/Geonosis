@@ -130,6 +130,8 @@ An excerpted image or motif from a Geonosis report **is not an isolated reading*
 
 - [COP-ORIGIN-001 — The Snap: A Dog Opens the Ancient Archive](observations/COP-ORIGIN-001-the-snap-dog-archive-origin.md) — records Sean Diamond's claimant-reported initiating observation, the early hybridisation paper, AI writing assistance, the later Dog Codex/Return Test lineage, and explicit evidentiary limits; origin provenance, not a historical-biotechnology ruling.
 
+- [LINB-OBS-2026-002 — Linear B Circle Forms and Internal Variation](observations/LINB-OBS-2026-002-circle-forms-and-internal-variation.md) — distinguishes original-photograph geometry from standardised *ka/qe* sign forms and proposed face/expression readings; records supplied image inventory and pending evidence-upload/mapping steps.
+
 ## Current public state
 
 See `CURRENT_STATE.json` and `CONSTITUTION.md`.
