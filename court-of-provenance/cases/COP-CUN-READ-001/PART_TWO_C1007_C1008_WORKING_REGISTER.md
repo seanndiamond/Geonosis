@@ -44,3 +44,32 @@ Claimant begins at lower central operator with small beam-like form in front and
 The register records the user's human-led identification and interpretive hypothesis in detail. Original incisions, mirrored combinations, zoom levels and hypothetical semantic values remain distinguishable. The museum's `receipt of lambs` cataloguing is the artifact's institutional description, not a mark-by-mark derivation furnished by this case. An operator-first visual reading is likewise not independently established as the ancient author's intention. Exact offsets/Excel workbook and blinded comparisons remain open.
 
 **Publication plan:** Complete the sequence and preserve it *before* drafting the ResearchGate article, so downstream narrative does not steer the remaining cold reading. Later additions must be dated and additive, not silent revisions.
+
+
+## C1009 — “Undercover”: protection of the tabernacle and controlled communications
+
+**Image source supplied by claimant:** `c1009 under cover.jpg`. Image is a user-supplied mirrored-overlay still; its binary is **not deposited** by this text commit.
+
+**Reading status:** AUTHOR'S ONGOING LIVE INTERPRETATION, recorded verbatim in originating conversation and structured here without claiming independently verified ancient meaning.
+
+**Central figure / assigned role.** The claimant identifies the previously established graduate/operator at the middle, maintaining her police-like posture and aptitude. A tall, vertically open form in the forehead/third-eye position is read as concentrated attention restricted to a specific field or job.
+
+**Working tabernacle and protection.** Immediately below the head, a V-shaped form is read as the tabernacle; below the point of the V, another outline suggests the tabernacle operating on responsive material, with what the claimant calls a green stone at its centre. Additional lines before the V represent a protective boundary or defended working zone. The operator is now interpreted as protecting both the tabernacle ontology and potentially the physical apparatus.
+
+**Two inward-looking sentinels.** On each side of the working tabernacle, the claimant sees two female faces turned inward, wearing dark glasses. Their common orientation is read as deliberate watching and safeguarding of the central operation.
+
+**Upper security operator.** At the top is a larger head with sunglasses. The claimant names it a “man in black”, associating it with secret / high-clearance / black-budget operations. This is the claimant's functional analogy, not evidence of a literally modern secret service.
+
+**Lower vessel and directed personnel.** At the bottom the operator has a more structured protective cap. Her arms are now understood not as embracing a group, but as *holding a boat-like vessel seen from the front*, with two beings on board (left and right). The claimant reads her as commanding or directing the boat's operators.
+
+**Bird communication array.** Multiple bird-like shapes appear at the bend of the arms and along the arms' upper edges. The claimant reads these as communication devices/capabilities linking the operative to multiple parts of the civilisation. He explicitly contrasts a single bird with a distributed network, estimating approximately “three, five, ten birds”. **Do not silently replace this with a precise count.**
+
+**Summary of claimant's interpretation.** C1009 presents an authorised operator with disciplined, narrow-field consciousness and broad communications access, supervising a tabernacle-related operation, protecting its material and information, coordinating sentinels and field agents, and working within a restricted or confidential civilisational role.
+
+**Author phrasing:** “I'm going to call the panel undercover”; “she's in the field. She's protecting the tabernacle”; “she's got some pretty serious clearance”.
+
+**Relation to C1007A and C1008:** C1007A introduced selective disclosure/confidentiality, while C1008 introduced public regulation, varied beings and bite restraint. C1009 develops the same operator's **specialised security and communications role**. These are continuity observations *within the author's reading*; they do not prove the intended ancient semantic content. Preserve the place of C1009 after C1008; do not preassign the next configuration.
+
+**Operational detail:** Mirrored overlay in Excel, reflected image 58% transparent, original mirrored image placed to the right and shifted right-to-left. Exact C1009 pixel offset is not recorded here.
+
+**Reading remains open. ResearchGate synthesis deferred until the claimant completes the image sequence.**
