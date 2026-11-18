@@ -107,3 +107,15 @@ At close view central young female-like operator has two large eyes, open mouth 
 The user explicitly directed **formal capture of this reading as Part One without changing it**. The above preserves plate order, named readings, uncertainties, relationships and method. These are **editorial structured transcriptions**, not verbatim transcripts. The originating user's exact spoken/written descriptions and image attachments remain primary. Any discrepancy is to be corrected as an *additive erratum* pointing to the original source, not a silent rewrite. Story dramatizations with Susan/Mark/Jim are **separate literary outputs**, not substitutes for this evidentiary record.
 
 **Court state:** READING ADMITTED AS CLAIMANT EVIDENCE OF AN ACTUAL OBSERVED INTERPRETIVE PROCESS. CLAIMS ABOUT ANCIENT MEANING / PHYSICAL TECHNOLOGY NOT INDEPENDENTLY ADJUDICATED. OPPOSITION INVITED; ORIGINAL RECORD PRESERVED.
+
+## Illustrated Part One report (assembled 18 November 2026)
+
+A complete **11-page illustrated authorial reading report** has been assembled from all seven exact user-supplied still images in their correct sequence; it has a front-of-report missing-evidence inventory, method and cold-read chronology, one full illustrated plate per recorded configuration, proposed interpretation, limited Court disposition and replication checklist.
+
+**Delivered files (current conversation artifacts; not yet uploaded to this GitHub repository):**
+- `COP-CUN-READ-001_Part_One_Illustrated_Report.docx` (editable; all seven images embedded)
+- `COP-CUN-READ-001_Part_One_Illustrated_Report.pdf` (reading copy; all seven images embedded)
+
+**Source image identifiers:** `c1001 an experienced operator below animal above and advisors in ears.jpg`; `c1002 librarian.jpg`; `c1002a a military teacher and a student with open arms.jpg`; `c1003 linga and inputs.jpg`; `c1004 linga expands.jpg`; `c1005 graduation.jpg`; `c1006 heavy lifting takes teamwork and planning.jpg`.
+
+**Repository ingestion pending:** A supported binary upload route has not yet been used for these DOCX/PDF/image files; do not claim that images are present in GitHub. The text record is committed. File title is an inventory label, not a fabricated GitHub attachment URL. Preserve all images unaltered on eventual upload, subject to original source rights verification.
