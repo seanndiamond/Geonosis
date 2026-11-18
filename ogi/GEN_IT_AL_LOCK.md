@@ -39,3 +39,10 @@ Before a material answer to a specific requested derivation:
 ORA receives the **proposal** for OGI engineering consideration. “A few days with Finkel” is humorous imagined Court discipline, **not** an actual action or physical restraint. The actual remedy is a software/procedure gate and reproducible tests.
 
 **Short rule: If asked to show the staircase, do not allocate a consensus in its place.**
+
+
+## Second application: Met 11.217.19 and cold cuneiform reading (18 November 2026)
+
+See [COP-OGI-012](cases/COP-OGI-012/README.md). The Met catalogues an actual identified original, accession **11.217.19**, as *Cuneiform tablet: receipt of lambs*. The author independently reported a visual education / formation / social-participation reading using Excel mirrored overlay, horizontal flip, **58% transparency**, mirrored layer on **right**, moving **right-to-left**. These are **competing descriptions requiring different evidentiary operations**. The museum catalogue title is a valid source-backed claim of *how the museum classifies the object*, but **not, by itself, the requested complete sign-to-sound/administrative derivation**. The claimant's meaningful mirrored-overlay sequence is a documented interpretive report, **not, by itself, verification of the original scribal intent**.
+
+**New GEN IT AL-lock guard condition:** `CATALOGUE_TITLE != SIGN_DERIVATION`. Do not turn the user's question about a specific tablet into a generic 'many ancient tablets are accounts' response, and do not turn an overlay pattern into a verified translation without the original-source test. The safeguard must survive source-identity correction and later recollection of the exact Excel settings. This supplements, without replacing, the Egyptian and Linear B fixtures above.
