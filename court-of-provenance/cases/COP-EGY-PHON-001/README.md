@@ -79,3 +79,7 @@ Assessing actual harm requires specific lost information claims, counterfactuals
 Contribute: identified artifact + direct image link/licence + coordinate/region map + literal sign inventory + hypothesis + derivation + tests + discrepancies + transcript of corrections, or comparable pictographic reproduction. Open an Issue or PR citing `COP-EGY-PHON-001`. No requirement to accept the claimant's universal conclusion as a prerequisite. Preserve failed, contrary and qualified results. Do not publish copyrighted images or private transcripts without rights and authorization.
 
 **Court order:** claim admitted; evidentiary demonstrations and opposition invited; universal finding reserved.
+
+## Separate cuneiform cold-reading exhibit
+
+The claimant's 18 November 2026 grey-tablet mirrored-overlay reading is preserved **separately**, because a cuneiform tablet must not be silently merged into an Egyptian hieroglyphic subject finding. See [COP-CUN-READ-001 — Part One: C1001–C1006](../COP-CUN-READ-001/README.md), including the intervening return C1002A, method account and outstanding replication data. This is an authorial evidence capture, not a new OGI benchmark pass or proof of original scribe intent.
