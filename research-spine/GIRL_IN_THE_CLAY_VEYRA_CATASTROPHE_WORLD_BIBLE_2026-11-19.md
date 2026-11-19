@@ -28,3 +28,27 @@ Veyra is a highly sophisticated and broadly coherent **regional civilisation**, 
 - A plausible physical burial and rediscovery chain for the **same tablet** over multiple millennia.
 
 **Purpose:** Preserve agreed story decisions as an additive continuity record; not a real-world claim about prehistoric civilisation or prediction capabilities.
+
+## Major structural revision — 19 November 2026, approved for future drafting
+
+**Supersedes the earlier assumption that Susan dies during the fall of Veyra.** Susan survives the evacuation. The first five chapters may close with the loss of her civilisation and departure from the lab, not the death of her person. The drama thereafter may follow her in exile for a short compressed sequence (possibly 10–20 years), during which she ages, loses professional access and material security, and encounters the difficulty of refugee integration; actual eventual death and location are not yet specified. Do NOT narrate all refugees as equally badly treated; destination societies vary in acceptance and coercion.
+
+### Susan's personal reading and the pocket
+- Before leaving the laboratory for the last time, **Susan silently reads the entire remaining story of Elataya** in the holographic image. The reader witnesses emotional shifts but not the details or result of the reading.
+- She sees the **small original clay tablet** on the glass, knows it belongs to her institution, and hesitates. The research building and collections may be destroyed. **She slips the original tablet into her pocket**, choosing immediate protective custody rather than institutional abandonment. This is a quiet, human action, not a staged heroic gesture or an attempt to hide the reading from future generations.
+- In exile she no longer has the glass table or the infrastructure to continue her research career; survival needs take priority. She may later discover the object in a pocket or among folded clothes and remember the story with warmth. She puts it somewhere ordinary and safe without conceiving a multi-millennial archival plan.
+- Over 10–20 years the tablet becomes **an overlooked household object**, lost through moving, sorting, discard, inheritance, or disposal. It may enter refuse and later be buried or obscured by plausible local geological events (e.g. volcanic ash if the chosen setting supports it), rather than being deposited ceremonially in a library. Susan need not be alive at the moment of burial.
+- Thousands of years later a successor civilisation encounters the physical tablet; the reader has watched not only its archaeological discovery but its accidental loss from a family household. The precise custody route and chronology need to be established in the final draft. Preserve plausible survival of clay through handling and deposition.
+
+### The full-colour whiteboard plate system — mandatory, introduced early
+- The scientists keep a **physical whiteboard** beside the glass-table hologram, adding questions, observations, sketches, working headings, doubts and revised relationships. Start very early in Chapter One when Jim/Susan/Mark first decide to build a model of the source civilisation.
+- **Each of the twelve chapters closes with (or prominently includes) a full-colour page of the whiteboard as it exists at that point**. It is an in-world artifact, not an explanatory appendix. Realistic handwriting, coloured dry-erase markers, crossings-out, circles, arrows, incomplete mind maps, differing personalities of handwriting and accumulation of old marks. No intrusive caption, key or editorial explanation; readers encounter the board the characters have used.
+- The original hologram/tile images also appear on or opposite the narrative pages where viewed, **unannotated**. Distinguish research image plates from whiteboard page, which necessarily contains characters' handwritten notes and arrows.
+- **Physical continuity challenge:** After Veyra's fall the actual original board does not follow the clay. Later chapters must show distinct successor boards/maps/notebooks made by new custodians. The same final-page visual convention can continue as each civilisation's *own working surface* rather than pretending the Veyra whiteboard survived. Alternatively a chapter without live analysis may show a realistically emptied/erased/survivor's jotting; story-specific choices needed. New readers don't inherit Susan's knowledge by magic. The reader alone remembers earlier boards.
+
+### Implications for outline
+- Chapter 5: earthquake and warning period; Susan reads Elataya's full life, chooses to pocket the tablet, leaves Veyra, survives. Mark departs for Mars. Deliberately no ominous spoilers in early chapters.
+- Chapter 6: Susan's refugee life / ageing / material downgrading, tablet rediscovered in clothing and later lost in mundane household turnover, followed by time jump and burial. Can alternatively divide late Chapter 5 / early Chapter 6 according to pace.
+- Subsequent civilisations rediscover the same object, with incremental reading until 'twelve lambs' episode and later continuation. Preserve genuine temporal and geographic civilisational plurality.
+
+**Priority:** This revision overrides any older sentences like “Susan dies in Chapter Five” or “her story dies with her” where read literally. Her **institutional way of life** dies; she continues living, adapting and remembering.
