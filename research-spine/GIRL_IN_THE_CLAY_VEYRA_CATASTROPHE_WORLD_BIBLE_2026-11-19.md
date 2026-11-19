@@ -52,3 +52,13 @@ Veyra is a highly sophisticated and broadly coherent **regional civilisation**, 
 - Subsequent civilisations rediscover the same object, with incremental reading until 'twelve lambs' episode and later continuation. Preserve genuine temporal and geographic civilisational plurality.
 
 **Priority:** This revision overrides any older sentences like “Susan dies in Chapter Five” or “her story dies with her” where read literally. Her **institutional way of life** dies; she continues living, adapting and remembering.
+
+## Reader revelation schedule — 19 November 2026
+
+- The **reader's knowledge is not identical to Susan's**. Lab research follows Elataya's upbringing and may reach **graduation** before Veyra evacuates. The team and its physical board initially interpret the archive as a broad educational framework, only gradually realising this particular girl's training is highly targeted.
+- During a final **private reading** Susan learns the girl's entire remaining adult story, including that **Elataya became a spy**, her operations, capture and eventual life. Her private knowledge is not narrated into the reader's ears.
+- During evacuation or packing, **Susan casually tells Jim** that Elataya graduated and **became a spy**. Jim is genuinely astonished and wants the rest, but evacuation work or an authentic interruption stops the conversation. This is the first major adult-life revelation to the reader: a surprise payoff that recasts earlier lessons, but reveals **no employer, target, capture details, sanctuary or final fate**.
+- The whiteboard can acquire **TRAINING FOR WHAT?** or a tentative **SPY?** through a character's own mark, but do not overwrite what was genuinely observed. The chapter-end plate records the precise state of the characters' knowledge, not the full answer.
+- Later, in exile, Susan befriends a local young girl and **tells the girl the whole account**. Show the beginning and the child's engaged questions, then pass over the remainder in narration without exposing plot to the reader. This is a warm interpersonal scene, not a forced interruption. The child may later remember Elataya and something useful from the story.
+- Subsequent civilisations' readings release adult-life events incrementally over Chapters 7–12, including spy operations, detection, restraint and her eventual agency and chosen family. Make revelations substantial enough to reward patience. Avoid five successive teasing interruptions; one surprising glimpse in Jim's scene and one naturally elided oral storytelling are enough.
+- Names in voice dictation may fluctuate (Eleazar/Elita/Elitaya), but **Elataya** is current canonical spelling introduced at the end of Chapter Two.
