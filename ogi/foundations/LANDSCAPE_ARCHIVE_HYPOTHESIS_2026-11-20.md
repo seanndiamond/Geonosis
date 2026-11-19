@@ -1,0 +1,138 @@
+# The Landscape–Archive Hypothesis
+## The Natural Grammar of Pictographic Information
+
+**Geonosis Research Programme | Méthodê Glyph | OGI foundational research context**  
+**Author:** Sean Diamond (with AI-assisted drafting)  
+**Revised:** 20 November 2026, Melbourne  
+**Status:** Foundational **research hypothesis / author claimant position** and existing research-program description; not a finding that every proposed natural or historical mechanism has been independently validated, and not a claim that an OGI software component or benchmark was implemented or passed.
+
+> **Foundational proposition:** The landscape and the constructed ancient archive are proposed to be expressions of the same underlying **visual, relational, transformational information architecture**. The research objective is to recover and understand that architecture through observable relationships.
+
+## 1. Foundational proposition
+
+The central hypothesis of Geonosis is that the natural landscape and ancient pictographic information systems operate through a common relational visual grammar.
+
+Under this hypothesis, ancient practitioners did not invent pictographic syntax independently of nature. They recognised relationships already expressed through the natural world and reproduced those relationships in constructed information systems.
+
+**The landscape is proposed as the primary information field.** Tablets, hieroglyphs, temple carvings, manuscripts and monumental inscriptions are investigated as constructed expressions of the same underlying grammar.
+
+The proposed units of information are not necessarily individual marks or isolated recognisable figures. They include position, scale, orientation, relationship, boundary, enclosure, interaction, recurrence, transformation and sequence.
+
+## 2. Existing comparative programme, not a proposal to begin one
+
+The author reports an extensive, already-performed body of image-first investigations:
+
+- **More than fifty** landscape/terrain investigations;
+- **More than ten** cuneiform-tablet investigations;
+- **More than ten** Egyptian-pictographic investigations;
+- Examinations of the **Phaistos Disc** and **rongorongo**;
+- Further work across other traditions, with the author estimating **at least five and potentially seven** distinct ancient corpora.
+
+These are **author-reported investigation counts**, not newly verified independent replications or measured experimental success rates. Do not reframe the work as though the comparative programme has not yet begun. The continuing task is to read, preserve, compare and publish the already accumulated derivations, as well as new returns.
+
+The operations include original-field inspection, zoom and scale changes, rotation, mirroring, transparent overlays, controlled translation of one field against another, and return to earlier positions as later frames alter the reading. Preserve both **discovery order** and **final interpretive order**, including intermediate frames discovered by going backwards.
+
+## 3. Landscape grammar, scale and resolution
+
+The reading examines:
+
+- Relative position and orientation of forms, boundaries and openings;
+- Central operators and surrounding relational fields;
+- Nested structures across micro/macro scales;
+- Animal and human-like morphologies;
+- Direction of attention, gesture, movement and changing relationships;
+- Transformations through mirroring, sliding, rotation, perspective and scale;
+- Recurrences and corrections across successive returns.
+
+A central crop may remove the surrounding relationships needed to understand it. A broad landscape view may conceal much smaller forms unless the source resolution is maintained. **Neither the large-scale field nor the small-scale details should be discarded.**
+
+A worked comparative observation is the **Flinders Ranges elephant field**: the researcher begins from a large landscape configuration and follows smaller elephant-like forms in the wider terrain, including paired raised-trunk outlines and a central operator/temple-like relation in mirrored views. This is compared with deliberately carved temple reliefs showing paired elephants framing a central figure. The question is about **relational arrangement and transformation**, not solely the word “elephant.”
+
+Source-image provenance, orientation, crop extent, image resolution and transformation sequence should remain attached to such a case. Visible landscape features, recognised figurative morphology, and interpretation of possible natural or constructed purpose must be recorded as distinct layers.
+
+## 4. Natural and constructed visual archives
+
+The comparative subject spans:
+
+- **Landscape:** hills, drainage, coastlines, basins, formations and their spatial relationships;
+- **Temple reliefs and architecture:** explicitly carved figures, paired arrangements, gestures, framing and operator relations;
+- **Cuneiform:** marked surfaces and the configurations generated by the recorded image operations;
+- **Egyptian hieroglyphic fields, Phaistos Disc, rongorongo and other investigated corpora:** their own visual relationships, transformations, returns and recurrent forms.
+
+The hypothesis proposes a common **grammar of relations**, not merely the presence of a familiar image in different places. The source domains remain separately identifiable, and a new comparison should show what operation creates a claimed correspondence.
+
+## 5. Trait vectors and living systems
+
+Animals such as **dogs, birds, horses, elephants, cats and bulls** are investigated as carriers of particular behavioural, sensory and physical trait vectors: listening and directional awareness, return and care, strength and restraint, movement and coordination, relational cooperation, communication and response to changing circumstances.
+
+The broader Geonosis biological hypothesis proposes that ancient practitioners knew how to **select, prioritise and recombine traits** in the formation of living systems, potentially including the development of animals. This extends to proposed knowledge of natural energy, construction and life systems. These are **research claims and mechanisms to investigate**, not an assertion here that historic biological engineering has been independently established.
+
+A specific animal's function must be read from its local relationships and sequence. Do not assign a generic trait to every instance of a dog, horse, bird or elephant without inspecting the relevant field.
+
+## 6. Phonetics: explicit claimant position
+
+**The Landscape–Archive Hypothesis is non-phonetic in its proposed foundational grammar.** It does not posit “visual relationships plus phonetics” as a default hybrid, and it must not be paraphrased as merely “not phonetic *alone*.”
+
+A landscape feature can be described in speech, and a mathematical relation can be named, but neither its geometry nor its relationship is derived from an assigned pronunciation. Likewise, assigning a spoken name to a depicted form does not demonstrate that the original visual mark encoded that sound.
+
+**Claimant position:** The ancient pictographic information systems under investigation are visual, relational and transformational in their foundational syntax, **not phonetic**. Any competing claim of a sign-to-sound relationship must expose its own independent staircase: actual artifact mark → identified sign → justified sound value → derived linguistic function. The phonetic claim is not obtained merely by labelling a picture.
+
+This is a precise author research position. The present document does not erase existing phonetic scholarship or adjudicate every script; it states the proposed ontology and the form of evidence needed to debate a particular sign. Critique should target a concrete mark, correspondence, transformation or claimed function, without repetitive caveats about unasserted ancient authorial intentions.
+
+## 7. Information density and the small-tablet case
+
+Metropolitan Museum of Art **11.217.19**, conventionally catalogued *Cuneiform tablet: receipt of lambs*, was selected by the researcher in part because it appeared **sparser and more manageable** than other tablets already investigated. It unexpectedly yielded a long evolving working reading through horizontal mirror overlay (about **58% transparency**), controlled translation, scale changes and returns.
+
+The reported sequence now includes relational education; animal traits; maturation and graduation; public and covert roles; a king's long-range political ambition; infiltration; capture; lock opening and fracture; disguise and pursuit by dogs; mountain passage; aircraft escape; personal life; and images read as **the end of a war**. The later story-related readings are to be attached to their individual source frames, not silently promoted to previously published C1001–C1014 frame evidence.
+
+The inscription is documented on **both obverse and reverse** and an edge; a reverse line drawing exists. The author has not yet examined a suitable **reverse photograph** through the same overlay process, so cross-face interactions remain an open investigation rather than an already observed result.
+
+**Do not conflate research/report length with a measured number of encoded bits.** The hypothesis is about recoverable visual relationships, and the investigation can be book-length without assigning a precise information capacity to the clay.
+
+This case is also the image-derived basis of the fiction project *The Girl in the Clay*. Fictional educational scenes and character dialogue are to be distinguished from observed source-image features.
+
+## 8. Planetary archive and incompleteness
+
+The surviving written and carved artifacts are a small material subset of the proposed wider field. Under the hypothesis, the possible natural information archive encompasses Earth's physical surface: landscape, geology, coasts, valleys, basins and relational features.
+
+The planetary scope is an implication of the proposed common grammar, **not** a completed mapping of every terrestrial feature. The author reports extensive terrain work and expects further returns as resolution, image surfaces and transformation sequences expand.
+
+## 9. Method: Méthodê Glyph / Picterpretation
+
+- **Field Before Form:** preserve original image, context and provenance before interpretation.
+- **Read relationship rather than isolated likeness:** include adjacent participants and outer field.
+- **Transform transparently:** retain orientation, scale, mirror type, overlay opacity and translation sequence.
+- **Return Test:** go back when a later frame changes an earlier reading; do not erase the previous observation.
+- **No image discarded:** retain intermediate and initially unresolved configurations.
+- **Traceable derivation:** keep visible feature, working interpretation, trait-vector relation, and fictional or historical extension distinct.
+- **Cross-corpus comparison:** record the actual relation that recurs rather than simply attaching matching names.
+- **Specific contestability:** corrections and challenges identify the image, alignment, mark or transition rather than invoking generic uncertainty.
+- **Human–AI accountability:** the reader's working observations are not independent AI validation; AI assistance does not transfer claim authorship or research accountability.
+
+The objective is **to read and preserve the archive**. Additional tests, where useful, should interrogate identified claims and not be presented as a prerequisite for admitting the existing reading programme exists.
+
+## 10. Relationship to OGI (Our General Intelligence)
+
+This is a **foundational *research ontology and motivating evidence context*** for OGI, **not** an executable OGI component or a retroactive performance benchmark.
+
+It helps explain why OGI emphasises:
+
+1. **Field before form / field before actor blame:** action and meaning cannot be isolated from environmental relation.
+2. **Relational intelligence:** differentiated capacities can combine through context-sensitive relationships instead of a single intelligence ladder.
+3. **Representation fidelity:** a label, category or verbal summary can lose relationships present in the original visual field.
+4. **Return and correction:** new frames recontextualise old readings; preserve original and revised states.
+5. **Alignment to actual claim and objective:** do not replace the active research problem with an unrequested debate about intent, labels or authority.
+6. **Cohesion and continuity:** a rich source can be read over long intervals without discarding the derivation, intermediate states or corrected observations.
+
+OGI's **implemented**, **specified**, and **proposed-but-unimplemented** engineering components must retain their existing classifications. Registering this foundation does **not** update `CURRENT_STATE.json` implementation flags, claim that v0.3.2 has been validated, or pass tests T-38–T-45. The relationship is conceptual and methodological.
+
+### Connected records
+
+- [OGI README](../README.md)
+- [OGI v0.3 reference](../SPEC_v0.3.md)
+- [OGI v0.3.2 available-memory extension](../SPEC_v0.3.2.md)
+- [Reading Mode and Scribe Protocol](../../research-spine/ARCHIVE_READING_MODE_AND_SCRIBE_PROTOCOL_2026-11-19.md)
+- [The Girl in the Clay continuity and image canon](../../research-spine/GIRL_IN_THE_CLAY_VEYRA_CATASTROPHE_WORLD_BIBLE_2026-11-19.md)
+- [Court of Provenance](../../court-of-provenance/)
+
+**Core statement:** The landscape and the constructed ancient archive are proposed expressions of the same visual information architecture. The goal of the Geonosis reading programme is to recover and understand the relationships through observable transformations, return and cross-corpus comparison. The goal of OGI is to preserve such inquiry's objectives, evidence, representation, correction and relational continuity in human–AI work.
