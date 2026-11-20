@@ -300,3 +300,21 @@ The author strongly rejects five more chapters: the movie/book's core story is c
 ## FINAL-CHAPTER NONNEGOTIABLE: Elataya's whole later life before the scribes (20 November 2026)
 
 Author correction: **Chapter 21 must not conclude solely with Elataya exposing both governments, ending their hostilities, or becoming a political figure.** After the swift public revelation and wars being put away, give full, emotionally earned narrative closure to **her marriage, love, baby/childbirth, child and family, and acquiring/raising a dog**. Her subsequent life must be portrayed in meaningful, concrete scenes rather than a sentence of summary or montage that cheats the reader. The archive readings specifically show a woman, baby and dog/puppy, including a young human and young dog learning trust together, singing to the baby, domestic care and flourishing. Reconnect this to her formative education among remarkable animals, and the reciprocity of relational intelligence. The central contrast: a girl recruited at six and trained to become a weapon later chooses nurturing, personal attachment and a home. She must be free to choose her partner (do not invent spouse identity as settled by image unless established), retain autonomy and become more than her trauma or political significance. Work Ren, Liora and other allies into an appropriate sense of consequence and closure without hijacking her ending. **Final scene of Ch21:** scribes deliberately preserve *this entire life* and the civilisation-level story in clay, not only the assassination, torture or war, so the archival message includes generation and care. Then the single short epilogue Doreen/Jeff/museum catalog "Cuneiform tablet: receipt of lambs", object 11.217.19, 12 lambs. Author's ironic contrast: an immense civilisational message and a woman's lived life reduced by the catalogue to a trivial livestock transaction ("a shish kebab"), a horror-story consequence of lost interpretive access; show through scene, not overt explanatory lecture.
+
+
+## Editorial lock: Chapter Two, A Girl at School — 21 November 2026
+
+Author expressly **approved and locked** the complete Chapter Two draft in conversation (begins Susan's mother at lunch: "You have no idea"; ends with Susan's team continuing education reading). Only approved editorial change: eliminate two remarks implying possibility of recovering the girl's ancient **spoken/phonetic name**; in Veyra's working archive science, these researchers do not seek phonetic name values. Susan simply assigns the professional **working identifier Elataya**, and Mark records **ELATAYA — RECURRING YOUNG LEARNER**. Final exchange:
+Jim: "She's certainly getting a remarkable education."
+Susan: "And we've barely begun."
+Mark: "We'll need a designation for her."
+Susan: "Yes."
+Mark: "Any preferences?"
+Susan: "Elataya."
+Jim: "Elataya?"
+Susan: "A good name for our records."
+Mark records **ELATAYA — RECURRING YOUNG LEARNER**.
+Jim: "That suits her."
+Susan: "Then Elataya it is."
+Mark continues translation; the imagery changes, another lesson emerges; the three researchers follow her. **End of Chapter Two**.
+Other chapter material remains as approved: Susan's mother asks whether education trains children to manage themselves or merely to be manageable; restaurant child/dog scene; expert imagery interpretation with no image hunting, attention and emotional communication; recurring biography unprecedented in Susan's experience. No changes to locked Chapter One. The complete approved prose is in the conversation and should be recovered from that when compiling the edition; do not substitute this lock note for the entire chapter text.
