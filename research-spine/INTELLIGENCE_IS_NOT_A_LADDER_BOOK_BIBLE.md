@@ -162,3 +162,6 @@ Before adding a new thread, ask:
 - **Source group:** bull incised relief; three retained Thessalian source/working views; Flinders unmarked original plus transformed views; five tablet transfer/handler/arrival panels; four pre-existing Dresden plates retained as supplementary archive material rather than silently discarded.
 - **Rights/provenance status:** image placement completed; exact original provider metadata and some reuse permissions need checking before commercial publication. The original Google Earth source remains paired with its transformed readings; tablet overlays are marked transformed and not passed off as unaltered ancient marks.
 - **Next step:** whole-book v21 manuscript insertion, keeping Chapter Five text immutable and retaining the Figure Register; completion of unrelated Chapter Three image review separately.
+
+- **Persistent Library copy:** `/Intelligence Is Not a Ladder/Chapter_05_v21_LOCKED_Illustrated.docx` (Library file ID `libfile_c9a5157a1e50819199aa3b48eb602437`). The exact approved prose source and image register are saved alongside it in that Library folder.
+- **Verified Word byte checksum (SHA-256):** `1943a6ff12ed8911704c2802b48e8ba4308a9ce75f0a60e21afa2a493d1000cf`. Full chapter text normalised for whitespace matched the locked source exactly (29,098 characters). Word manuscript rendered to 28 pages with images.
