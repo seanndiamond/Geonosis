@@ -46,3 +46,16 @@ Conversely, failure to expose a derivation chain does not automatically prove a 
 ## Publication note
 
 An earlier paper, *Recasting the Cuneiform Record: A Glyphic Counter-Model to the Phonetic Assumption*, forms part of the project history but contains claims and apparatus that precede the current stricter epistemic standard. It is therefore not silently substituted here for the updated paper.
+
+
+## New primary comparison object: Met 11.217.19 — cold mirrored-overlay Part One
+
+**Source:** The Metropolitan Museum of Art, accession **11.217.19**, *Cuneiform tablet: receipt of lambs*, Neo-Sumerian, Ur III, ca. 2041 BCE, Drehem (Puzrish-Dagan): https://www.metmuseum.org/art/collection/search/322463 . Not to be confused with Met 11.217.18, *receipt of an ox and lambs*.
+
+**Claimant reading:** Sean Diamond, 18 November 2026, cold human-led image-first sequence C1001–C1006, including the interposed backward-return position C1002A. Original interpretations are fully registered in [COP-CUN-READ-001](../court-of-provenance/cases/COP-CUN-READ-001/README.md), with [source and method addendum](../court-of-provenance/cases/COP-CUN-READ-001/PROVENANCE_ADDENDUM_2026-11-18.md).
+
+**Reproducible parameter set currently known:** Microsoft Excel; horizontally flipped copy at **58% transparency**; mirrored image to the right of original; swipe right-to-left. Exact pixel offsets, original workbook/source image hash and independent controls still needed.
+
+**Conventional-reading audit:** *receipt of lambs* is the object's actual institutional title, not an account of barley. Recover sign positions, quantities, transaction terms, and any published translation *for this accession* before claiming a demonstrated inventory. The claimant states no obvious lamb image appeared in the mirrored-overlay reading; no conclusion about scribal intention follows automatically from that discrepancy.
+
+**OGI return:** [COP-OGI-012](../ogi/cases/COP-OGI-012/README.md) registers recovered museum identity, method provenance, backtracking chronology and GEN IT AL-lock's catalogue-title-versus-demonstration guard. Subject claims and AI-method claims remain separate. Original seven images are embedded in the current-conversation illustrated report; they have not been committed as GitHub binaries at this point.

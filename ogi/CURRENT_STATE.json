@@ -283,5 +283,31 @@
         "cross_links_status": "REVIEW_REQUIRED"
       }
     }
-  ]
+  ],
+  "additive_case_register_update": {
+    "date": "2026-11-18",
+    "review_branch": "cop-egy-phon-001-ogi-evidence-return-2026-11-18",
+    "approval_status": "PENDING_PR_REVIEW_NOT_MERGED",
+    "cases": [
+      {
+        "case_id": "COP-OGI-011",
+        "type": "observed_explanation_to_exhibit_failure",
+        "status": "RECORDED_NOT_BENCHMARKED",
+        "file": "cases/COP-OGI-011/README.md"
+      },
+      {
+        "case_id": "COP-OGI-012",
+        "type": "cold_mirrored_overlay_provenance_and_return",
+        "status": "RECORDED_NOT_BENCHMARKED",
+        "original_object": "The Met 11.217.19",
+        "file": "cases/COP-OGI-012/README.md"
+      }
+    ],
+    "proposed_guardrail": {
+      "name": "GEN IT AL-lock",
+      "file": "GEN_IT_AL_LOCK.md",
+      "implementation": "PROPOSED_ONLY"
+    },
+    "notes": "The reference_version 0.3.1 and historic reference state remain unchanged. These additive registers are proposals / observed human-assisted cases, not automated benchmark success."
+  }
 }

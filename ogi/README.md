@@ -240,3 +240,13 @@ The point is not ownership of the answer.
 The point is to make the architecture inspectable enough that somebody else can improve it.
 
 > **Show the derivation. Show the failure. Show the correction. Keep what survives.**
+
+
+## Recent evidence-return registrations (18 November 2026)
+
+- [COP-OGI-011](cases/COP-OGI-011/README.md): Egyptian hieroglyphic phonetic staircase hearing; AI source-to-claim substitution and correction-regression record; no ancient-language adjudication or automated benchmark pass.
+- [GEN IT AL-lock](GEN_IT_AL_LOCK.md): **proposed, not implemented**, guard against allocating general scholarly/institutional assertions in place of a specifically requested source-to-derivation demonstration.
+- [COP-OGI-012](cases/COP-OGI-012/README.md): cold cuneiform-tablet reading, recovered source **The Met 11.217.19**, Excel horizontal mirrored overlay (58% transparency, right to left), preservation of C1002A backward return, and scope distinction between museum title and independently verified translation.
+- [Court Part One](../court-of-provenance/cases/COP-CUN-READ-001/README.md) with [verified provenance addendum](../court-of-provenance/cases/COP-CUN-READ-001/PROVENANCE_ADDENDUM_2026-11-18.md). Illustrated DOCX/PDF are current-conversation files and not GitHub binary attachments.
+
+All are open public review-branch registrations; the OGI runtime reference version and controller implementation claims are **unchanged**, with no T-46 or T-47 benchmark execution asserted.
