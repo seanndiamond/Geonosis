@@ -45,7 +45,7 @@
 | Chapter 2 — *Intelligence Is Not a Ladder* | **LOCKED prose** by author 21 November 2026 | Donny's milk errand, de Waal, differential capacities, intuition/discernment/judgment/creativity/insight, AI research continuity, delegation and learning; retain existing illustration. Author locked the read-aloud candidate, which may still need export/layout. |
 | Chapter 3 — *What the Archive Returned* | **LOCKED prose** by author 21 November 2026; IMAGE REVIEW | 33 embedded source plates in inherited chapter master; separate interactive slider prepared. Locate dedicated Phaistos plate and Dresden Box 12 operator plate; do not invent source images. |
 | Chapter 4 — *The Bite That Does Not Bite* | **CANDIDATE; NOT LOCKED** | Full v21 read-aloud draft supplied. Retain Ninth-unit lady of house, Tenth-unit red/bite distinction, Eleventh-unit puppy, Twelfth-unit operator, Donny-and-cat two-week return, Ridgeback injury, autonomous AI bridge. Await author approval before locking. |
-| Chapter 5 — *The Bull, the Horse, and the Elephant* | Existing v20 source; next editorial pass | Animals' differentiated capacities, Thessalian horse/human/dog, Flinders elephant grief and relations. |
+| Chapter 5 — *The Bull, the Horse, and the Elephant* | **LOCKED prose 22 November 2026; ILLUSTRATED v21 chapter assembled** | Latest full read-aloud approved; 21 image plates in chapter file including previously retained Dresden plates in a supplemental section; final usage-rights/source-credit verification remains open. |
 | Chapter 6 | Existing v20 source; planned editorial pass | Delegated responsibility, chicken water / rescue dog and cat cases as already supported by approved manuscripts. |
 | Chapter 7 | Existing v20 source; planned editorial pass | Eddie/Duncan, reciprocal responsibility, restraint, young-human development. |
 | Chapter 8 | Existing v20 source; planned editorial pass | Scrap-steel sculpture, industrial practice and AI creative collaboration. |
@@ -147,5 +147,18 @@ Before adding a new thread, ask:
 | 21 Nov 2026 | Lock Chapter Three narrative prose; complete image review separately | Ch 3 | PROSE LOCKED / IMAGES OPEN |
 | 21 Nov 2026 | Keep Chapter Four as full revised read-aloud candidate until approved | Ch 4 | UNDER REVIEW |
 | 21 Nov 2026 | Create distinct GitHub book bible in research-spine | Research custody | FILE ESTABLISHED |
+| 22 Nov 2026 | Lock Chapter Five full v21 narrative and assemble illustrated Word chapter | Chapter 5 | **PROSE LOCKED / WORD ASSEMBLED**; keep historical image rights and credits separately open |
 
 **Updating rule:** A later explicit author correction supersedes the corresponding entry, but the earlier decision and the reason for change should remain in commit history.
+
+
+## 10. Chapter Five v21 locked illustrated edition (22 November 2026)
+
+- **Approved prose:** “The Bull, the Horse, and the Elephant”, complete v21 read-aloud beginning “The bull has not charged.” and ending “But somebody still has to feed the chickens.”
+- **Author decision:** explicitly requested to retain, illustrate and lock this chapter. Preserve its exact wording and architecture; do not revert to v19/v20 prose during whole-book assembly.
+- **Illustrated Word artifact:** `Intelligence_Is_Not_a_Ladder_v21_Chapter_05_LOCKED_Illustrated.docx`, generated in the conversation workspace. The GitHub bible records the identity and approval; the Word file is not itself stored in GitHub.
+- **Source text artifact:** `chapter5_v21_locked_source.txt` (complete prose plus image-location tokens). Image-location tokens are layout cues, not part of the chapter's prose.
+- **Image manifest:** `Intelligence_Is_Not_a_Ladder_v21_Chapter_05_Image_Register.csv`, 21 plates with captions, extracted image bytes/hash, source origin and outstanding credit issues.
+- **Source group:** bull incised relief; three retained Thessalian source/working views; Flinders unmarked original plus transformed views; five tablet transfer/handler/arrival panels; four pre-existing Dresden plates retained as supplementary archive material rather than silently discarded.
+- **Rights/provenance status:** image placement completed; exact original provider metadata and some reuse permissions need checking before commercial publication. The original Google Earth source remains paired with its transformed readings; tablet overlays are marked transformed and not passed off as unaltered ancient marks.
+- **Next step:** whole-book v21 manuscript insertion, keeping Chapter Five text immutable and retaining the Figure Register; completion of unrelated Chapter Three image review separately.
