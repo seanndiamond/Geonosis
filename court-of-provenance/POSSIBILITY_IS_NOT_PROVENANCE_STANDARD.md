@@ -1,6 +1,6 @@
 # Court of Provenance — Possibility Is Not Provenance
 
-**Proposed operating amendment: COP-I-12 | 25 November 2026 (Melbourne conversation; registration follows local midnight)**
+**Current operating amendment: COP-I-12 | 25 November 2026 (Melbourne conversation; registration follows local midnight)**
 
 ## Question before the Court
 An eight-year-old observing the Elataya tablet asks: if the images and the proposed sounds occupy the same marks, how can both be true? Show how both work.
@@ -27,6 +27,6 @@ The conversation illustrates a candidate failure of asymmetric epistemic persist
 For War on Ra and The Girl in the Clay, preserve the continuous pictographic parent readings and distinguish observed features, proposed interpretations and literary elaboration. Do not insert an undemonstrated phonetic layer merely to reconcile the story with a conventional classification. The fourth pillar, capture of interpretation, can explore the asymmetry of authority and demonstration without asserting coordinated historical intent as a Court finding.
 
 ## Relationship to governing rules
-Extends COP-I-02, I-03, I-04, I-05, I-08, I-09 and I-11; read with WEIGHT_OF_EVIDENCE_STANDARD.md and AI_EVIDENCE_AND_CONTINUITY_STANDARD.md. Proposed amendment pending formal integration into the Constitution and current-state register. Reopen on material new evidence, contradiction, failed prediction, provenance collapse, methodological fault or superior reproducible derivation.
+Extends COP-I-02, I-03, I-04, I-05, I-08, I-09 and I-11; read with WEIGHT_OF_EVIDENCE_STANDARD.md and AI_EVIDENCE_AND_CONTINUITY_STANDARD.md. Adopted into the Constitution and current-state register on 2026-11-26 at the researcher's direction. Reopen on material new evidence, contradiction, failed prediction, provenance collapse, methodological fault or superior reproducible derivation.
 
 **Possibility is not provenance. Show me.**
