@@ -12,6 +12,10 @@ The project uses **Méthodê Glyph** as its formal constraint-first visual metho
 
 This repository is being built as the **public audit trail of the work**, not merely a gallery of conclusions.
 
+## Sean Diamond and Twelve Lambs
+
+[Sean Diamond](SEAN_DIAMOND.md) is a Melbourne-based author, sculptor and the independent researcher behind Geonosis. His novel *Twelve Lambs: The Girl in the Clay* grew out of an image-first study of [Met tablet 11.217.19](https://www.metmuseum.org/art/collection/search/322463), a small clay tablet catalogued as a receipt of lambs. The novel imagines the life of Elataya, the girl Sean began to follow through his reading of the images.
+
 ## Start here
 
 **October 2026 Court continuity:** [Geonosis relational literacy and dynamic reading record](archive/canonical/COP_CONTINUITY_2026-10-18_GEONOSIS.json). This dated additive JSON records the author's discovery chronology, active ontology, new method definitions, Linear B hearing pointers, and the rule to return to existing provenance rather than relitigating the whole programme.
