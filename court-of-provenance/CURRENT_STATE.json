@@ -1,7 +1,7 @@
 {
   "schema": "CourtOfProvenance.CurrentState.v1",
   "system": "Court of Provenance",
-  "state_date": "2026-10-26",
+  "state_date": "2026-11-26",
   "status": "canonical_public_adjudication_subsystem",
   "canonical_directory": "/court-of-provenance/",
   "governing_documents": [
@@ -9,7 +9,8 @@
     "CONSTITUTION.md",
     "CURRENT_STATE.json",
     "CONTINUOUS_READING_PROVENANCE_STANDARD.md",
-    "CONTINUOUS_READING_EXCERPT_SCHEMA.json"
+    "CONTINUOUS_READING_EXCERPT_SCHEMA.json",
+    "POSSIBILITY_IS_NOT_PROVENANCE_STANDARD.md"
   ],
   "evidence_staircase": [
     "CITED",
@@ -86,6 +87,14 @@
       "standard": "CONTINUOUS_READING_PROVENANCE_STANDARD.md",
       "record_schema": "CONTINUOUS_READING_EXCERPT_SCHEMA.json",
       "summary": "Every excerpted motif/image is linked to a continuous parent reading and its local sequence, source, version and revision lineage; thematic collections do not create isolated readings."
+    },
+    {
+      "id": "COP-I-12",
+      "title": "Possibility Is Not Provenance",
+      "effective_date": "2026-11-26",
+      "status": "CURRENT_OPERATING_RULE_REOPENABLE",
+      "standard": "POSSIBILITY_IS_NOT_PROVENANCE_STANDARD.md",
+      "summary": "Hypothetical coexistence requires derivation; preserve scoped demonstration failures and apply equal evidentiary burdens."
     }
   ]
 }
