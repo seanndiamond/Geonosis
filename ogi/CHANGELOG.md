@@ -1,5 +1,10 @@
 # OGI / Oggy Changelog
 
+## 2026-11-26 — COP-OGI-011 / T-46
+
+Registered asymmetric epistemic persistence as a retrospective candidate case and specified T-46 with label-swap, valid counterevidence and scope controls. Linked adopted Court rule COP-I-12. No implementation, benchmark pass or universal archaeological finding claimed.
+
+
 This changelog records public reference-state changes. Earlier states remain recoverable through Git history.
 
 ## COP-OGI-006 Reopen 1 — 2026-09-07
