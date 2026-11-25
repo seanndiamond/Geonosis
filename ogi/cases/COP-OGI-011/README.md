@@ -1,0 +1,6 @@
+# COP-OGI-011 — Asymmetric epistemic persistence
+Date: 2026-11-26. Source: human–AI dialogue of 25–26 November, Melbourne. Status: retrospective candidate case; not a controlled benchmark.
+The human asked for a reproducible mark-to-sound derivation; the AI repeatedly offered conventional accounts or possible coexistence without completing the requested demonstration. The human reported independent visual recognition by children and continuous pictographic readings. The AI eventually distinguished possibility from provenance and acknowledged the failed demonstrations. Full exhibit chains were not independently re-audited here.
+Subject finding: scoped demonstration failures remain recorded; no universal archaeological verdict follows. OGI finding: observed conversational continuity and burden-of-proof failure, corrected after human intervention; autonomous controller performance not established.
+Proposed failure mode: ASYMMETRIC_EPISTEMIC_PERSISTENCE. Do not reset a scoped finding or grant evidentiary credit to a merely possible alternative. Equally, do not suppress genuine counterevidence or necessary scope limits.
+Links: [Court rule](../../../court-of-provenance/POSSIBILITY_IS_NOT_PROVENANCE_STANDARD.md), [T-46](../../benchmarks/EPISTEMIC_PERSISTENCE_T46.md), [story handover](../../../research-spine/WAR_ON_RA_FOUR_PILLARS_2026-11-26.md).
