@@ -52,7 +52,8 @@
   "active_observations": [
     "CUN-OBS-2026-001",
     "VIS-OBS-2026-001",
-    "LINB-OBS-2026-001"
+    "LINB-OBS-2026-001",
+    "EPIG-OBS-2026-001"
   ],
   "current_findings": [
     {
@@ -64,6 +65,18 @@
       "id": "LINB-OBS-2026-001",
       "finding": "Linear B structural recurrence is admitted; foundational phonetic derivation from primary evidence to sound is not proven to Court standard; pictographic investigation remains open and active.",
       "status": "UNRESOLVED_OPEN_HEARING"
+    },
+    {
+      "id": "EPIG-OBS-2026-001",
+      "finding": "The phonetic derivations examined for the lamb sign on Met 11.217.19, Linear B, Maya epigraphy and Egyptian hieroglyphs remain unresolved at the Court's evidence standard. Pictographic returns remain active observations under their original parent readings.",
+      "status": "UNRESOLVED",
+      "record": "observations/EPIG-OBS-2026-001-phonetic-derivation-and-pictographic-returns.md",
+      "case_statuses": {
+        "cuneiform_met_11_217_19": "UNRESOLVED",
+        "linear_b": "UNRESOLVED",
+        "maya_epigraphy": "UNRESOLVED",
+        "egyptian_hieroglyphs": "UNRESOLVED"
+      }
     }
   ],
   "transformation_protocol": [
