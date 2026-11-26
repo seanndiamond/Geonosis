@@ -132,6 +132,8 @@ An excerpted image or motif from a Geonosis report **is not an isolated reading*
 
 - [LINB-OBS-2026-002 — Linear B Circle Forms and Internal Variation](observations/LINB-OBS-2026-002-circle-forms-and-internal-variation.md) — distinguishes original-photograph geometry from standardised *ka/qe* sign forms and proposed face/expression readings; records supplied image inventory and pending evidence-upload/mapping steps.
 
+- [EPIG-OBS-2026-001 — Phonetic Derivation and Pictographic Returns](observations/EPIG-OBS-2026-001-phonetic-derivation-and-pictographic-returns.md) — records unresolved derivations for Met 11.217.19, Linear B, Maya epigraphy and Egyptian hieroglyphs, with pictographic returns carried forward.
+
 ## Current public state
 
 See `CURRENT_STATE.json` and `CONSTITUTION.md`.
