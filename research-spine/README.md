@@ -69,3 +69,7 @@ This directory is the public map of the five-paper Geonosis research spine. The 
 ## Publication rule
 
 A place in the five-paper spine does not automatically mean “published.” Each record states its actual status. The repository distinguishes complete papers, developed preprints, active programmes, and working drafts so that chronology and evidentiary maturity remain visible rather than retrofitted later.
+
+## War on Ra — 26 November 2026
+
+[War on Ra research references](WAR_ON_RA_FOUR_PILLARS_2026-11-26.md) link to the Court standard and the associated OGI case.

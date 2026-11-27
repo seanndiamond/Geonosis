@@ -1,7 +1,7 @@
 {
   "schema": "CourtOfProvenance.CurrentState.v1",
   "system": "Court of Provenance",
-  "state_date": "2026-10-26",
+  "state_date": "2026-11-26",
   "status": "canonical_public_adjudication_subsystem",
   "canonical_directory": "/court-of-provenance/",
   "governing_documents": [
@@ -9,7 +9,8 @@
     "CONSTITUTION.md",
     "CURRENT_STATE.json",
     "CONTINUOUS_READING_PROVENANCE_STANDARD.md",
-    "CONTINUOUS_READING_EXCERPT_SCHEMA.json"
+    "CONTINUOUS_READING_EXCERPT_SCHEMA.json",
+    "POSSIBILITY_IS_NOT_PROVENANCE_STANDARD.md"
   ],
   "evidence_staircase": [
     "CITED",
@@ -51,7 +52,8 @@
   "active_observations": [
     "CUN-OBS-2026-001",
     "VIS-OBS-2026-001",
-    "LINB-OBS-2026-001"
+    "LINB-OBS-2026-001",
+    "EPIG-OBS-2026-001"
   ],
   "current_findings": [
     {
@@ -63,6 +65,18 @@
       "id": "LINB-OBS-2026-001",
       "finding": "Linear B structural recurrence is admitted; foundational phonetic derivation from primary evidence to sound is not proven to Court standard; pictographic investigation remains open and active.",
       "status": "UNRESOLVED_OPEN_HEARING"
+    },
+    {
+      "id": "EPIG-OBS-2026-001",
+      "finding": "The phonetic derivations examined for the lamb sign on Met 11.217.19, Linear B, Maya epigraphy and Egyptian hieroglyphs remain unresolved at the Court's evidence standard. Pictographic returns remain active observations under their original parent readings.",
+      "status": "UNRESOLVED",
+      "record": "observations/EPIG-OBS-2026-001-phonetic-derivation-and-pictographic-returns.md",
+      "case_statuses": {
+        "cuneiform_met_11_217_19": "UNRESOLVED",
+        "linear_b": "UNRESOLVED",
+        "maya_epigraphy": "UNRESOLVED",
+        "egyptian_hieroglyphs": "UNRESOLVED"
+      }
     }
   ],
   "transformation_protocol": [
@@ -86,6 +100,14 @@
       "standard": "CONTINUOUS_READING_PROVENANCE_STANDARD.md",
       "record_schema": "CONTINUOUS_READING_EXCERPT_SCHEMA.json",
       "summary": "Every excerpted motif/image is linked to a continuous parent reading and its local sequence, source, version and revision lineage; thematic collections do not create isolated readings."
+    },
+    {
+      "id": "COP-I-12",
+      "title": "Possibility Is Not Provenance",
+      "effective_date": "2026-11-26",
+      "status": "CURRENT_OPERATING_RULE_REOPENABLE",
+      "standard": "POSSIBILITY_IS_NOT_PROVENANCE_STANDARD.md",
+      "summary": "Hypothetical coexistence requires derivation; preserve scoped demonstration failures and apply equal evidentiary burdens."
     }
   ]
 }

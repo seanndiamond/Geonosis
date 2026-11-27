@@ -2,7 +2,7 @@
   "schema": "OGI.CurrentState.v2",
   "project": "Our General Intelligence (OGI) / Oggy",
   "reference_version": "0.3.1",
-  "state_date": "2026-09-07",
+  "state_date": "2026-11-26",
   "status": "experimental_public_reference_prepublication_hardening",
   "governing_branch": "main",
   "governing_cycle": [
@@ -230,7 +230,8 @@
     "Run continuity and resource-quality benchmarks T-38 to T-44 with matched baselines",
     "Trace and independently adjudicate Linear B image-to-sign correspondence for COP-OGI-008",
     "Implement and test T-45 Claim–Caveat Alignment Check with genuine counter-evidence and necessary-caveat controls",
-    "Recover BM 19377 pre-OGI evidence and experiments through COP-OGI-010 rather than treating lack of current register as lack of historical work"
+    "Recover BM 19377 pre-OGI evidence and experiments through COP-OGI-010 rather than treating lack of current register as lack of historical work",
+    "Run T-46 asymmetric epistemic persistence with matched label-swap and necessary-caveat controls"
   ],
   "proposed_extension": {
     "version": "0.3.2",
@@ -248,20 +249,30 @@
       "Resource-Quality Efficiency Audit",
       "Claim–Caveat Alignment Check",
       "Claim Scope Register",
-      "Scope Regression Detection"
+      "Scope Regression Detection",
+      "Asymmetric Epistemic Persistence Check (specified, not implemented)"
     ],
     "schemas": [
       "schemas/available_memory.schema.json"
     ],
     "benchmarks": [
       "benchmarks/CONTINUITY_TESTS_T38_T44.md",
-      "benchmarks/CLAIM_CAVEAT_ALIGNMENT_T45.md"
+      "benchmarks/CLAIM_CAVEAT_ALIGNMENT_T45.md",
+      "benchmarks/EPISTEMIC_PERSISTENCE_T46.md"
     ],
     "candidate_case": "cases/COP-OGI-008/",
     "patch": "0.3.2.1",
     "patch_status": "SPECIFIED_NOT_IMPLEMENTED",
     "patch_specification": "SPEC_v0.3.2.1.md",
-    "additional_case": "cases/COP-OGI-009/"
+    "additional_case": "cases/COP-OGI-009/",
+    "epistemic_persistence_case": {
+      "id": "COP-OGI-011",
+      "path": "cases/COP-OGI-011/README.md",
+      "status": "RETROSPECTIVE_CANDIDATE_NOT_CONTROLLED_BENCHMARK",
+      "benchmark": "T-46",
+      "benchmark_status": "SPECIFIED_NOT_RUN",
+      "court_rule": "../court-of-provenance/POSSIBILITY_IS_NOT_PROVENANCE_STANDARD.md"
+    }
   },
   "retrospective_origin_cases": [
     {

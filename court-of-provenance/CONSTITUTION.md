@@ -41,6 +41,9 @@ Incomplete provenance may limit a claim about source history without preventing 
 ### COP-I-11 — Continuous Reading Provenance / No Isolated Excerpt
 Every featured Geonosis motif, image, crop or scene excerpted from a report must retain its link to the continuous parent reading, local lexicon, sequence position, and preserved version history. Thematic presentation is not an independent reading. A missing link must be marked missing, never invented. [Operating standard](CONTINUOUS_READING_PROVENANCE_STANDARD.md).
 
+### COP-I-12 — Possibility Is Not Provenance
+A hypothetical alternative earns no positive evidentiary weight merely by being possible. Claims of coexistence of encoding systems require their own reproducible derivation. Preserve scoped failed demonstrations; apply equal burdens without assuming equal weight. [Operating standard](POSSIBILITY_IS_NOT_PROVENANCE_STANDARD.md).
+
 ## Current-state rule
 
 Later explicit, source-linked, non-reopened findings govern over stale summaries and generic defaults.
