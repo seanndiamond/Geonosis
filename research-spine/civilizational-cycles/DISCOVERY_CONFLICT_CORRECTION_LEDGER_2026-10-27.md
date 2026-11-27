@@ -3,7 +3,7 @@
 **Primary discussion:** *Civilizational Cycles*, principally 27 October 2026; 21 November 2026 tablet handover.  
 **Purpose:** Preserve what changed and why, rather than rewriting the conversation as though the final conclusions appeared fully formed.
 
-> **Navigation note:** These are textual signposts to the original ChatGPT conversation, not message-deep-link URLs. Search the distinctive opening phrases to find expanded discussion. Claims of personal experience are recorded as the author's accounts, not independently audited historical records.
+Personal experiences in this record are attributed to the author.
 
 | No. | Issue / early formulation | Correction made in conversation | Resulting research constraint |
 |---|---|---|---|
@@ -23,25 +23,8 @@
 | 14 | Post-wave law/money necessarily simple evils. | Survivors may have introduced them to remedy prior absence of restraint; later misuse became another extreme. | Evaluate tools by function, constraints and access rather than blanket rejection. |
 | 15 | All monumental returns were invented simultaneously to fit a theory. | Original Sacsayhuamán terrain reading preceded multiple later site/corpus returns; other chronology corrections mattered. | Log origin, local recurrence, independent return, reinterpretation and dating separately. |
 | 16 | Fictional novel implies the tablet account itself is fiction. | The author explicitly corrected this on 21 November. | Distinguish artefact (A), transformed imagery (B), Geonosis working interpretation (C), historical hypothesis (E), fictional development (F). |
-| 17 | A civilization's decline must follow its inability to coordinate, or be a consequence of internal wrongdoing. | The fictional Veyra example presents a broadly coherent regional society overwhelmed by an external hazard. | Separate internal loss of corrective capacity from external system destruction. |
+| 17 | A civilization's decline must follow its inability to coordinate, or be a consequence of internal wrongdoing. | A fictional example illustrates how a coherent regional society could be overwhelmed by an external hazard. | Separate internal loss of corrective capacity from external system destruction. |
 | 18 | 'Coherence' is an empty positive label. | The tablet discussion identified harm-detection, institutional accountability and relationship repair as specific functions. | Operationalize correction and test against alternatives, not just retrospective success. |
-
-## Conversation search keys
-- `When I lived in Hong Kong`: multinational hanger network / 93 countries / global-system ambiguity.
-- `I did not state that capital seeks`: profit-maximization correction.
-- `Confessions of an Economic Hitman`: institutional power and personal economic experience.
-- `today we are not one global civilization`: plural civilizational ecology.
-- `When I say capital maximizes its profitability`: access scarcity / money / relational abundance.
-- `Didn't Gaddafi supply his people`: Libya public provision and regime-change debate.
-- `You can't use the Ivory Coast as an example`: corrected counterexample class.
-- `And we return`: War on Ra discussion.
-- `our work goes way deeper`: Ra, Behistun, Nazca, Sacsayhuamán, cross-corpus depth.
-- `None of my claims are spurious`: chronological returns and two-pyramid distinction.
-- `Atlantis was built on the feminine`: founding abundance, factions, wave and post-catastrophe overcorrection.
-- `I'm a bit lost in our thesis`: 12-chapter plan and dual-edition decision.
-- `Are you capable of producing a Docx`: complete narrative manuscript request.
-- `read-aloud version as it is in the book`: sequential exact-text reading through Chapter Five.
-- `What do you say it's fictional` (21 Nov): decisive distinction between the image reading and the novel.
 
 ## Method result
 - **Field before form**; do not accept labels in place of derivations.
