@@ -72,4 +72,4 @@ A place in the five-paper spine does not automatically mean “published.” Eac
 
 ## War on Ra — 26 November 2026
 
-[Four pillars of the claimant](WAR_ON_RA_FOUR_PILLARS_2026-11-26.md): narrative architecture handover linked to COP-I-12 and OGI T-46. Preserves existing chronology.
+[War on Ra research references](WAR_ON_RA_FOUR_PILLARS_2026-11-26.md) link to the Court standard and the associated OGI case.
